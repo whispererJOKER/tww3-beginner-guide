@@ -552,6 +552,7 @@ td strong{color:var(--ink)}
 .pager button:disabled{opacity:.35;cursor:default}
 .unit-count{font-size:.78rem;color:var(--faint);margin-bottom:10px}
 .unit-count b{color:var(--gold-2);font-weight:600}
+.table-hint{display:none}
 
 @media (max-width:1080px){
   .wiki-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -563,6 +564,7 @@ td strong{color:var(--ink)}
   .wiki-stats div:nth-child(2){border-right:0}
   .wiki-stats div:nth-child(3),.wiki-stats div:nth-child(4){border-top:1px solid rgba(201,163,92,.12)}
   .pick-grid{grid-template-columns:1fr}
+  .table-hint{display:block;font-size:10px;letter-spacing:.08em;color:var(--faint);margin:0 0 10px;text-align:center}
 }
 @media (max-width:640px){
   .wiki-grid{grid-template-columns:1fr}
