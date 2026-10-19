@@ -508,7 +508,7 @@ td strong{color:var(--ink)}
   .hero{padding-bottom:58px}
   .hero-meta{gap:20px;margin-top:34px}
   .hero-meta b{font-size:17px}
-  .hero-kicker span:nth-last-child(1),.hero-kicker span:nth-last-child(2){display:none}
+  .hero-kicker .meta-extra,.hero-kicker .sep{display:none}
   .hero-actions .btn{flex:1;justify-content:center}
   .scroll-hint{display:none}
   .faction-grid{grid-template-columns:1fr}
