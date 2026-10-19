@@ -169,6 +169,18 @@
     update();
   }
 
+  /* ---------- back to top ---------- */
+  const toTop = document.createElement('button');
+  toTop.id = 'to-top';
+  toTop.type = 'button';
+  toTop.setAttribute('aria-label', '回到顶部');
+  toTop.textContent = '↑';
+  document.body.appendChild(toTop);
+  const syncTop = () => toTop.classList.toggle('show', (window.scrollY || 0) > 700);
+  window.addEventListener('scroll', syncTop, { passive: true });
+  syncTop();
+  toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
   /* ---------- year ---------- */
   document.querySelectorAll('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
 })();

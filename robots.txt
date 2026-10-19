@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://whispererjoker.github.io/tww3-beginner-guide/sitemap.xml

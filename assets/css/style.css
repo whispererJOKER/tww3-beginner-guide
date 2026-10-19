@@ -461,6 +461,11 @@ td strong{color:var(--ink)}
   *{animation:none!important;transition:none!important}
 }
 
+/* back to top */
+#to-top{position:fixed;right:22px;bottom:22px;z-index:95;width:44px;height:44px;border:1px solid var(--line-2);background:rgba(10,9,8,.86);color:var(--gold-2);font-size:17px;cursor:pointer;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .25s,transform .25s,background .2s;backdrop-filter:blur(8px)}
+#to-top.show{opacity:1;pointer-events:auto;transform:none}
+#to-top:hover{background:var(--gold);color:#0b0907}
+
 /* mini map / diagram labels */
 .svg-label{font-family:var(--sans);font-size:15px;fill:#c9beac;letter-spacing:.04em}
 .svg-label--gold{fill:#e7c987}
