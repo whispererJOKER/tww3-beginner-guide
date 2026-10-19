@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>兵种百科 · 战锤 3 新兵营</title>
+<meta name="description" content="全面战争：战锤 III 兵种百科：25 个派系的完整兵种表、生命、护甲、近攻、近防、武器威力、远程与维护费，以及推荐兵种和配兵思路。">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/logo.jpg">
+</head>
+<body>
+<div id="progress"></div>
+<header class="site-header">
+  <nav class="nav" aria-label="主导航">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><span>III</span></span>
+      <span class="brand-text"><b>战锤 3 新兵营</b><small>TOTAL WAR · WARHAMMER III</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="campaign.html">战役</a></li>
+      <li><a href="battle.html">战斗</a></li>
+      <li><a href="factions.html">派系</a></li>
+      <li><a href="wiki.html" class="active">百科</a></li>
+      <li><a href="dlc.html">DLC</a></li>
+      <li><a href="glossary.html">词典</a></li>
+    </ul>
+    <a class="nav-cta" href="wiki.html">兵种百科</a>
+    <button class="menu-btn" aria-label="打开菜单" aria-expanded="false"><span></span></button>
+  </nav>
+</header>
+<nav class="mobile-nav" aria-label="移动导航">
+  <a href="index.html">首页</a>
+  <a href="campaign.html">战役</a>
+  <a href="battle.html">战斗</a>
+  <a href="factions.html">派系</a>
+  <a href="wiki.html">百科</a>
+  <a href="dlc.html">DLC</a>
+  <a href="glossary.html">词典</a>
+</nav>
+<main>
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('assets/img/shots/shot2.jpg')"></div>
+  <div class="container">
+    <div class="eyebrow"><span class="num">WIKI</span> 兵种百科</div>
+    <h1>每个派系，<br>每个兵种，<span class="gold">都有数。</span></h1>
+    <p class="lede">25 个派系、2000+ 个单位、150 个推荐兵种。生命、护甲、近攻、近防、武器威力、远程伤害、射程与维护费，全部按 Patch 9.0.4 整理。</p>
+    <div class="page-hero-meta"><span>Patch 9.0.4</span><span>Ultra 规模</span><span>0 级基础值</span><span>可搜索 / 筛选</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="wiki-stats">
+      <div><b>25</b><span>可玩派系</span></div>
+      <div><b>2050</b><span>单位条目</span></div>
+      <div><b>150</b><span>推荐兵种</span></div>
+      <div><b>9.0.4</b><span>数据版本</span></div>
+    </div>
+    <div class="section-head section-head--row">
+      <div><div class="eyebrow"><span class="num">I</span> 派系图鉴</div><h2 class="section-title">从哪个种族开始看？</h2></div>
+      <p class="lede">每页包含派系概览、6 个推荐兵种、完整兵种表和 20 槽配兵思路。点进去就能查。</p>
+    </div>
+    <div class="wiki-grid"><a class="race-card" href="wiki/grand-cathay.html">
+    <div class="thumb"><img src="assets/img/factions/cathay.webp" alt="震旦天朝" loading="lazy"></div>
+    <div class="body">
+      <b>震旦天朝</b>
+      <small>Grand Cathay</small>
+      <p>长城之后的龙之帝国：扛线、射爆，用炮兵解决一切。</p>
+      <div class="row"><span>秩序 · 55 单位</span><span class="diff" aria-label="难度 1 / 5"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/kislev.html">
+    <div class="thumb"><img src="assets/img/factions/kislev.webp" alt="基斯里夫" loading="lazy"></div>
+    <div class="body">
+      <b>基斯里夫</b>
+      <small>Kislev</small>
+      <p>冰雪、熊骑兵与虔诚，在混沌的门口死守。</p>
+      <div class="row"><span>秩序 · 51 单位</span><span class="diff" aria-label="难度 2 / 5"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/empire.html">
+    <div class="thumb"><img src="assets/img/factions/empire.webp" alt="帝国" loading="lazy"></div>
+    <div class="body">
+      <b>帝国</b>
+      <small>The Empire</small>
+      <p>火药、信仰与选帝侯政治，最像“历史系全战”的派系。</p>
+      <div class="row"><span>秩序 · 87 单位</span><span class="diff" aria-label="难度 2 / 5"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/high-elves.html">
+    <div class="thumb"><img src="assets/img/factions/highelves.webp" alt="高等精灵" loading="lazy"></div>
+    <div class="body">
+      <b>高等精灵</b>
+      <small>High Elves</small>
+      <p>高质量兵种、强大法师与巨龙，贵，但值。</p>
+      <div class="row"><span>秩序 · 84 单位</span><span class="diff" aria-label="难度 2 / 5"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/dwarfs.html">
+    <div class="thumb"><img src="assets/img/factions/dwarfs.webp" alt="矮人" loading="lazy"></div>
+    <div class="body">
+      <b>矮人</b>
+      <small>Dwarfs</small>
+      <p>重甲、火炮、直升机：站着不动就能赢的典范。</p>
+      <div class="row"><span>秩序 · 60 单位</span><span class="diff" aria-label="难度 2 / 5"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/bretonnia.html">
+    <div class="thumb"><img src="assets/img/factions/bretonnia2.webp" alt="巴托尼亚" loading="lazy"></div>
+    <div class="body">
+      <b>巴托尼亚</b>
+      <small>Bretonnia</small>
+      <p>骑士冲锋、农民交税，浪漫又穷。</p>
+      <div class="row"><span>秩序 · 46 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/tomb-kings.html">
+    <div class="thumb"><img src="assets/img/factions/tombkings.webp" alt="古墓王" loading="lazy"></div>
+    <div class="body">
+      <b>古墓王</b>
+      <small>Tomb Kings</small>
+      <p>不需要维护费的骷髅海，但一切都要先建容量。</p>
+      <div class="row"><span>亡灵 · 50 单位</span><span class="diff" aria-label="难度 2 / 5"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/lizardmen.html">
+    <div class="thumb"><img src="assets/img/factions/lizardmen.webp" alt="蜥蜴人" loading="lazy"></div>
+    <div class="body">
+      <b>蜥蜴人</b>
+      <small>Lizardmen</small>
+      <p>恐龙、魔法与冷血军团。</p>
+      <div class="row"><span>秩序 · 75 单位</span><span class="diff" aria-label="难度 2 / 5"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/ogre-kingdoms.html">
+    <div class="thumb"><img src="assets/img/factions/ogres.webp" alt="食人魔王国" loading="lazy"></div>
+    <div class="body">
+      <b>食人魔王国</b>
+      <small>Ogre Kingdoms</small>
+      <p>用肉和合同驱动的巨兽军团，莽就完事了。</p>
+      <div class="row"><span>毁灭 · 53 单位</span><span class="diff" aria-label="难度 2 / 5"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/greenskins.html">
+    <div class="thumb"><img src="assets/img/factions/greenskins.webp" alt="绿皮" loading="lazy"></div>
+    <div class="body">
+      <b>绿皮</b>
+      <small>Greenskins</small>
+      <p>Waaagh！数量、嗓门和砍人。</p>
+      <div class="row"><span>毁灭 · 80 单位</span><span class="diff" aria-label="难度 2 / 5"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/dark-elves.html">
+    <div class="thumb"><img src="assets/img/factions/darkelves.webp" alt="黑暗精灵" loading="lazy"></div>
+    <div class="body">
+      <b>黑暗精灵</b>
+      <small>Dark Elves</small>
+      <p>奴隶经济、弩手齐射与黑方舟。</p>
+      <div class="row"><span>毁灭 · 62 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/skaven.html">
+    <div class="thumb"><img src="assets/img/factions/skaven.webp" alt="斯卡文鼠人" loading="lazy"></div>
+    <div class="body">
+      <b>斯卡文鼠人</b>
+      <small>Skaven</small>
+      <p>数量、科技与背刺，yes-yes。</p>
+      <div class="row"><span>毁灭 · 86 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/vampire-counts.html">
+    <div class="thumb"><img src="assets/img/factions/vampires.webp" alt="吸血鬼伯爵" loading="lazy"></div>
+    <div class="body">
+      <b>吸血鬼伯爵</b>
+      <small>Vampire Counts</small>
+      <p>复活死者、魔法与血骑士。</p>
+      <div class="row"><span>亡灵 · 68 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/vampire-coast.html">
+    <div class="thumb"><img src="assets/img/factions/vampirecoast.webp" alt="吸血鬼海岸" loading="lazy"></div>
+    <div class="body">
+      <b>吸血鬼海岸</b>
+      <small>Vampire Coast</small>
+      <p>僵尸海盗、火炮与海盗湾。</p>
+      <div class="row"><span>亡灵 · 52 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/wood-elves.html">
+    <div class="thumb"><img src="assets/img/factions/woodelves.webp" alt="木精灵" loading="lazy"></div>
+    <div class="body">
+      <b>木精灵</b>
+      <small>Wood Elves</small>
+      <p>森林里的玻璃大炮，射程与机动就是护甲。</p>
+      <div class="row"><span>秩序 · 54 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/beastmen.html">
+    <div class="thumb"><img src="assets/img/factions/beastmen.webp" alt="野兽人" loading="lazy"></div>
+    <div class="body">
+      <b>野兽人</b>
+      <small>Beastmen</small>
+      <p>无城游牧、伏击与兽群。</p>
+      <div class="row"><span>毁灭 · 64 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/norsca.html">
+    <div class="thumb"><img src="assets/img/factions/norsca.webp" alt="诺斯卡" loading="lazy"></div>
+    <div class="body">
+      <b>诺斯卡</b>
+      <small>Norsca</small>
+      <p>掠夺、怪物狩猎与诸神恩赐。</p>
+      <div class="row"><span>毁灭 · 66 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/warriors-of-chaos.html">
+    <div class="thumb"><img src="assets/img/factions/warriors.webp" alt="混沌勇士" loading="lazy"></div>
+    <div class="body">
+      <b>混沌勇士</b>
+      <small>Warriors of Chaos</small>
+      <p>黑暗要塞、战帮与混沌赠礼。</p>
+      <div class="row"><span>混沌 · 177 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/chaos-dwarfs.html">
+    <div class="thumb"><img src="assets/img/factions/chaosdwarfs.webp" alt="混沌矮人" loading="lazy"></div>
+    <div class="body">
+      <b>混沌矮人</b>
+      <small>Chaos Dwarfs</small>
+      <p>劳工、工厂、火车与火炮的工业帝国。</p>
+      <div class="row"><span>混沌 · 55 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/khorne.html">
+    <div class="thumb"><img src="assets/img/factions/khorne.webp" alt="恐虐" loading="lazy"></div>
+    <div class="body">
+      <b>恐虐</b>
+      <small>Khorne</small>
+      <p>没有魔法，只有斧头和颅骨。</p>
+      <div class="row"><span>混沌 · 58 单位</span><span class="diff" aria-label="难度 4 / 5"><i class="on hard"></i><i class="on hard"></i><i class="on hard"></i><i class="on hard"></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/nurgle.html">
+    <div class="thumb"><img src="assets/img/factions/nurgle.webp" alt="纳垢" loading="lazy"></div>
+    <div class="body">
+      <b>纳垢</b>
+      <small>Nurgle</small>
+      <p>瘟疫、腐化与打不死的肉墙。</p>
+      <div class="row"><span>混沌 · 71 单位</span><span class="diff" aria-label="难度 4 / 5"><i class="on hard"></i><i class="on hard"></i><i class="on hard"></i><i class="on hard"></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/slaanesh.html">
+    <div class="thumb"><img src="assets/img/factions/slaanesh.webp" alt="色孽" loading="lazy"></div>
+    <div class="body">
+      <b>色孽</b>
+      <small>Slaanesh</small>
+      <p>速度、诱惑与玻璃大炮。</p>
+      <div class="row"><span>混沌 · 64 单位</span><span class="diff" aria-label="难度 4 / 5"><i class="on hard"></i><i class="on hard"></i><i class="on hard"></i><i class="on hard"></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/tzeentch.html">
+    <div class="thumb"><img src="assets/img/factions/tzeentch.webp" alt="奸奇" loading="lazy"></div>
+    <div class="body">
+      <b>奸奇</b>
+      <small>Tzeentch</small>
+      <p>魔法、变化与阴谋。</p>
+      <div class="row"><span>混沌 · 59 单位</span><span class="diff" aria-label="难度 4 / 5"><i class="on hard"></i><i class="on hard"></i><i class="on hard"></i><i class="on hard"></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/daemons-of-chaos.html">
+    <div class="thumb"><img src="assets/img/factions/daemons.webp" alt="混沌恶魔" loading="lazy"></div>
+    <div class="body">
+      <b>混沌恶魔</b>
+      <small>Daemons of Chaos</small>
+      <p>自己捏一个恶魔亲王，混搭四神。</p>
+      <div class="row"><span>混沌 · 98 单位</span><span class="diff" aria-label="难度 4 / 5"><i class="on hard"></i><i class="on hard"></i><i class="on hard"></i><i class="on hard"></i><i class=""></i></span></div>
+    </div>
+  </a><a class="race-card" href="wiki/undead-legions.html">
+    <div class="thumb"><img src="assets/img/factions/undeadlegions.webp" alt="亡灵军团" loading="lazy"></div>
+    <div class="body">
+      <b>亡灵军团</b>
+      <small>Undead Legions</small>
+      <p>纳加什归来：死灵城、九位死亡大君与死者之书。</p>
+      <div class="row"><span>亡灵 · 151 单位</span><span class="diff" aria-label="难度 3 / 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></span></div>
+    </div>
+  </a></div>
+  </div>
+</section>
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow"><span class="num">II</span> 怎么用</div><h2 class="section-title">三种查法，<span class="accent">三种答案</span></h2></div>
+    <div class="grid grid-3">
+      <div class="card"><div class="card-num">查派系</div><h3>我想知道这个种族怎么玩</h3><p>进派系页，先看“推荐兵种”和“配兵思路”，再看完整表。不知道选谁，就回<a href="factions.html">派系篇</a>做筛选。</p></div>
+      <div class="card"><div class="card-num">查单位</div><h3>我想比较两个兵种的数值</h3><p>进<a href="units.html">全局兵种库</a>，按种族、类型、等级筛选，或直接搜英文名。表格可以按生命 / 护甲 / 武器 / 维护排序。</p></div>
+      <div class="card"><div class="card-num">查机制</div><h3>我看不懂“破甲 / 反大型 / 侧射”</h3><p>去<a href="glossary.html">术语词典</a>查。兵种表只给数值，怎么用这些数值在<a href="battle.html">战斗篇</a>。</p></div>
+    </div>
+  </div>
+</section>
+<section class="section section--tight">
+  <div class="container">
+    <div class="reveal" style="border:1px solid var(--line);padding:clamp(26px,5vw,48px);background:linear-gradient(90deg,rgba(201,163,92,.08),transparent)">
+      <div class="eyebrow"><span class="num">III</span> 全局检索</div>
+      <h2 class="section-title" style="font-size:clamp(1.5rem,3vw,2.2rem)">2000+ 单位，<span class="accent">一张表查完</span></h2>
+      <p class="lede" style="margin-bottom:22px">不用逐个派系翻。按种族、角色、T 级筛选，按生命、护甲、武器或维护费排序，直接找到你要的那个兵。</p>
+      <a class="btn btn--primary" href="units.html">打开全局兵种库 <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <b>战锤 3 新兵营</b>
+        <p>非官方中文攻略站。游戏素材与数值版权归 Creative Assembly、SEGA 与 Games Workshop 所有。数据读取自游戏数据表，版本更新后以游戏内为准。</p>
+      </div>
+      <div class="footer-col">
+        <h4>攻略</h4>
+        <a href="campaign.html">战役运营</a>
+        <a href="battle.html">战斗入门</a>
+        <a href="factions.html">派系速查</a>
+        <a href="wiki.html">兵种百科</a>
+        <a href="glossary.html">术语词典</a>
+      </div>
+      <div class="footer-col">
+        <h4>数据与购买</h4>
+        <a href="units.html">全局兵种库</a>
+        <a href="dlc.html">DLC 购买指南</a>
+        <a href="https://twdatabase.com/" target="_blank" rel="noopener">TW Database</a>
+        <a href="https://www.totalwar.com/games/total-war-warhammer-iii/" target="_blank" rel="noopener">官方网站</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>兵种数值：Patch 9.0.4 · Ultra 规模 · 0 级 · 不含科技 / 技能 / 装备加成。</p>
+      <p>Made for new commanders.</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

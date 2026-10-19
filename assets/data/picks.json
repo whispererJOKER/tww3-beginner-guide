@@ -1,0 +1,1702 @@
+{
+ "beastmen": [
+  {
+   "id": "gor-herd-shields",
+   "name": "Gor Herd (Shields)",
+   "cn": "角兽群（盾）",
+   "role": "廉价扛线",
+   "why": "便宜、有盾，前期填线主力。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_dlc03_bst_gor_herd_shields.webp",
+   "icon": "assets/img/units/gor-herd-shields.webp"
+  },
+  {
+   "id": "bestigor-herd",
+   "name": "Bestigor Herd",
+   "cn": "大角兽群",
+   "role": "破甲主力",
+   "why": "高破甲、高冲锋，正面撕开重甲。",
+   "section": "Melee infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_dlc03_bst_bestigor_herd.webp",
+   "icon": "assets/img/units/bestigor-herd.webp"
+  },
+  {
+   "id": "minotaurs-great-weapons",
+   "name": "Minotaurs (Great Weapons)",
+   "cn": "牛头人（巨斧）",
+   "role": "怪步输出",
+   "why": "高破甲怪步，配合包抄。",
+   "section": "Monstrous infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_dlc03_bst_minotaurs_great_weapons.webp",
+   "icon": "assets/img/units/minotaurs-great-weapons.webp"
+  },
+  {
+   "id": "centigors",
+   "name": "Centigors",
+   "cn": "半人马",
+   "role": "机动",
+   "why": "快速包抄、追逃。",
+   "section": "Melee cavalry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_dlc03_bst_centigors.webp",
+   "icon": "assets/img/units/centigors.webp"
+  },
+  {
+   "id": "cygor",
+   "name": "Cygor",
+   "cn": "独眼巨人",
+   "role": "远程攻城",
+   "why": "超远投石，能拆墙。",
+   "section": "Missile infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_dlc03_bst_cygor.webp",
+   "icon": "assets/img/units/cygor.webp"
+  },
+  {
+   "id": "ghorgon",
+   "name": "Ghorgon",
+   "cn": "戈尔贡",
+   "role": "巨兽",
+   "why": "高血量高输出，吸引火力。",
+   "section": "Monsters",
+   "tier": 5,
+   "img": "/game/ui/units/icons/wh2_dlc17_bst_mon_ghorgon.webp",
+   "icon": "assets/img/units/ghorgon.webp"
+  }
+ ],
+ "bretonnia": [
+  {
+   "id": "peasant-bowmen",
+   "name": "Peasant Bowmen",
+   "cn": "农民弓手",
+   "role": "远程",
+   "why": "便宜，可换火焰箭。",
+   "section": "Missile infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh_main_brt_bowmen.webp",
+   "icon": "assets/img/units/peasant-bowmen.webp"
+  },
+  {
+   "id": "men-at-arms-polearms",
+   "name": "Men-at-Arms (Polearms)",
+   "cn": "步战侍从（长戟）",
+   "role": "反大型",
+   "why": "前期反骑兵 / 巨兽。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh_main_brt_men_at_arms_halberd.webp",
+   "icon": "assets/img/units/men-at-arms-polearms.webp"
+  },
+  {
+   "id": "knights-of-the-realm",
+   "name": "Knights of the Realm",
+   "cn": "王国骑士",
+   "role": "冲击骑兵",
+   "why": "核心冲击骑兵。",
+   "section": "Melee cavalry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_main_brt_knights_realm.webp",
+   "icon": "assets/img/units/knights-of-the-realm.webp"
+  },
+  {
+   "id": "questing-knights",
+   "name": "Questing Knights",
+   "cn": "探索骑士",
+   "role": "持续骑兵",
+   "why": "近战更强，适合缠斗。",
+   "section": "Melee cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_dlc07_brt_questing_knights.webp",
+   "icon": "assets/img/units/questing-knights.webp"
+  },
+  {
+   "id": "grail-knights",
+   "name": "Grail Knights",
+   "cn": "圣杯骑士",
+   "role": "精英骑兵",
+   "why": "游戏最强骑兵之一。",
+   "section": "Melee cavalry",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh_main_brt_grail_knights.webp",
+   "icon": "assets/img/units/grail-knights.webp"
+  },
+  {
+   "id": "field-trebuchets",
+   "name": "Field Trebuchets",
+   "cn": "野战投石机",
+   "role": "攻城",
+   "why": "远程拆墙。",
+   "section": "War machines & artillery",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_main_brt_trebuchet.webp",
+   "icon": "assets/img/units/field-trebuchets.webp"
+  }
+ ],
+ "chaos-dwarfs": [
+  {
+   "id": "hobgoblin-cutthroats",
+   "name": "Hobgoblin Cutthroats",
+   "cn": "大地精割喉者",
+   "role": "廉价填线",
+   "why": "便宜炮灰。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh3_dlc23_chd_inf_hobgoblin_cutthroats.webp",
+   "icon": "assets/img/units/hobgoblin-cutthroats.webp"
+  },
+  {
+   "id": "chaos-dwarf-blunderbusses",
+   "name": "Chaos Dwarf Blunderbusses",
+   "cn": "混沌矮人雷铳手",
+   "role": "近距火力",
+   "why": "高破甲近距离齐射。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses.webp",
+   "icon": "assets/img/units/chaos-dwarf-blunderbusses.webp"
+  },
+  {
+   "id": "infernal-guard-fireglaives",
+   "name": "Infernal Guard (Fireglaives)",
+   "cn": "地狱守卫（火铳）",
+   "role": "混合火力",
+   "why": "能扛能射。",
+   "section": "Missile infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_dlc23_chd_inf_infernal_guard_fireglaives.webp",
+   "icon": "assets/img/units/infernal-guard-fireglaives.webp"
+  },
+  {
+   "id": "bull-centaur-renders-great-weapons",
+   "name": "Bull Centaur Renders (Great Weapons)",
+   "cn": "牛头人马（巨斧）",
+   "role": "怪骑",
+   "why": "高机动高破甲。",
+   "section": "Melee cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_dlc23_chd_cav_bull_centaurs_greatweapons.webp",
+   "icon": "assets/img/units/bull-centaur-renders-great-weapons.webp"
+  },
+  {
+   "id": "iron-daemon",
+   "name": "Iron Daemon",
+   "cn": "钢铁恶魔",
+   "role": "移动炮台",
+   "why": "火车，火力与肉度兼备。",
+   "section": "War machines & artillery",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_dlc23_chd_veh_iron_daemon.webp",
+   "icon": "assets/img/units/iron-daemon.webp"
+  },
+  {
+   "id": "dreadquake-mortar",
+   "name": "Dreadquake Mortar",
+   "cn": "恐惧震地臼炮",
+   "role": "攻城炮兵",
+   "why": "超远射程、拆墙。",
+   "section": "War machines & artillery",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_dlc23_chd_veh_dreadquake_mortar.webp",
+   "icon": "assets/img/units/dreadquake-mortar.webp"
+  }
+ ],
+ "daemons-of-chaos": [
+  {
+   "id": "bloodletters-of-khorne",
+   "name": "Bloodletters of Khorne",
+   "cn": "恐虐血魔",
+   "role": "破甲近战",
+   "why": "高破甲、高冲锋。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_kho_inf_bloodletters_0.webp",
+   "icon": "assets/img/units/bloodletters-of-khorne.webp"
+  },
+  {
+   "id": "plaguebearers-of-nurgle",
+   "name": "Plaguebearers of Nurgle",
+   "cn": "纳垢瘟疫使者",
+   "role": "扛线",
+   "why": "耐打、可复活。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_nur_inf_plaguebearers_1.webp",
+   "icon": "assets/img/units/plaguebearers-of-nurgle.webp"
+  },
+  {
+   "id": "pink-horrors-of-tzeentch",
+   "name": "Pink Horrors of Tzeentch",
+   "cn": "奸奇粉色恐怖",
+   "role": "远程",
+   "why": "高远程输出，分裂。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_tze_inf_pink_horrors_0.webp",
+   "icon": "assets/img/units/pink-horrors-of-tzeentch.webp"
+  },
+  {
+   "id": "daemonettes-of-slaanesh",
+   "name": "Daemonettes of Slaanesh",
+   "cn": "色孽欲魔",
+   "role": "高速近战",
+   "why": "快速包抄。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_sla_inf_daemonette_0.webp",
+   "icon": "assets/img/units/daemonettes-of-slaanesh.webp"
+  },
+  {
+   "id": "bloodcrushers-of-khorne",
+   "name": "Bloodcrushers of Khorne",
+   "cn": "恐虐血碾者",
+   "role": "怪骑",
+   "why": "冲锋巨兽骑兵。",
+   "section": "Monstrous cavalry",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_kho_cav_bloodcrushers_0.webp",
+   "icon": "assets/img/units/bloodcrushers-of-khorne.webp"
+  },
+  {
+   "id": "great-unclean-one",
+   "name": "Great Unclean One",
+   "cn": "大不净者",
+   "role": "巨兽",
+   "why": "肉盾 + 法术。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_nur_mon_great_unclean_one_0.webp",
+   "icon": "assets/img/units/great-unclean-one.webp"
+  }
+ ],
+ "dark-elves": [
+  {
+   "id": "dreadspears",
+   "name": "Dreadspears",
+   "cn": "恐惧长矛",
+   "role": "扛线",
+   "why": "便宜、有盾。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh2_main_def_dreadspears.webp",
+   "icon": "assets/img/units/dreadspears.webp"
+  },
+  {
+   "id": "darkshards",
+   "name": "Darkshards",
+   "cn": "暗影弩手",
+   "role": "远程",
+   "why": "高射速、破甲。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_main_def_darkshards.webp",
+   "icon": "assets/img/units/darkshards.webp"
+  },
+  {
+   "id": "black-guard-of-naggarond",
+   "name": "Black Guard of Naggarond",
+   "cn": "纳迦隆德黑卫",
+   "role": "精英扛线",
+   "why": "高防、反大型。",
+   "section": "Melee infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh2_main_def_black_guard.webp",
+   "icon": "assets/img/units/black-guard-of-naggarond.webp"
+  },
+  {
+   "id": "cold-one-knights",
+   "name": "Cold One Knights",
+   "cn": "冷蜥骑士",
+   "role": "冲击骑兵",
+   "why": "高冲锋。",
+   "section": "Melee cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh2_main_def_cold_one_knights.webp",
+   "icon": "assets/img/units/cold-one-knights.webp"
+  },
+  {
+   "id": "reaper-bolt-throwers",
+   "name": "Reaper Bolt Throwers",
+   "cn": "收割者弩炮",
+   "role": "远程炮兵",
+   "why": "反大型、拆塔。",
+   "section": "War machines & artillery",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_main_def_reaper_bolt_thrower.webp",
+   "icon": "assets/img/units/reaper-bolt-throwers.webp"
+  },
+  {
+   "id": "war-hydra",
+   "name": "War Hydra",
+   "cn": "九头蛇",
+   "role": "巨兽",
+   "why": "回血、喷火。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh2_main_def_war_hydra.webp",
+   "icon": "assets/img/units/war-hydra.webp"
+  }
+ ],
+ "dwarfs": [
+  {
+   "id": "dwarf-warriors",
+   "name": "Dwarf Warriors",
+   "cn": "矮人战士",
+   "role": "扛线",
+   "why": "便宜重甲。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh_main_dwf_warriors.webp",
+   "icon": "assets/img/units/dwarf-warriors.webp"
+  },
+  {
+   "id": "longbeards",
+   "name": "Longbeards",
+   "cn": "长须战士",
+   "role": "精英扛线",
+   "why": "高士气、抗冲锋。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_main_dwf_longbeards.webp",
+   "icon": "assets/img/units/longbeards.webp"
+  },
+  {
+   "id": "ironbreakers",
+   "name": "Ironbreakers",
+   "cn": "铁破者",
+   "role": "重甲扛线",
+   "why": "极高护甲。",
+   "section": "Melee infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_main_dwf_ironbreakers.webp",
+   "icon": "assets/img/units/ironbreakers.webp"
+  },
+  {
+   "id": "thunderers",
+   "name": "Thunderers",
+   "cn": "雷鸣枪手",
+   "role": "远程",
+   "why": "高破甲火枪。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_main_dwf_thunderers.webp",
+   "icon": "assets/img/units/thunderers.webp"
+  },
+  {
+   "id": "organ-guns",
+   "name": "Organ Guns",
+   "cn": "风琴炮",
+   "role": "炮兵",
+   "why": "高射速、反步兵。",
+   "section": "War machines & artillery",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_main_dwf_organ_gun.webp",
+   "icon": "assets/img/units/organ-guns.webp"
+  },
+  {
+   "id": "gyrobombers",
+   "name": "Gyrobombers",
+   "cn": "旋翼轰炸机",
+   "role": "空中",
+   "why": "炸弹与追逃。",
+   "section": "War machines & artillery",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_main_dwf_gyrobomber.webp",
+   "icon": "assets/img/units/gyrobombers.webp"
+  }
+ ],
+ "empire": [
+  {
+   "id": "halberdiers",
+   "name": "Halberdiers",
+   "cn": "长戟兵",
+   "role": "反大型",
+   "why": "核心扛线。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_main_emp_halberd.webp",
+   "icon": "assets/img/units/halberdiers.webp"
+  },
+  {
+   "id": "handgunners",
+   "name": "Handgunners",
+   "cn": "火枪手",
+   "role": "远程",
+   "why": "高破甲。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_main_emp_handgunners.webp",
+   "icon": "assets/img/units/handgunners.webp"
+  },
+  {
+   "id": "great-cannons",
+   "name": "Great Cannons",
+   "cn": "大炮",
+   "role": "炮兵",
+   "why": "反大型、拆墙。",
+   "section": "War machines & artillery",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_main_emp_cannon.webp",
+   "icon": "assets/img/units/great-cannons.webp"
+  },
+  {
+   "id": "steam-tank",
+   "name": "Steam Tank",
+   "cn": "蒸汽坦克",
+   "role": "巨兽",
+   "why": "肉盾 + 火炮。",
+   "section": "Chariots",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh_main_emp_steamtank.webp",
+   "icon": "assets/img/units/steam-tank.webp"
+  },
+  {
+   "id": "demigryph-knights",
+   "name": "Demigryph Knights",
+   "cn": "半狮鹫骑士",
+   "role": "怪骑",
+   "why": "高机动高输出。",
+   "section": "Monstrous cavalry",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh_main_emp_demigryph_knights.webp",
+   "icon": "assets/img/units/demigryph-knights.webp"
+  },
+  {
+   "id": "helstorm-rocket-battery",
+   "name": "Helstorm Rocket Battery",
+   "cn": "地狱风暴火箭炮",
+   "role": "炮兵",
+   "why": "范围轰炸。",
+   "section": "War machines & artillery",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh_main_emp_helstorm_rocket.webp",
+   "icon": "assets/img/units/helstorm-rocket-battery.webp"
+  }
+ ],
+ "grand-cathay": [
+  {
+   "id": "jade-warriors",
+   "name": "Jade Warriors",
+   "cn": "玉勇",
+   "role": "扛线",
+   "why": "高护甲核心。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_cth_inf_jade_warriors_0.webp",
+   "icon": "assets/img/units/jade-warriors.webp"
+  },
+  {
+   "id": "jade-warrior-crossbows",
+   "name": "Jade Warrior Crossbows",
+   "cn": "玉勇弩手",
+   "role": "远程",
+   "why": "稳定输出。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_cth_inf_jade_warrior_crossbowmen_0.webp",
+   "icon": "assets/img/units/jade-warrior-crossbows.webp"
+  },
+  {
+   "id": "iron-hail-gunners",
+   "name": "Iron Hail Gunners",
+   "cn": "铁雹铳手",
+   "role": "破甲远程",
+   "why": "高破甲火枪。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_cth_inf_iron_hail_gunners_0.webp",
+   "icon": "assets/img/units/iron-hail-gunners.webp"
+  },
+  {
+   "id": "celestial-dragon-guard",
+   "name": "Celestial Dragon Guard",
+   "cn": "天龙卫队",
+   "role": "精英扛线",
+   "why": "高护甲、反大型。",
+   "section": "Melee infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_cth_inf_dragon_guard_0.webp",
+   "icon": "assets/img/units/celestial-dragon-guard.webp"
+  },
+  {
+   "id": "fire-rain-rocket-battery",
+   "name": "Fire Rain Rocket Battery",
+   "cn": "炎霖火箭炮",
+   "role": "炮兵",
+   "why": "范围轰炸。",
+   "section": "War machines & artillery",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_cth_art_fire_rain_rocket_battery_0.webp",
+   "icon": "assets/img/units/fire-rain-rocket-battery.webp"
+  },
+  {
+   "id": "great-longma-riders",
+   "name": "Great Longma Riders",
+   "cn": "巨龙马骑兵",
+   "role": "机动",
+   "why": "高机动、反大型。",
+   "section": "Monstrous cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_cth_cav_great_longma_riders_0.webp",
+   "icon": "assets/img/units/great-longma-riders.webp"
+  }
+ ],
+ "greenskins": [
+  {
+   "id": "orc-boyz",
+   "name": "Orc Boyz",
+   "cn": "兽人小子",
+   "role": "扛线",
+   "why": "便宜、能打。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh_main_grn_orc_boyz_sword.webp",
+   "icon": "assets/img/units/orc-boyz.webp"
+  },
+  {
+   "id": "orc-big-uns",
+   "name": "Orc Big 'Uns",
+   "cn": "大只佬",
+   "role": "精英近战",
+   "why": "高输出。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_main_grn_orc_boyz_big_uns.webp",
+   "icon": "assets/img/units/orc-big-uns.webp"
+  },
+  {
+   "id": "night-goblins",
+   "name": "Night Goblins",
+   "cn": "夜地精",
+   "role": "炮灰",
+   "why": "便宜、带毒。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh_main_grn_night_goblins_sword.webp",
+   "icon": "assets/img/units/night-goblins.webp"
+  },
+  {
+   "id": "orc-boar-boyz",
+   "name": "Orc Boar Boyz",
+   "cn": "野猪小子",
+   "role": "冲击骑兵",
+   "why": "高冲锋。",
+   "section": "Melee cavalry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_main_grn_boar_boyz.webp",
+   "icon": "assets/img/units/orc-boar-boyz.webp"
+  },
+  {
+   "id": "arachnarok-spider",
+   "name": "Arachnarok Spider",
+   "cn": "阿拉克纳洛克巨蛛",
+   "role": "巨兽",
+   "why": "高血量、反步兵。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh_main_grn_arachnarok_spider.webp",
+   "icon": "assets/img/units/arachnarok-spider.webp"
+  },
+  {
+   "id": "doom-diver-catapults",
+   "name": "Doom Diver Catapults",
+   "cn": "末日俯冲者",
+   "role": "炮兵",
+   "why": "精准反炮兵。",
+   "section": "War machines & artillery",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_main_grn_doom_diver.webp",
+   "icon": "assets/img/units/doom-diver-catapults.webp"
+  }
+ ],
+ "high-elves": [
+  {
+   "id": "spearmen",
+   "name": "Spearmen",
+   "cn": "长矛兵",
+   "role": "扛线",
+   "why": "便宜、反大型。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_main_hef_spearmen.webp",
+   "icon": "assets/img/units/spearmen.webp"
+  },
+  {
+   "id": "archers",
+   "name": "Archers",
+   "cn": "弓箭手",
+   "role": "远程",
+   "why": "高精度。",
+   "section": "Missile infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh2_main_hef_archers.webp",
+   "icon": "assets/img/units/archers.webp"
+  },
+  {
+   "id": "sisters-of-avelorn",
+   "name": "Sisters of Avelorn",
+   "cn": "阿瓦隆姐妹",
+   "role": "精英远程",
+   "why": "魔法 + 破甲。",
+   "section": "Missile infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh2_dlc10_hef_inf_sisters_of_avelorn.webp",
+   "icon": "assets/img/units/sisters-of-avelorn.webp"
+  },
+  {
+   "id": "dragon-princes",
+   "name": "Dragon Princes",
+   "cn": "龙王子",
+   "role": "冲击骑兵",
+   "why": "高冲锋。",
+   "section": "Melee cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh2_main_hef_cav_dragon_princes.webp",
+   "icon": "assets/img/units/dragon-princes.webp"
+  },
+  {
+   "id": "star-dragon",
+   "name": "Star Dragon",
+   "cn": "星龙",
+   "role": "巨兽",
+   "why": "最强巨龙之一。",
+   "section": "Monsters",
+   "tier": 5,
+   "img": "/game/ui/units/icons/wh2_main_hef_star_dragon.webp",
+   "icon": "assets/img/units/star-dragon.webp"
+  },
+  {
+   "id": "eagle-claw-bolt-throwers",
+   "name": "Eagle Claw Bolt Throwers",
+   "cn": "鹰爪弩炮",
+   "role": "炮兵",
+   "why": "反大型。",
+   "section": "War machines & artillery",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_main_hef_art_eagle_claw_bolt_thrower.webp",
+   "icon": "assets/img/units/eagle-claw-bolt-throwers.webp"
+  }
+ ],
+ "khorne": [
+  {
+   "id": "bloodletters-of-khorne",
+   "name": "Bloodletters of Khorne",
+   "cn": "恐虐血魔",
+   "role": "破甲近战",
+   "why": "核心。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_kho_inf_bloodletters_0.webp",
+   "icon": "assets/img/units/bloodletters-of-khorne.webp"
+  },
+  {
+   "id": "skullreapers",
+   "name": "Skullreapers",
+   "cn": "颅骨收割者",
+   "role": "精英近战",
+   "why": "高输出、适合斩将。",
+   "section": "Melee infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_dlc26_kho_inf_skullreapers.webp",
+   "icon": "assets/img/units/skullreapers.webp"
+  },
+  {
+   "id": "flesh-hounds-of-khorne",
+   "name": "Flesh Hounds of Khorne",
+   "cn": "血肉猎犬",
+   "role": "机动",
+   "why": "快速包抄。",
+   "section": "War beasts",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_kho_inf_flesh_hounds_of_khorne_0.webp",
+   "icon": "assets/img/units/flesh-hounds-of-khorne.webp"
+  },
+  {
+   "id": "bloodcrushers-of-khorne",
+   "name": "Bloodcrushers of Khorne",
+   "cn": "血碾者",
+   "role": "怪骑",
+   "why": "高冲锋。",
+   "section": "Monstrous cavalry",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_kho_cav_bloodcrushers_0.webp",
+   "icon": "assets/img/units/bloodcrushers-of-khorne.webp"
+  },
+  {
+   "id": "skullcrushers-of-khorne",
+   "name": "Skullcrushers of Khorne",
+   "cn": "碾颅者",
+   "role": "重装怪骑",
+   "why": "极高冲锋。",
+   "section": "Monstrous cavalry",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_kho_cav_skullcrushers_0.webp",
+   "icon": "assets/img/units/skullcrushers-of-khorne.webp"
+  },
+  {
+   "id": "bloodthirster",
+   "name": "Bloodthirster",
+   "cn": "嗜血者",
+   "role": "巨兽",
+   "why": "最强单体之一。",
+   "section": "Monsters",
+   "tier": 5,
+   "img": "/game/ui/units/icons/wh3_main_kho_mon_bloodthirster_0.webp",
+   "icon": "assets/img/units/bloodthirster.webp"
+  }
+ ],
+ "kislev": [
+  {
+   "id": "armoured-kossars",
+   "name": "Armoured Kossars",
+   "cn": "重甲哥萨克",
+   "role": "混合",
+   "why": "能射能打。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_ksl_inf_armoured_kossars_0.webp",
+   "icon": "assets/img/units/armoured-kossars.webp"
+  },
+  {
+   "id": "tzar-guard",
+   "name": "Tzar Guard",
+   "cn": "沙皇禁卫",
+   "role": "精英扛线",
+   "why": "高护甲。",
+   "section": "Melee infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_ksl_inf_tsar_guard_0.webp",
+   "icon": "assets/img/units/tzar-guard.webp"
+  },
+  {
+   "id": "ice-guard-glaives",
+   "name": "Ice Guard (Glaives)",
+   "cn": "冰雪禁卫（长刀）",
+   "role": "混合",
+   "why": "减速 + 反大型。",
+   "section": "Missile infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_ksl_inf_ice_guard_1.webp",
+   "icon": "assets/img/units/ice-guard-glaives.webp"
+  },
+  {
+   "id": "war-bear-riders",
+   "name": "War Bear Riders",
+   "cn": "战争熊骑兵",
+   "role": "怪骑",
+   "why": "高冲锋。",
+   "section": "Monstrous cavalry",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_ksl_cav_war_bear_riders_1.webp",
+   "icon": "assets/img/units/war-bear-riders.webp"
+  },
+  {
+   "id": "elemental-bear",
+   "name": "Elemental Bear",
+   "cn": "元素熊",
+   "role": "巨兽",
+   "why": "肉盾。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_ksl_mon_elemental_bear_0.webp",
+   "icon": "assets/img/units/elemental-bear.webp"
+  },
+  {
+   "id": "little-grom",
+   "name": "Little Grom",
+   "cn": "小格罗姆",
+   "role": "炮兵",
+   "why": "高伤害。",
+   "section": "Chariots",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_ksl_veh_little_grom_0.webp",
+   "icon": "assets/img/units/little-grom.webp"
+  }
+ ],
+ "lizardmen": [
+  {
+   "id": "saurus-warriors",
+   "name": "Saurus Warriors",
+   "cn": "蜥人战士",
+   "role": "扛线",
+   "why": "高攻高血。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_main_lzd_inf_saurus_warriors.webp",
+   "icon": "assets/img/units/saurus-warriors.webp"
+  },
+  {
+   "id": "skink-skirmishers",
+   "name": "Skink Skirmishers",
+   "cn": "灵蜥散兵",
+   "role": "游击",
+   "why": "便宜、机动。",
+   "section": "Missile infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh2_main_lzd_inf_skink_skirmishers.webp",
+   "icon": "assets/img/units/skink-skirmishers.webp"
+  },
+  {
+   "id": "temple-guard",
+   "name": "Temple Guard",
+   "cn": "神庙守卫",
+   "role": "精英扛线",
+   "why": "高防。",
+   "section": "Melee infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh2_main_lzd_inf_temple_guards.webp",
+   "icon": "assets/img/units/temple-guard.webp"
+  },
+  {
+   "id": "bastiladon-solar-engine",
+   "name": "Bastiladon (Solar Engine)",
+   "cn": "甲龙（太阳引擎）",
+   "role": "巨兽",
+   "why": "远程 + 光环。",
+   "section": "Monsters",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh2_main_lzd_mon_bastiladon_solar.webp",
+   "icon": "assets/img/units/bastiladon-solar-engine.webp"
+  },
+  {
+   "id": "stegadon",
+   "name": "Stegadon",
+   "cn": "三角龙",
+   "role": "巨兽",
+   "why": "高冲锋。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh2_main_lzd_mon_stegadon.webp",
+   "icon": "assets/img/units/stegadon.webp"
+  },
+  {
+   "id": "feral-carnosaur",
+   "name": "Feral Carnosaur",
+   "cn": "暴龙",
+   "role": "巨兽",
+   "why": "斩将。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh2_main_lzd_mon_carnosaur.webp",
+   "icon": "assets/img/units/feral-carnosaur.webp"
+  }
+ ],
+ "norsca": [
+  {
+   "id": "marauders",
+   "name": "Marauders",
+   "cn": "掠夺者",
+   "role": "扛线",
+   "why": "便宜。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh_main_chs_marauder.webp",
+   "icon": "assets/img/units/marauders.webp"
+  },
+  {
+   "id": "marauder-hunters",
+   "name": "Marauder Hunters",
+   "cn": "掠夺者猎手",
+   "role": "远程",
+   "why": "便宜远程。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_dlc08_nor_marauder_hunters.webp",
+   "icon": "assets/img/units/marauder-hunters.webp"
+  },
+  {
+   "id": "norscan-ice-trolls",
+   "name": "Norscan Ice Trolls",
+   "cn": "诺斯卡冰巨魔",
+   "role": "怪步",
+   "why": "高输出。",
+   "section": "Monstrous infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_dlc08_nor_ice_trolls.webp",
+   "icon": "assets/img/units/norscan-ice-trolls.webp"
+  },
+  {
+   "id": "fimir-warriors",
+   "name": "Fimir Warriors",
+   "cn": "菲米尔战士",
+   "role": "怪步",
+   "why": "高护甲。",
+   "section": "Monstrous infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_dlc08_nor_fimir_warriors.webp",
+   "icon": "assets/img/units/fimir-warriors.webp"
+  },
+  {
+   "id": "war-mammoth",
+   "name": "War Mammoth",
+   "cn": "战争猛犸",
+   "role": "巨兽",
+   "why": "高血量。",
+   "section": "Monsters",
+   "tier": 5,
+   "img": "/game/ui/units/icons/wh_dlc08_nor_war_mammoth_howdah.webp",
+   "icon": "assets/img/units/war-mammoth.webp"
+  },
+  {
+   "id": "chaos-frost-dragon",
+   "name": "Chaos Frost Dragon",
+   "cn": "混沌冰霜龙",
+   "role": "飞行巨兽",
+   "why": "强力单体。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh_dlc08_nor_frost_wyrm.webp",
+   "icon": "assets/img/units/chaos-frost-dragon.webp"
+  }
+ ],
+ "nurgle": [
+  {
+   "id": "nurglings",
+   "name": "Nurglings",
+   "cn": "纳垢灵",
+   "role": "炮灰",
+   "why": "便宜、数量多。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh3_main_nur_inf_nurglings_0.webp",
+   "icon": "assets/img/units/nurglings.webp"
+  },
+  {
+   "id": "plaguebearers-of-nurgle",
+   "name": "Plaguebearers of Nurgle",
+   "cn": "瘟疫使者",
+   "role": "扛线",
+   "why": "耐打。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_nur_inf_plaguebearers_1.webp",
+   "icon": "assets/img/units/plaguebearers-of-nurgle.webp"
+  },
+  {
+   "id": "plague-drones-of-nurgle",
+   "name": "Plague Drones of Nurgle",
+   "cn": "纳垢瘟疫蝇",
+   "role": "机动",
+   "why": "飞行、远程。",
+   "section": "Monstrous cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_nur_cav_plague_drones_0.webp",
+   "icon": "assets/img/units/plague-drones-of-nurgle.webp"
+  },
+  {
+   "id": "beast-of-nurgle",
+   "name": "Beast of Nurgle",
+   "cn": "纳垢兽",
+   "role": "巨兽",
+   "why": "肉盾。",
+   "section": "Monsters",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_nur_mon_beast_of_nurgle_0.webp",
+   "icon": "assets/img/units/beast-of-nurgle.webp"
+  },
+  {
+   "id": "great-unclean-one",
+   "name": "Great Unclean One",
+   "cn": "大不净者",
+   "role": "巨兽",
+   "why": "法术 + 肉盾。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_nur_mon_great_unclean_one_0.webp",
+   "icon": "assets/img/units/great-unclean-one.webp"
+  },
+  {
+   "id": "soul-grinder-of-nurgle",
+   "name": "Soul Grinder of Nurgle",
+   "cn": "纳垢灵魂研磨者",
+   "role": "炮兵巨兽",
+   "why": "远程 + 近战。",
+   "section": "Missile infantry",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_nur_mon_soul_grinder_0.webp",
+   "icon": "assets/img/units/soul-grinder-of-nurgle.webp"
+  }
+ ],
+ "ogre-kingdoms": [
+  {
+   "id": "ogre-bulls",
+   "name": "Ogre Bulls",
+   "cn": "食人魔公牛",
+   "role": "扛线",
+   "why": "便宜怪步。",
+   "section": "Monstrous infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_ogr_inf_ogres_0.webp",
+   "icon": "assets/img/units/ogre-bulls.webp"
+  },
+  {
+   "id": "ironguts",
+   "name": "Ironguts",
+   "cn": "铁胃",
+   "role": "精英怪步",
+   "why": "高破甲。",
+   "section": "Monstrous infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_ogr_inf_ironguts_0.webp",
+   "icon": "assets/img/units/ironguts.webp"
+  },
+  {
+   "id": "leadbelchers",
+   "name": "Leadbelchers",
+   "cn": "铅腹",
+   "role": "远程",
+   "why": "高破甲射击。",
+   "section": "Monstrous infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_ogr_inf_leadbelchers_0.webp",
+   "icon": "assets/img/units/leadbelchers.webp"
+  },
+  {
+   "id": "mournfang-cavalry",
+   "name": "Mournfang Cavalry",
+   "cn": "哀牙兽骑兵",
+   "role": "怪骑",
+   "why": "高冲锋。",
+   "section": "Monstrous cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_ogr_cav_mournfang_cavalry_0.webp",
+   "icon": "assets/img/units/mournfang-cavalry.webp"
+  },
+  {
+   "id": "stonehorn",
+   "name": "Stonehorn",
+   "cn": "石角兽",
+   "role": "巨兽",
+   "why": "冲阵。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_ogr_mon_stonehorn_0.webp",
+   "icon": "assets/img/units/stonehorn.webp"
+  },
+  {
+   "id": "thundertusk",
+   "name": "Thundertusk",
+   "cn": "雷牙兽",
+   "role": "巨兽",
+   "why": "光环 + 远程。",
+   "section": "Monsters",
+   "tier": 5,
+   "img": "/game/ui/units/icons/wh3_dlc26_ogr_mon_thundertusk.webp",
+   "icon": "assets/img/units/thundertusk.webp"
+  }
+ ],
+ "skaven": [
+  {
+   "id": "skavenslaves",
+   "name": "Skavenslaves",
+   "cn": "奴隶鼠",
+   "role": "炮灰",
+   "why": "最便宜。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh2_main_skv_inf_skavenslaves.webp",
+   "icon": "assets/img/units/skavenslaves.webp"
+  },
+  {
+   "id": "clanrats",
+   "name": "Clanrats",
+   "cn": "氏族鼠",
+   "role": "扛线",
+   "why": "便宜。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh2_main_skv_inf_clanrats.webp",
+   "icon": "assets/img/units/clanrats.webp"
+  },
+  {
+   "id": "stormvermin-swords-shields",
+   "name": "Stormvermin (Swords & Shields)",
+   "cn": "风暴鼠（剑盾）",
+   "role": "精英扛线",
+   "why": "高护甲。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_main_skv_inf_stormvermin_shields.webp",
+   "icon": "assets/img/units/stormvermin-swords-shields.webp"
+  },
+  {
+   "id": "ratling-guns",
+   "name": "Ratling Guns",
+   "cn": "鼠特林",
+   "role": "远程",
+   "why": "高射速。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_dlc12_skv_ratling_gun_team.webp",
+   "icon": "assets/img/units/ratling-guns.webp"
+  },
+  {
+   "id": "warp-lightning-cannons",
+   "name": "Warp Lightning Cannons",
+   "cn": "次元闪电炮",
+   "role": "炮兵",
+   "why": "高伤害。",
+   "section": "War machines & artillery",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh2_main_skv_art_warp_lightning_cannon.webp",
+   "icon": "assets/img/units/warp-lightning-cannons.webp"
+  },
+  {
+   "id": "hell-pit-abomination",
+   "name": "Hell Pit Abomination",
+   "cn": "地狱深坑憎恶",
+   "role": "巨兽",
+   "why": "肉盾。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh2_main_skv_mon_hell_pit_abomination.webp",
+   "icon": "assets/img/units/hell-pit-abomination.webp"
+  }
+ ],
+ "slaanesh": [
+  {
+   "id": "daemonettes-of-slaanesh",
+   "name": "Daemonettes of Slaanesh",
+   "cn": "色孽欲魔",
+   "role": "近战",
+   "why": "高机动。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_sla_inf_daemonette_0.webp",
+   "icon": "assets/img/units/daemonettes-of-slaanesh.webp"
+  },
+  {
+   "id": "seekers-of-slaanesh",
+   "name": "Seekers of Slaanesh",
+   "cn": "色孽寻觅者",
+   "role": "轻骑",
+   "why": "快速包抄。",
+   "section": "Melee cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_sla_cav_seekers_of_slaanesh_0.webp",
+   "icon": "assets/img/units/seekers-of-slaanesh.webp"
+  },
+  {
+   "id": "heartseekers-of-slaanesh",
+   "name": "Heartseekers of Slaanesh",
+   "cn": "色孽寻心者",
+   "role": "精英轻骑",
+   "why": "高冲锋。",
+   "section": "Melee cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_sla_cav_heartseekers_of_slaanesh_0.webp",
+   "icon": "assets/img/units/heartseekers-of-slaanesh.webp"
+  },
+  {
+   "id": "fiends-of-slaanesh",
+   "name": "Fiends of Slaanesh",
+   "cn": "色孽魔",
+   "role": "怪步",
+   "why": "高机动。",
+   "section": "Monstrous infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh3_main_sla_mon_fiends_of_slaanesh_0.webp",
+   "icon": "assets/img/units/fiends-of-slaanesh.webp"
+  },
+  {
+   "id": "keeper-of-secrets",
+   "name": "Keeper of Secrets",
+   "cn": "秘密守护者",
+   "role": "巨兽",
+   "why": "法术 + 近战。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_sla_mon_keeper_of_secrets_0.webp",
+   "icon": "assets/img/units/keeper-of-secrets.webp"
+  },
+  {
+   "id": "soul-grinder-of-slaanesh",
+   "name": "Soul Grinder of Slaanesh",
+   "cn": "色孽灵魂研磨者",
+   "role": "巨兽炮兵",
+   "why": "远程 + 近战。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_sla_mon_soul_grinder_0.webp",
+   "icon": "assets/img/units/soul-grinder-of-slaanesh.webp"
+  }
+ ],
+ "tomb-kings": [
+  {
+   "id": "skeleton-warriors",
+   "name": "Skeleton Warriors",
+   "cn": "骷髅战士",
+   "role": "炮灰",
+   "why": "免费维护。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh2_dlc09_tmb_skeleton_warriors.webp",
+   "icon": "assets/img/units/skeleton-warriors.webp"
+  },
+  {
+   "id": "skeleton-archers",
+   "name": "Skeleton Archers",
+   "cn": "骷髅弓箭手",
+   "role": "远程",
+   "why": "免费维护。",
+   "section": "Missile infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh2_dlc09_tmb_skeleton_archers.webp",
+   "icon": "assets/img/units/skeleton-archers.webp"
+  },
+  {
+   "id": "tomb-guard",
+   "name": "Tomb Guard",
+   "cn": "墓卫",
+   "role": "精英扛线",
+   "why": "高防。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_dlc09_tmb_tomb_guard.webp",
+   "icon": "assets/img/units/tomb-guard.webp"
+  },
+  {
+   "id": "ushabti",
+   "name": "Ushabti",
+   "cn": "乌沙比特",
+   "role": "怪步",
+   "why": "高输出。",
+   "section": "Monstrous infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_dlc09_tmb_ushabti.webp",
+   "icon": "assets/img/units/ushabti.webp"
+  },
+  {
+   "id": "necrosphinx",
+   "name": "Necrosphinx",
+   "cn": "死灵斯芬克斯",
+   "role": "巨兽",
+   "why": "斩将。",
+   "section": "Monsters",
+   "tier": 5,
+   "img": "/game/ui/units/icons/wh2_dlc09_tmb_necrosphinx.webp",
+   "icon": "assets/img/units/necrosphinx.webp"
+  },
+  {
+   "id": "casket-of-souls",
+   "name": "Casket of Souls",
+   "cn": "灵魂棺",
+   "role": "炮兵",
+   "why": "范围魔法。",
+   "section": "Chariots",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh2_dlc09_tmb_casket_souls.webp",
+   "icon": "assets/img/units/casket-of-souls.webp"
+  }
+ ],
+ "tzeentch": [
+  {
+   "id": "blue-horrors-of-tzeentch",
+   "name": "Blue Horrors of Tzeentch",
+   "cn": "蓝色恐怖",
+   "role": "远程",
+   "why": "便宜。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_tze_inf_blue_horrors_0.webp",
+   "icon": "assets/img/units/blue-horrors-of-tzeentch.webp"
+  },
+  {
+   "id": "pink-horrors-of-tzeentch",
+   "name": "Pink Horrors of Tzeentch",
+   "cn": "粉色恐怖",
+   "role": "远程",
+   "why": "高输出。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_tze_inf_pink_horrors_0.webp",
+   "icon": "assets/img/units/pink-horrors-of-tzeentch.webp"
+  },
+  {
+   "id": "flamers-of-tzeentch",
+   "name": "Flamers of Tzeentch",
+   "cn": "火焰魔",
+   "role": "远程",
+   "why": "高破甲。",
+   "section": "Monstrous infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_tze_mon_flamers_0.webp",
+   "icon": "assets/img/units/flamers-of-tzeentch.webp"
+  },
+  {
+   "id": "screamers-of-tzeentch",
+   "name": "Screamers of Tzeentch",
+   "cn": "尖啸魔",
+   "role": "机动",
+   "why": "飞行。",
+   "section": "Monstrous infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh3_main_tze_mon_screamers_0.webp",
+   "icon": "assets/img/units/screamers-of-tzeentch.webp"
+  },
+  {
+   "id": "burning-chariot-of-tzeentch",
+   "name": "Burning Chariot of Tzeentch",
+   "cn": "燃烧战车",
+   "role": "战车",
+   "why": "高机动。",
+   "section": "Chariots",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_tze_veh_burning_chariot_0.webp",
+   "icon": "assets/img/units/burning-chariot-of-tzeentch.webp"
+  },
+  {
+   "id": "lord-of-change",
+   "name": "Lord of Change",
+   "cn": "万变魔君",
+   "role": "巨兽",
+   "why": "法术。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_tze_mon_lord_of_change_0.webp",
+   "icon": "assets/img/units/lord-of-change.webp"
+  }
+ ],
+ "undead-legions": [
+  {
+   "id": "skeleton-warriors",
+   "name": "Skeleton Warriors",
+   "cn": "骷髅战士",
+   "role": "炮灰",
+   "why": "海量。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh2_dlc09_tmb_skeleton_warriors.webp",
+   "icon": "assets/img/units/skeleton-warriors.webp"
+  },
+  {
+   "id": "tomb-guard",
+   "name": "Tomb Guard",
+   "cn": "墓卫",
+   "role": "精英扛线",
+   "why": "高防。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_dlc09_tmb_tomb_guard.webp",
+   "icon": "assets/img/units/tomb-guard.webp"
+  },
+  {
+   "id": "ushabti",
+   "name": "Ushabti",
+   "cn": "乌沙比特",
+   "role": "怪步",
+   "why": "高输出。",
+   "section": "Monstrous infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_dlc09_tmb_ushabti.webp",
+   "icon": "assets/img/units/ushabti.webp"
+  },
+  {
+   "id": "morghast-harbingers",
+   "name": "Morghast Harbingers",
+   "cn": "莫尔格斯特先驱",
+   "role": "飞行怪步",
+   "why": "高机动。",
+   "section": "Monstrous infantry",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_dlc29_vmp_mon_morghast_harbingers.webp",
+   "icon": "assets/img/units/morghast-harbingers.webp"
+  },
+  {
+   "id": "khemric-titan",
+   "name": "Khemric Titan",
+   "cn": "凯姆里克泰坦",
+   "role": "巨兽",
+   "why": "顶级巨兽。",
+   "section": "Monsters",
+   "tier": 5,
+   "img": "/game/ui/units/icons/wh3_dlc29_tmb_mon_khemric_titan.webp",
+   "icon": "assets/img/units/khemric-titan.webp"
+  },
+  {
+   "id": "necrosphinx",
+   "name": "Necrosphinx",
+   "cn": "死灵斯芬克斯",
+   "role": "巨兽",
+   "why": "斩将。",
+   "section": "Monsters",
+   "tier": 5,
+   "img": "/game/ui/units/icons/wh2_dlc09_tmb_necrosphinx.webp",
+   "icon": "assets/img/units/necrosphinx.webp"
+  }
+ ],
+ "vampire-coast": [
+  {
+   "id": "zombie-pirate-deckhand-mob",
+   "name": "Zombie Pirate Deckhand Mob",
+   "cn": "僵尸甲板水手",
+   "role": "炮灰",
+   "why": "便宜。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh2_dlc11_cst_zombie_deckhands.webp",
+   "icon": "assets/img/units/zombie-pirate-deckhand-mob.webp"
+  },
+  {
+   "id": "zombie-pirate-gunnery-mob-handgunners",
+   "name": "Zombie Pirate Gunnery Mob (Handgunners)",
+   "cn": "僵尸火枪手",
+   "role": "远程",
+   "why": "高破甲。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_dlc11_cst_zombie_gunnery_mob_handguns.webp",
+   "icon": "assets/img/units/zombie-pirate-gunnery-mob-handgunners.webp"
+  },
+  {
+   "id": "deck-droppers-bombers",
+   "name": "Deck Droppers (Bombers)",
+   "cn": "甲板投弹手",
+   "role": "空中",
+   "why": "轰炸。",
+   "section": "War beasts",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_dlc11_cst_deck_droppers_bombers.webp",
+   "icon": "assets/img/units/deck-droppers-bombers.webp"
+  },
+  {
+   "id": "carronades",
+   "name": "Carronades",
+   "cn": "卡隆炮",
+   "role": "炮兵",
+   "why": "高伤害。",
+   "section": "War machines & artillery",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh2_dlc11_cst_carronade.webp",
+   "icon": "assets/img/units/carronades.webp"
+  },
+  {
+   "id": "depth-guard",
+   "name": "Depth Guard",
+   "cn": "深渊守卫",
+   "role": "精英近战",
+   "why": "高输出。",
+   "section": "Melee infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh2_dlc11_cst_depth_guard.webp",
+   "icon": "assets/img/units/depth-guard.webp"
+  },
+  {
+   "id": "necrofex-colossus",
+   "name": "Necrofex Colossus",
+   "cn": "死灵巨像",
+   "role": "巨兽炮兵",
+   "why": "远程 + 近战。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh2_dlc11_cst_necrofex_colossus.webp",
+   "icon": "assets/img/units/necrofex-colossus.webp"
+  }
+ ],
+ "vampire-counts": [
+  {
+   "id": "skeleton-warriors",
+   "name": "Skeleton Warriors",
+   "cn": "骷髅战士",
+   "role": "炮灰",
+   "why": "便宜。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh_main_vmp_skeleton_warrior_sword.webp",
+   "icon": "assets/img/units/skeleton-warriors.webp"
+  },
+  {
+   "id": "grave-guard",
+   "name": "Grave Guard",
+   "cn": "墓穴守卫",
+   "role": "精英扛线",
+   "why": "高防。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_main_vmp_grave_guard.webp",
+   "icon": "assets/img/units/grave-guard.webp"
+  },
+  {
+   "id": "black-knights",
+   "name": "Black Knights",
+   "cn": "黑骑士",
+   "role": "骑兵",
+   "why": "机动。",
+   "section": "Melee cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_main_vmp_black_knights.webp",
+   "icon": "assets/img/units/black-knights.webp"
+  },
+  {
+   "id": "blood-knights",
+   "name": "Blood Knights",
+   "cn": "血骑士",
+   "role": "精英骑兵",
+   "why": "高冲锋。",
+   "section": "Melee cavalry",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh3_main_vmp_blood_knights_sword_shield.webp",
+   "icon": "assets/img/units/blood-knights.webp"
+  },
+  {
+   "id": "terrorgheist",
+   "name": "Terrorgheist",
+   "cn": "恐翼蝠",
+   "role": "飞行巨兽",
+   "why": "斩将。",
+   "section": "Monsters",
+   "tier": 5,
+   "img": "/game/ui/units/icons/wh_main_vmp_terrorgheist.webp",
+   "icon": "assets/img/units/terrorgheist.webp"
+  },
+  {
+   "id": "mortis-engine",
+   "name": "Mortis Engine",
+   "cn": "死亡引擎",
+   "role": "炮兵",
+   "why": "光环 + 范围伤害。",
+   "section": "Chariots",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_dlc04_vmp_mortis_engine.webp",
+   "icon": "assets/img/units/mortis-engine.webp"
+  }
+ ],
+ "warriors-of-chaos": [
+  {
+   "id": "chaos-warriors",
+   "name": "Chaos Warriors",
+   "cn": "混沌勇士",
+   "role": "扛线",
+   "why": "高护甲。",
+   "section": "Melee infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_main_chs_warriors.webp",
+   "icon": "assets/img/units/chaos-warriors.webp"
+  },
+  {
+   "id": "chosen",
+   "name": "Chosen",
+   "cn": "神选",
+   "role": "精英近战",
+   "why": "高输出。",
+   "section": "Melee infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_main_chs_chosen.webp",
+   "icon": "assets/img/units/chosen.webp"
+  },
+  {
+   "id": "chaos-knights",
+   "name": "Chaos Knights",
+   "cn": "混沌骑士",
+   "role": "冲击骑兵",
+   "why": "高冲锋。",
+   "section": "Melee cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_main_chs_knights.webp",
+   "icon": "assets/img/units/chaos-knights.webp"
+  },
+  {
+   "id": "dragon-ogres",
+   "name": "Dragon Ogres",
+   "cn": "龙魔",
+   "role": "怪步",
+   "why": "高血量。",
+   "section": "Monstrous infantry",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh_dlc01_chs_dragon_ogre.webp",
+   "icon": "assets/img/units/dragon-ogres.webp"
+  },
+  {
+   "id": "chaos-giant",
+   "name": "Chaos Giant",
+   "cn": "混沌巨人",
+   "role": "巨兽",
+   "why": "高输出。",
+   "section": "Monsters",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_main_chs_giant.webp",
+   "icon": "assets/img/units/chaos-giant.webp"
+  },
+  {
+   "id": "hellcannon",
+   "name": "Hellcannon",
+   "cn": "地狱炮",
+   "role": "炮兵",
+   "why": "高伤害。",
+   "section": "War machines & artillery",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_main_chs_hellcannon.webp",
+   "icon": "assets/img/units/hellcannon.webp"
+  }
+ ],
+ "wood-elves": [
+  {
+   "id": "eternal-guard",
+   "name": "Eternal Guard",
+   "cn": "永恒守卫",
+   "role": "扛线",
+   "why": "反大型。",
+   "section": "Melee infantry",
+   "tier": 1,
+   "img": "/game/ui/units/icons/wh_dlc05_wef_eternal_guard.webp",
+   "icon": "assets/img/units/eternal-guard.webp"
+  },
+  {
+   "id": "glade-guard",
+   "name": "Glade Guard",
+   "cn": "林地守卫",
+   "role": "远程",
+   "why": "高输出。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_dlc05_wef_glade_guard.webp",
+   "icon": "assets/img/units/glade-guard.webp"
+  },
+  {
+   "id": "deepwood-scouts",
+   "name": "Deepwood Scouts",
+   "cn": "深林斥候",
+   "role": "游击",
+   "why": "机动远程。",
+   "section": "Missile infantry",
+   "tier": 2,
+   "img": "/game/ui/units/icons/wh_dlc05_wef_deepwood_scouts.webp",
+   "icon": "assets/img/units/deepwood-scouts.webp"
+  },
+  {
+   "id": "wild-riders",
+   "name": "Wild Riders",
+   "cn": "狂野骑兵",
+   "role": "冲击骑兵",
+   "why": "高冲锋。",
+   "section": "Melee cavalry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_dlc05_wef_wild_riders.webp",
+   "icon": "assets/img/units/wild-riders.webp"
+  },
+  {
+   "id": "treeman",
+   "name": "Treeman",
+   "cn": "树人",
+   "role": "巨兽",
+   "why": "肉盾。",
+   "section": "Monsters",
+   "tier": 4,
+   "img": "/game/ui/units/icons/wh_dlc05_wef_treeman.webp",
+   "icon": "assets/img/units/treeman.webp"
+  },
+  {
+   "id": "waywatchers",
+   "name": "Waywatchers",
+   "cn": "巡林客",
+   "role": "精英远程",
+   "why": "高破甲。",
+   "section": "Missile infantry",
+   "tier": 3,
+   "img": "/game/ui/units/icons/wh_dlc05_wef_waywatchers.webp",
+   "icon": "assets/img/units/waywatchers.webp"
+  }
+ ]
+}

@@ -8,6 +8,8 @@
 - **战役篇**：回合流程、界面解剖、经济、行省、军队、外交、英雄、成长、终局、30 回合清单
 - **战斗篇**：战前决策、属性表、兵种克制、四种阵型、战斗流程、魔法、攻城、生存战、操作设置
 - **派系篇**：25 个可玩种族，可按阵营 / 玩法 / 难度筛选，点击查看详情
+- **兵种百科**：25 个派系页，每页包含 6 个推荐兵种、完整兵种表（生命 / 护甲 / 近攻 / 近防 / 武器 / 远程 / 维护）与 20 槽配兵思路
+- **全局兵种库**：2000+ 单位，可按种族、角色、T 级筛选，按生命 / 护甲 / 武器 / 维护排序
 - **DLC 篇**：2022–2026 时间线、购买优先级、种族拥有关系、常见问题
 - **词典**：70+ 条中英文术语，支持搜索与分类
 
@@ -20,7 +22,11 @@ python -m http.server 8000
 
 ## 部署
 
-本站是纯静态站点，无构建步骤。推送到 GitHub 后，在仓库 **Settings → Pages** 选择 `main` 分支根目录即可。仓库内已包含 `.nojekyll`。
+纯静态站点，无构建步骤。推送到 GitHub 后，在仓库 **Settings → Pages** 选择 `main` 分支根目录即可。仓库内已包含 `.nojekyll`。
+
+## 数据
+
+兵种数值来自游戏数据表整理（TW Database，Patch 9.0.4 / Ultra 规模 / 0 级），不含科技、技能、装备与战场增益。单位图标来自游戏素材，版权归 Creative Assembly / SEGA / Games Workshop 所有。
 
 ## 目录
 
@@ -29,12 +35,14 @@ index.html          首页
 campaign.html       战役篇
 battle.html         战斗篇
 factions.html       派系篇
+wiki.html           兵种百科首页
+units.html          全局兵种库
+wiki/               25 个派系兵种页
 dlc.html            DLC 指南
 glossary.html       术语词典
 assets/css/style.css
-assets/js/site.js
-assets/js/factions.js
-assets/js/glossary.js
+assets/js/          site.js / factions.js / glossary.js / units.js
+assets/data/        units.json / factions.json / picks.json / units-data.js
 assets/img/         图片素材
 ```
 

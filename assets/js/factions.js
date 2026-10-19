@@ -333,6 +333,7 @@ const FACTIONS = [
         <div class="modal-block"><h4>难点在哪</h4><p>${f.avoid}</p></div>
         <div class="modal-block full"><h4>开局建议</h4><p>${f.tips}</p></div>
       </div>
+      <div style="margin-top:18px"><a class="btn btn--small btn--primary" href="wiki/${WIKI_SLUG[f.id]}.html">查看兵种表与数值 →</a></div>
     `;
     modal.classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -366,3 +367,14 @@ const FACTIONS = [
 
   render();
 })();
+
+/* 派系 id -> 百科页面 slug */
+const WIKI_SLUG = {
+  cathay: 'grand-cathay', kislev: 'kislev', empire: 'empire', highelves: 'high-elves',
+  dwarfs: 'dwarfs', bretonnia: 'bretonnia', tombkings: 'tomb-kings', lizardmen: 'lizardmen',
+  ogres: 'ogre-kingdoms', greenskins: 'greenskins', darkelves: 'dark-elves', skaven: 'skaven',
+  vampires: 'vampire-counts', vampirecoast: 'vampire-coast', woodelves: 'wood-elves',
+  beastmen: 'beastmen', norsca: 'norsca', warriors: 'warriors-of-chaos', chaosdwarfs: 'chaos-dwarfs',
+  khorne: 'khorne', nurgle: 'nurgle', slaanesh: 'slaanesh', tzeentch: 'tzeentch',
+  daemons: 'daemons-of-chaos', undeadlegions: 'undead-legions'
+};

@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>震旦天朝兵种、数值与推荐 · 战锤 3 百科</title>
+<meta name="description" content="震旦天朝（Grand Cathay）全部兵种数值、推荐兵种与配兵思路。Patch 9.0.4，包含生命、护甲、近攻、近防、武器威力、远程与维护费。">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="../assets/img/logo.jpg">
+</head>
+<body>
+<div id="progress"></div>
+<header class="site-header">
+  <nav class="nav" aria-label="主导航">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark"><span>III</span></span>
+      <span class="brand-text"><b>战锤 3 新兵营</b><small>TOTAL WAR · WARHAMMER III</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">首页</a></li>
+      <li><a href="../campaign.html">战役</a></li>
+      <li><a href="../battle.html">战斗</a></li>
+      <li><a href="../factions.html">派系</a></li>
+      <li><a href="../wiki.html" class="active">百科</a></li>
+      <li><a href="../dlc.html">DLC</a></li>
+      <li><a href="../glossary.html">词典</a></li>
+    </ul>
+    <a class="nav-cta" href="../wiki.html">兵种百科</a>
+    <button class="menu-btn" aria-label="打开菜单" aria-expanded="false"><span></span></button>
+  </nav>
+</header>
+<nav class="mobile-nav" aria-label="移动导航">
+  <a href="../index.html">首页</a>
+  <a href="../campaign.html">战役</a>
+  <a href="../battle.html">战斗</a>
+  <a href="../factions.html">派系</a>
+  <a href="../wiki.html">百科</a>
+  <a href="../dlc.html">DLC</a>
+  <a href="../glossary.html">词典</a>
+</nav>
+<main>
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('../assets/img/factions/cathay.webp')"></div>
+  <div class="container">
+    <div class="eyebrow"><span class="num">WIKI · 秩序</span> 兵种图鉴</div>
+    <h1>震旦天朝<br><span style="font-size:.42em;color:var(--gold-2);letter-spacing:.06em">Grand Cathay</span></h1>
+    <p class="lede">长城之后的龙之帝国：扛线、射爆，用炮兵解决一切。</p>
+    <div class="page-hero-meta">
+      <span>难度 1 / 5</span>
+      <span>远程 · 炮兵 · 防御 · 均衡</span>
+      <span>战锤 3 本体</span>
+      <span>55 个单位</span>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="doc">
+      <aside class="toc" aria-label="本页目录">
+        <div class="toc-title">本页目录</div>
+        <a href="#overview">派系概览</a>
+        <a href="#picks">推荐兵种</a>
+        <a href="#roster">完整兵种表</a>
+        <a href="#build">配兵思路</a>
+        <a href="../units.html">全局兵种库</a>
+      </aside>
+      <article class="article">
+        <section id="overview">
+          <h2><span class="kicker">01 / OVERVIEW</span>派系概览</h2>
+          <p class="lead">长城之后的龙之帝国：扛线、射爆，用炮兵解决一切。 推荐首发领主：<strong>妙音</strong>。阴阳调和：建筑与科技分属阴 / 阳，保持平衡才能拿到全局加成；长城与商队是北方屏障和经济动脉。</p>
+          <div class="grid grid-3">
+            <div class="card"><div class="card-num">核心机制</div><h3>秩序 · 远程 / 炮兵</h3><p>阴阳调和：建筑与科技分属阴 / 阳，保持平衡才能拿到全局加成；长城与商队是北方屏障和经济动脉。</p></div>
+            <div class="card"><div class="card-num">优势</div><h3>为什么玩它</h3><p>兵种齐、经济稳、出生位置相对安全，是第一次认真通关的首选。</p></div>
+            <div class="card"><div class="card-num">难点</div><h3>要注意什么</h3><p>机动性一般，阵型被绕后会很痛；整体打法偏“摆好阵等对面来”。</p></div>
+          </div>
+          <div class="callout"><span class="callout-label">开局建议</span><p>先统一长城内侧省份；玉勇扛线、玉勇弩手输出，尽早补炮兵。妙音本人是极强的单体战力，别只把她当法师。</p></div>
+          <div class="callout callout--ice"><span class="callout-label">数值说明</span><p>本页数值为 <strong>Patch 9.0.4 / Ultra 规模 / 0 级</strong>，不含科技、技能、装备、领主光环与战场增益。维护费是战役基础值，受难度、补给线与派系减免影响。</p></div>
+        </section>
+        <section id="picks">
+          <h2><span class="kicker">02 / RECOMMENDED</span>推荐兵种</h2>
+          <p class="lead">每个派系挑 6 个最值得先练、先招、先知道的名字。不是“唯一答案”，但能覆盖扛线、输出、机动和攻城。</p>
+          <div class="pick-grid"><div class="pick-card">
+    <img src="../assets/img/units/jade-warriors.webp" alt="Jade Warriors" loading="lazy">
+    <div class="pick-body">
+      <div class="pick-name">Jade Warriors<span class="pick-cn">玉勇</span></div>
+      <span class="pick-role">扛线</span>
+      <p>高护甲核心。</p>
+      <div class="pick-stats">T2 · 8,280 HP · 70 甲 · 28 武器 · 维护 137</div>
+    </div>
+  </div><div class="pick-card">
+    <img src="../assets/img/units/jade-warrior-crossbows.webp" alt="Jade Warrior Crossbows" loading="lazy">
+    <div class="pick-body">
+      <div class="pick-name">Jade Warrior Crossbows<span class="pick-cn">玉勇弩手</span></div>
+      <span class="pick-role">远程</span>
+      <p>稳定输出。</p>
+      <div class="pick-stats">T2 · 6,210 HP · 70 甲 · 24 武器 · 维护 150</div>
+    </div>
+  </div><div class="pick-card">
+    <img src="../assets/img/units/iron-hail-gunners.webp" alt="Iron Hail Gunners" loading="lazy">
+    <div class="pick-body">
+      <div class="pick-name">Iron Hail Gunners<span class="pick-cn">铁雹铳手</span></div>
+      <span class="pick-role">破甲远程</span>
+      <p>高破甲火枪。</p>
+      <div class="pick-stats">T2 · 6,210 HP · 30 甲 · 24 武器 · 维护 125</div>
+    </div>
+  </div><div class="pick-card">
+    <img src="../assets/img/units/celestial-dragon-guard.webp" alt="Celestial Dragon Guard" loading="lazy">
+    <div class="pick-body">
+      <div class="pick-name">Celestial Dragon Guard<span class="pick-cn">天龙卫队</span></div>
+      <span class="pick-role">精英扛线</span>
+      <p>高护甲、反大型。</p>
+      <div class="pick-stats">T3 · 8,800 HP · 95 甲 · 36 武器 · 维护 263</div>
+    </div>
+  </div><div class="pick-card">
+    <img src="../assets/img/units/fire-rain-rocket-battery.webp" alt="Fire Rain Rocket Battery" loading="lazy">
+    <div class="pick-body">
+      <div class="pick-name">Fire Rain Rocket Battery<span class="pick-cn">炎霖火箭炮</span></div>
+      <span class="pick-role">炮兵</span>
+      <p>范围轰炸。</p>
+      <div class="pick-stats">T3 · 2,540 HP · 20 甲 · 24 武器 · 维护 300</div>
+    </div>
+  </div><div class="pick-card">
+    <img src="../assets/img/units/great-longma-riders.webp" alt="Great Longma Riders" loading="lazy">
+    <div class="pick-body">
+      <div class="pick-name">Great Longma Riders<span class="pick-cn">巨龙马骑兵</span></div>
+      <span class="pick-role">机动</span>
+      <p>高机动、反大型。</p>
+      <div class="pick-stats">T3 · 6,264 HP · 110 甲 · 65 武器 · 维护 337</div>
+    </div>
+  </div></div>
+        </section>
+        <section id="roster">
+          <h2><span class="kicker">03 / ROSTER</span>完整兵种表</h2>
+          <p class="lead">按类别展开。T 是招募等级；兵模是单位里的模型数；远程 / 射程一栏，前者是每 10 秒全队伤害，后者是射程。名将团单独列在最后。</p>
+          <details class="roster-sec">
+      <summary><span>领主与传奇领主</span><span class="n">9 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/bhashiva-the-white-tiger.webp" alt="" loading="lazy"><div><b>Bhashiva, the White Tiger</b><small>Lord</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">5,248</td>
+    <td class="num">60</td>
+    <td class="num">80</td>
+    <td class="num">52</td>
+    <td class="num">65</td>
+    <td class="num">50</td>
+    <td class="num">500</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">300</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/celestial-general.webp" alt="" loading="lazy"><div><b>Celestial General</b><small>Lord</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">4,868</td>
+    <td class="num">100</td>
+    <td class="num">80</td>
+    <td class="num">38</td>
+    <td class="num">60</td>
+    <td class="num">40</td>
+    <td class="num">420</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">250</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/dragon-blooded-shugengan-lord-yang.webp" alt="" loading="lazy"><div><b>Dragon-blooded Shugengan Lord (Yang)</b><small>Wizard Lord</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">4,368</td>
+    <td class="num">30</td>
+    <td class="num">70</td>
+    <td class="num">38</td>
+    <td class="num">55</td>
+    <td class="num">40</td>
+    <td class="num">400</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">300</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/dragon-blooded-shugengan-lord-yin.webp" alt="" loading="lazy"><div><b>Dragon-blooded Shugengan Lord (Yin)</b><small>Wizard Lord</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">4,368</td>
+    <td class="num">30</td>
+    <td class="num">70</td>
+    <td class="num">38</td>
+    <td class="num">55</td>
+    <td class="num">40</td>
+    <td class="num">400</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">300</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/lord-magistrate.webp" alt="" loading="lazy"><div><b>Lord Magistrate</b><small>Lord</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">4,568</td>
+    <td class="num">40</td>
+    <td class="num">70</td>
+    <td class="num">34</td>
+    <td class="num">45</td>
+    <td class="num">45</td>
+    <td class="num">375</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">250</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/miao-ying-the-storm-dragon.webp" alt="" loading="lazy"><div><b>Miao Ying, the Storm Dragon</b><small>Wizard Lord</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">8,424</td>
+    <td class="num">70</td>
+    <td class="num">90</td>
+    <td class="num">46</td>
+    <td class="num">65</td>
+    <td class="num">55</td>
+    <td class="num">430</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">600</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/tiger-warrior-sawai.webp" alt="" loading="lazy"><div><b>Tiger Warrior Sawai</b><small>Lord</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">5,076</td>
+    <td class="num">40</td>
+    <td class="num">75</td>
+    <td class="num">44</td>
+    <td class="num">50</td>
+    <td class="num">55</td>
+    <td class="num">450</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">275</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/yuan-bo-the-jade-dragon.webp" alt="" loading="lazy"><div><b>Yuan Bo, the Jade Dragon</b><small>Wizard Lord</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">8,424</td>
+    <td class="num">120</td>
+    <td class="num">90</td>
+    <td class="num">46</td>
+    <td class="num">65</td>
+    <td class="num">45</td>
+    <td class="num">460</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">500</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/zhao-ming-the-iron-dragon.webp" alt="" loading="lazy"><div><b>Zhao Ming, the Iron Dragon</b><small>Wizard Lord</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">8,424</td>
+    <td class="num">70</td>
+    <td class="num">90</td>
+    <td class="num">46</td>
+    <td class="num">55</td>
+    <td class="num">60</td>
+    <td class="num">430</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">500</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec">
+      <summary><span>英雄</span><span class="n">10 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/alchemist.webp" alt="" loading="lazy"><div><b>Alchemist</b><small>Wizard</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">3,420</td>
+    <td class="num">15</td>
+    <td class="num">60</td>
+    <td class="num">34</td>
+    <td class="num">35</td>
+    <td class="num">30</td>
+    <td class="num">300</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">250</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/astromancer.webp" alt="" loading="lazy"><div><b>Astromancer</b><small>Wizard</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">7,306</td>
+    <td class="num">40</td>
+    <td class="num">60</td>
+    <td class="num">120</td>
+    <td class="num">44</td>
+    <td class="num">50</td>
+    <td class="num">560</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">450</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/clawspeaker-beasts.webp" alt="" loading="lazy"><div><b>Clawspeaker (Beasts)</b><small>Wizard</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">4,548</td>
+    <td class="num">20</td>
+    <td class="num">65</td>
+    <td class="num">44</td>
+    <td class="num">42</td>
+    <td class="num">40</td>
+    <td class="num">325</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">275</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/clawspeaker-life.webp" alt="" loading="lazy"><div><b>Clawspeaker (Life)</b><small>Wizard</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">4,548</td>
+    <td class="num">20</td>
+    <td class="num">65</td>
+    <td class="num">44</td>
+    <td class="num">42</td>
+    <td class="num">40</td>
+    <td class="num">325</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">275</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/clawspeaker-shadows.webp" alt="" loading="lazy"><div><b>Clawspeaker (Shadows)</b><small>Wizard</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">4,548</td>
+    <td class="num">20</td>
+    <td class="num">65</td>
+    <td class="num">44</td>
+    <td class="num">42</td>
+    <td class="num">40</td>
+    <td class="num">325</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">275</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/felix.webp" alt="" loading="lazy"><div><b>Felix</b><small>Melee Specialist</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">4,168</td>
+    <td class="num">70</td>
+    <td class="num">70</td>
+    <td class="num">34</td>
+    <td class="num">50</td>
+    <td class="num">55</td>
+    <td class="num">380</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">—</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/gate-master.webp" alt="" loading="lazy"><div><b>Gate Master</b><small>Hybrid Weapon Specialist</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">4,128</td>
+    <td class="num">95</td>
+    <td class="num">70</td>
+    <td class="num">34</td>
+    <td class="num">46</td>
+    <td class="num">50</td>
+    <td class="num">375</td>
+    <td class="num">300 / 160m</td>
+    <td class="num">250</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/gotrek.webp" alt="" loading="lazy"><div><b>Gotrek</b><small>Melee Specialist</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">5,902</td>
+    <td class="num">0</td>
+    <td class="num">100</td>
+    <td class="num">42</td>
+    <td class="num">70</td>
+    <td class="num">50</td>
+    <td class="num">470</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">—</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/saytang-the-watcher.webp" alt="" loading="lazy"><div><b>Saytang the Watcher</b><small>Specialist Artillery</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">12,620</td>
+    <td class="num">100</td>
+    <td class="num">90</td>
+    <td class="num">48</td>
+    <td class="num">42</td>
+    <td class="num">28</td>
+    <td class="num">550</td>
+    <td class="num">514 / 350m</td>
+    <td class="num">—</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/taoyan-the-merciless.webp" alt="" loading="lazy"><div><b>Taoyan the Merciless</b><small>Trident Infantry</small></div></div></td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">1</td>
+    <td class="num">4,588</td>
+    <td class="num">90</td>
+    <td class="num">80</td>
+    <td class="num">34</td>
+    <td class="num">50</td>
+    <td class="num">60</td>
+    <td class="num">420</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">—</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec" open>
+      <summary><span>近战步兵</span><span class="n">6 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/peasant-long-spearmen.webp" alt="" loading="lazy"><div><b>Peasant Long Spearmen</b><small>Spear Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T1</span></td>
+    <td class="num">160</td>
+    <td class="num">8,960</td>
+    <td class="num">15</td>
+    <td class="num">55</td>
+    <td class="num">30</td>
+    <td class="num">20</td>
+    <td class="num">24</td>
+    <td class="num">25</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">88</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/jade-warriors.webp" alt="" loading="lazy"><div><b>Jade Warriors</b><small>Sword Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">120</td>
+    <td class="num">8,280</td>
+    <td class="num">70</td>
+    <td class="num">64</td>
+    <td class="num">28</td>
+    <td class="num">24</td>
+    <td class="num">34</td>
+    <td class="num">28</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">137</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/jade-warriors-halberds.webp" alt="" loading="lazy"><div><b>Jade Warriors (Halberds)</b><small>Halberd Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">120</td>
+    <td class="num">8,280</td>
+    <td class="num">70</td>
+    <td class="num">64</td>
+    <td class="num">28</td>
+    <td class="num">22</td>
+    <td class="num">38</td>
+    <td class="num">28</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">162</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/tiger-warriors.webp" alt="" loading="lazy"><div><b>Tiger Warriors</b><small>Dual Axe Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">80</td>
+    <td class="num">8,000</td>
+    <td class="num">30</td>
+    <td class="num">70</td>
+    <td class="num">44</td>
+    <td class="num">42</td>
+    <td class="num">34</td>
+    <td class="num">54</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">225</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/celestial-dragon-guard.webp" alt="" loading="lazy"><div><b>Celestial Dragon Guard</b><small>Halberd Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">100</td>
+    <td class="num">8,800</td>
+    <td class="num">95</td>
+    <td class="num">72</td>
+    <td class="num">28</td>
+    <td class="num">34</td>
+    <td class="num">43</td>
+    <td class="num">36</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">263</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/iron-claw-tiger-warriors.webp" alt="" loading="lazy"><div><b>Iron Claw Tiger Warriors</b><small>Guandao Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T4</span></td>
+    <td class="num">80</td>
+    <td class="num">8,800</td>
+    <td class="num">60</td>
+    <td class="num">75</td>
+    <td class="num">44</td>
+    <td class="num">40</td>
+    <td class="num">46</td>
+    <td class="num">50</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">350</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec">
+      <summary><span>远程步兵</span><span class="n">8 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/peasant-archers.webp" alt="" loading="lazy"><div><b>Peasant Archers</b><small>Missile Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T1</span></td>
+    <td class="num">120</td>
+    <td class="num">6,480</td>
+    <td class="num">15</td>
+    <td class="num">45</td>
+    <td class="num">33</td>
+    <td class="num">10</td>
+    <td class="num">13</td>
+    <td class="num">24</td>
+    <td class="num">14 / 140m</td>
+    <td class="num">100</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/iron-hail-gunners.webp" alt="" loading="lazy"><div><b>Iron Hail Gunners</b><small>Close-Quarters Missile Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">90</td>
+    <td class="num">6,210</td>
+    <td class="num">30</td>
+    <td class="num">50</td>
+    <td class="num">33</td>
+    <td class="num">16</td>
+    <td class="num">16</td>
+    <td class="num">24</td>
+    <td class="num">32 / 90m</td>
+    <td class="num">125</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/jade-warrior-crossbows.webp" alt="" loading="lazy"><div><b>Jade Warrior Crossbows</b><small>Missile Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">90</td>
+    <td class="num">6,210</td>
+    <td class="num">70</td>
+    <td class="num">54</td>
+    <td class="num">30</td>
+    <td class="num">16</td>
+    <td class="num">16</td>
+    <td class="num">24</td>
+    <td class="num">18 / 160m</td>
+    <td class="num">150</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/jade-warrior-crossbows-shields.webp" alt="" loading="lazy"><div><b>Jade Warrior Crossbows (Shields)</b><small>Missile Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">90</td>
+    <td class="num">6,210</td>
+    <td class="num">70</td>
+    <td class="num">54</td>
+    <td class="num">30</td>
+    <td class="num">16</td>
+    <td class="num">24</td>
+    <td class="num">24</td>
+    <td class="num">18 / 160m</td>
+    <td class="num">162</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/nan-gau-grenadiers.webp" alt="" loading="lazy"><div><b>Nan-Gau Grenadiers</b><small>Explosives Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">90</td>
+    <td class="num">6,210</td>
+    <td class="num">40</td>
+    <td class="num">50</td>
+    <td class="num">33</td>
+    <td class="num">24</td>
+    <td class="num">24</td>
+    <td class="num">28</td>
+    <td class="num">16 / 55m</td>
+    <td class="num">125</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/celestial-dragon-crossbows.webp" alt="" loading="lazy"><div><b>Celestial Dragon Crossbows</b><small>Missile Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">80</td>
+    <td class="num">7,040</td>
+    <td class="num">95</td>
+    <td class="num">62</td>
+    <td class="num">28</td>
+    <td class="num">26</td>
+    <td class="num">32</td>
+    <td class="num">33</td>
+    <td class="num">26 / 160m</td>
+    <td class="num">263</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/crane-gunners.webp" alt="" loading="lazy"><div><b>Crane Gunners</b><small>Specialist Missile Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">32</td>
+    <td class="num">4,320</td>
+    <td class="num">30</td>
+    <td class="num">50</td>
+    <td class="num">30</td>
+    <td class="num">12</td>
+    <td class="num">18</td>
+    <td class="num">24</td>
+    <td class="num">34 / 275m</td>
+    <td class="num">300</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/tiger-warrior-stalkers.webp" alt="" loading="lazy"><div><b>Tiger Warrior Stalkers</b><small>Throwing Disc Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">60</td>
+    <td class="num">6,000</td>
+    <td class="num">15</td>
+    <td class="num">70</td>
+    <td class="num">52</td>
+    <td class="num">42</td>
+    <td class="num">40</td>
+    <td class="num">40</td>
+    <td class="num">33 / 70m</td>
+    <td class="num">275</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec">
+      <summary><span>怪步 / 飞行步兵</span><span class="n">1 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/onyx-crowmen.webp" alt="" loading="lazy"><div><b>Onyx Crowmen</b><small>Flying Melee Infantry</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">60</td>
+    <td class="num">5,220</td>
+    <td class="num">15</td>
+    <td class="num">50</td>
+    <td class="num">90</td>
+    <td class="num">30</td>
+    <td class="num">32</td>
+    <td class="num">45</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">175</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec">
+      <summary><span>近战骑兵</span><span class="n">2 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/peasant-horsemen.webp" alt="" loading="lazy"><div><b>Peasant Horsemen</b><small>Cavalry</small></div></div></td>
+    <td class="num"><span class="tier">T1</span></td>
+    <td class="num">60</td>
+    <td class="num">5,520</td>
+    <td class="num">15</td>
+    <td class="num">55</td>
+    <td class="num">90</td>
+    <td class="num">26</td>
+    <td class="num">26</td>
+    <td class="num">28</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">100</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/jade-lancers.webp" alt="" loading="lazy"><div><b>Jade Lancers</b><small>Shock Cavalry</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">60</td>
+    <td class="num">6,480</td>
+    <td class="num">100</td>
+    <td class="num">64</td>
+    <td class="num">78</td>
+    <td class="num">26</td>
+    <td class="num">28</td>
+    <td class="num">30</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">200</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec">
+      <summary><span>怪骑</span><span class="n">1 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/great-longma-riders.webp" alt="" loading="lazy"><div><b>Great Longma Riders</b><small>Flying Cavalry</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">24</td>
+    <td class="num">6,264</td>
+    <td class="num">110</td>
+    <td class="num">72</td>
+    <td class="num">105</td>
+    <td class="num">36</td>
+    <td class="num">34</td>
+    <td class="num">65</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">337</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec">
+      <summary><span>战车</span><span class="n">2 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/wu-xing-war-compass.webp" alt="" loading="lazy"><div><b>Wu Xing War Compass</b><small>Magic Chariot</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">1</td>
+    <td class="num">6,240</td>
+    <td class="num">80</td>
+    <td class="num">75</td>
+    <td class="num">30</td>
+    <td class="num">30</td>
+    <td class="num">20</td>
+    <td class="num">160</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">238</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/zhangu-war-drum.webp" alt="" loading="lazy"><div><b>Zhangu War Drum</b><small>Support Chariot</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">1</td>
+    <td class="num">6,232</td>
+    <td class="num">80</td>
+    <td class="num">75</td>
+    <td class="num">30</td>
+    <td class="num">30</td>
+    <td class="num">20</td>
+    <td class="num">160</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">275</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec">
+      <summary><span>战兽</span><span class="n">2 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/jade-lion.webp" alt="" loading="lazy"><div><b>Jade Lion</b><small>Monstrous Beast</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">1</td>
+    <td class="num">5,808</td>
+    <td class="num">90</td>
+    <td class="num">65</td>
+    <td class="num">75</td>
+    <td class="num">55</td>
+    <td class="num">40</td>
+    <td class="num">420</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">300</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/jet-lion.webp" alt="" loading="lazy"><div><b>Jet Lion</b><small>Monstrous Beast</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">1</td>
+    <td class="num">5,808</td>
+    <td class="num">90</td>
+    <td class="num">65</td>
+    <td class="num">75</td>
+    <td class="num">40</td>
+    <td class="num">60</td>
+    <td class="num">420</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">300</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec">
+      <summary><span>巨兽</span><span class="n">3 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/celestial-lion.webp" alt="" loading="lazy"><div><b>Celestial Lion</b><small>Flying Monster</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">1</td>
+    <td class="num">6,176</td>
+    <td class="num">80</td>
+    <td class="num">65</td>
+    <td class="num">85</td>
+    <td class="num">42</td>
+    <td class="num">36</td>
+    <td class="num">450</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">325</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/great-moon-bird.webp" alt="" loading="lazy"><div><b>Great Moon Bird</b><small>Flying Monster</small></div></div></td>
+    <td class="num"><span class="tier">T4</span></td>
+    <td class="num">1</td>
+    <td class="num">7,298</td>
+    <td class="num">40</td>
+    <td class="num">70</td>
+    <td class="num">120</td>
+    <td class="num">44</td>
+    <td class="num">50</td>
+    <td class="num">560</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">400</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/terracotta-sentinel.webp" alt="" loading="lazy"><div><b>Terracotta Sentinel</b><small>Monster</small></div></div></td>
+    <td class="num"><span class="tier">T4</span></td>
+    <td class="num">1</td>
+    <td class="num">12,620</td>
+    <td class="num">100</td>
+    <td class="num">85</td>
+    <td class="num">48</td>
+    <td class="num">65</td>
+    <td class="num">30</td>
+    <td class="num">630</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">400</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec">
+      <summary><span>炮兵 / 战争机器</span><span class="n">4 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/grand-cannons.webp" alt="" loading="lazy"><div><b>Grand Cannons</b><small>Siege Artillery</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">4</td>
+    <td class="num">2,740</td>
+    <td class="num">20</td>
+    <td class="num">50</td>
+    <td class="num">30</td>
+    <td class="num">10</td>
+    <td class="num">6</td>
+    <td class="num">24</td>
+    <td class="num">200 / 450m</td>
+    <td class="num">225</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/sky-lantern.webp" alt="" loading="lazy"><div><b>Sky Lantern</b><small>Flying War Machine</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">1</td>
+    <td class="num">6,048</td>
+    <td class="num">30</td>
+    <td class="num">70</td>
+    <td class="num">60</td>
+    <td class="num">8</td>
+    <td class="num">8</td>
+    <td class="num">26</td>
+    <td class="num">108 / 275m</td>
+    <td class="num">225</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/fire-rain-rocket-battery.webp" alt="" loading="lazy"><div><b>Fire Rain Rocket Battery</b><small>Rocket Battery</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">4</td>
+    <td class="num">2,540</td>
+    <td class="num">20</td>
+    <td class="num">50</td>
+    <td class="num">30</td>
+    <td class="num">10</td>
+    <td class="num">6</td>
+    <td class="num">24</td>
+    <td class="num">560 / 400m</td>
+    <td class="num">300</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/sky-junk.webp" alt="" loading="lazy"><div><b>Sky-junk</b><small>Flying War Machine</small></div></div></td>
+    <td class="num"><span class="tier">T4</span></td>
+    <td class="num">1</td>
+    <td class="num">10,048</td>
+    <td class="num">80</td>
+    <td class="num">80</td>
+    <td class="num">30</td>
+    <td class="num">8</td>
+    <td class="num">8</td>
+    <td class="num">26</td>
+    <td class="num">560 / 360m</td>
+    <td class="num">375</td>
+  </tr></tbody>
+      </table></div>
+    </details><details class="roster-sec">
+      <summary><span>名将团</span><span class="n">7 个单位</span></summary>
+      <div class="table-wrap"><table class="unit-table">
+        <thead><tr><th>兵种</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody><tr>
+    <td><div class="u"><img src="../assets/img/units/bandits-of-the-silver-road-peasant-archers.webp" alt="" loading="lazy"><div><b>Bandits of the Silver Road (Peasant Archers)</b><small>Missile Infantry · Renown</small></div></div></td>
+    <td class="num"><span class="tier">T2</span></td>
+    <td class="num">120</td>
+    <td class="num">6,480</td>
+    <td class="num">15</td>
+    <td class="num">55</td>
+    <td class="num">33</td>
+    <td class="num">27</td>
+    <td class="num">31</td>
+    <td class="num">24</td>
+    <td class="num">14 / 140m</td>
+    <td class="num">156</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/empress-crowmen-onyx-crowmen.webp" alt="" loading="lazy"><div><b>Empress Crowmen (Onyx Crowmen)</b><small>Flying Melee Infantry · Renown</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">60</td>
+    <td class="num">5,220</td>
+    <td class="num">15</td>
+    <td class="num">60</td>
+    <td class="num">90</td>
+    <td class="num">38</td>
+    <td class="num">41</td>
+    <td class="num">45</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">250</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/the-dune-dragons-celestial-dragon-guard.webp" alt="" loading="lazy"><div><b>The Dune Dragons (Celestial Dragon Guard)</b><small>Halberd Infantry · Renown</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">100</td>
+    <td class="num">8,800</td>
+    <td class="num">95</td>
+    <td class="num">82</td>
+    <td class="num">28</td>
+    <td class="num">43</td>
+    <td class="num">53</td>
+    <td class="num">36</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">338</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/the-grace-of-quai-yin-celestial-dragon-crossbows.webp" alt="" loading="lazy"><div><b>The Grace of Quai Yin (Celestial Dragon Crossbows)</b><small>Missile Infantry · Renown</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">80</td>
+    <td class="num">7,040</td>
+    <td class="num">95</td>
+    <td class="num">72</td>
+    <td class="num">30</td>
+    <td class="num">34</td>
+    <td class="num">41</td>
+    <td class="num">33</td>
+    <td class="num">29 / 180m</td>
+    <td class="num">325</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/the-jade-war-drum-zhangu-war-drum.webp" alt="" loading="lazy"><div><b>The Jade War Drum (Zhangu War Drum)</b><small>Support Chariot · Renown</small></div></div></td>
+    <td class="num"><span class="tier">T3</span></td>
+    <td class="num">1</td>
+    <td class="num">6,232</td>
+    <td class="num">95</td>
+    <td class="num">75</td>
+    <td class="num">30</td>
+    <td class="num">38</td>
+    <td class="num">27</td>
+    <td class="num">160</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">338</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/righteous-lances-of-wei-jin-great-longma-riders.webp" alt="" loading="lazy"><div><b>Righteous Lances of Wei-Jin (Great Longma Riders)</b><small>Flying Cavalry · Renown</small></div></div></td>
+    <td class="num"><span class="tier">T4</span></td>
+    <td class="num">24</td>
+    <td class="num">6,264</td>
+    <td class="num">110</td>
+    <td class="num">82</td>
+    <td class="num">105</td>
+    <td class="num">45</td>
+    <td class="num">43</td>
+    <td class="num">65</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">412</td>
+  </tr><tr>
+    <td><div class="u"><img src="../assets/img/units/the-green-guardian-terracotta-sentinel.webp" alt="" loading="lazy"><div><b>The Green Guardian (Terracotta Sentinel)</b><small>Monster · Renown</small></div></div></td>
+    <td class="num"><span class="tier">T5</span></td>
+    <td class="num">1</td>
+    <td class="num">12,620</td>
+    <td class="num">100</td>
+    <td class="num">95</td>
+    <td class="num">48</td>
+    <td class="num">78</td>
+    <td class="num">38</td>
+    <td class="num">630</td>
+    <td class="num"><span class="dim">—</span></td>
+    <td class="num">500</td>
+  </tr></tbody>
+      </table></div>
+    </details>
+          <p class="table-note">已排除“扩展名册（extended roster）”单位。数值为 Patch 9.0.4；不同版本可能微调。</p>
+        </section>
+        <section id="build">
+          <h2><span class="kicker">04 / ARMY BUILD</span>配兵思路</h2>
+          <p class="lead">先按角色填槽，再按对手换兵。下面是一个通用的 20 槽骨架，以及用本页推荐兵种拼出的示例。</p>
+          <div class="table-wrap">
+    <table>
+      <thead><tr><th>角色</th><th>建议槽位</th><th>说明</th></tr></thead>
+      <tbody>
+        <tr><td><strong>扛线</strong></td><td>5–6</td><td>持盾 / 重甲步兵，任务是站住，不是杀敌。</td></tr>
+        <tr><td><strong>远程</strong></td><td>3–5</td><td>弓箭、火枪或炮兵；至少 2 队能打重甲。</td></tr>
+        <tr><td><strong>机动</strong></td><td>3–4</td><td>骑兵、战车、飞行单位；包抄、背冲、追逃。</td></tr>
+        <tr><td><strong>巨兽 / 炮兵</strong></td><td>1–3</td><td>破阵、斩将、攻城；别孤军深入。</td></tr>
+        <tr><td><strong>英雄</strong></td><td>1–3</td><td>法师 + 支援英雄，嵌入主力。</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="margin-top:12px"><strong>示例：</strong>4× 玉勇 + 2× 天龙卫队 + 4× 玉勇弩手 + 3× 巨龙马骑兵 + 领主 + 1 英雄，余下 3–4 槽按对手补破甲 / 反大型 / 炮兵。</p>
+          <div class="callout"><span class="callout-label">对手调整</span><p>重甲多带破甲（火枪、大炮、巨斧）；巨兽多带反大型（长戟、弩炮）；鼠人 / 绿皮多带范围伤害（吹息、炮兵、火焰）；骑兵多留 2 队长戟或反大型。不要一套配兵打到底。</p></div>
+        </section>
+        <section id="next">
+          <div class="race-nav">
+            <a class="prev" href="undead-legions.html"><small>上一个派系</small><b>← 亡灵军团</b></a>
+            <a class="next" href="kislev.html"><small>下一个派系</small><b>基斯里夫 →</b></a>
+          </div>
+        </section>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <b>战锤 3 新兵营</b>
+        <p>非官方中文攻略站。游戏素材与数值版权归 Creative Assembly、SEGA 与 Games Workshop 所有。数据读取自游戏数据表，版本更新后以游戏内为准。</p>
+      </div>
+      <div class="footer-col">
+        <h4>攻略</h4>
+        <a href="../campaign.html">战役运营</a>
+        <a href="../battle.html">战斗入门</a>
+        <a href="../factions.html">派系速查</a>
+        <a href="../wiki.html">兵种百科</a>
+        <a href="../glossary.html">术语词典</a>
+      </div>
+      <div class="footer-col">
+        <h4>数据与购买</h4>
+        <a href="../units.html">全局兵种库</a>
+        <a href="../dlc.html">DLC 购买指南</a>
+        <a href="https://twdatabase.com/" target="_blank" rel="noopener">TW Database</a>
+        <a href="https://www.totalwar.com/games/total-war-warhammer-iii/" target="_blank" rel="noopener">官方网站</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>兵种数值：Patch 9.0.4 · Ultra 规模 · 0 级 · 不含科技 / 技能 / 装备加成。</p>
+      <p>Made for new commanders.</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/site.js" defer></script>
+</body>
+</html>

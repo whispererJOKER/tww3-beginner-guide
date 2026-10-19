@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/</loc><priority>1.0</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki.html</loc><priority>0.95</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/units.html</loc><priority>0.9</priority></url>
   <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/campaign.html</loc><priority>0.9</priority></url>
   <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/battle.html</loc><priority>0.9</priority></url>
-  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/factions.html</loc><priority>0.9</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/factions.html</loc><priority>0.85</priority></url>
   <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/dlc.html</loc><priority>0.8</priority></url>
   <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/glossary.html</loc><priority>0.7</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/grand-cathay.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/kislev.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/empire.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/high-elves.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/dwarfs.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/bretonnia.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/tomb-kings.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/lizardmen.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/ogre-kingdoms.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/greenskins.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/dark-elves.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/skaven.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/vampire-counts.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/vampire-coast.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/wood-elves.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/beastmen.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/norsca.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/warriors-of-chaos.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/chaos-dwarfs.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/khorne.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/nurgle.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/slaanesh.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/tzeentch.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/daemons-of-chaos.html</loc><priority>0.75</priority></url>
+  <url><loc>https://whispererjoker.github.io/tww3-beginner-guide/wiki/undead-legions.html</loc><priority>0.75</priority></url>
 </urlset>

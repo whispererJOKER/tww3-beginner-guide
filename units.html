@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全局兵种库 · 战锤 3 百科</title>
+<meta name="description" content="全面战争：战锤 III 全局兵种数据库：按种族、角色、T 级筛选，比较生命、护甲、近攻、近防、武器威力、远程、射程与维护费。">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/logo.jpg">
+</head>
+<body>
+<div id="progress"></div>
+<header class="site-header">
+  <nav class="nav" aria-label="主导航">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><span>III</span></span>
+      <span class="brand-text"><b>战锤 3 新兵营</b><small>TOTAL WAR · WARHAMMER III</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="campaign.html">战役</a></li>
+      <li><a href="battle.html">战斗</a></li>
+      <li><a href="factions.html">派系</a></li>
+      <li><a href="wiki.html" class="active">百科</a></li>
+      <li><a href="dlc.html">DLC</a></li>
+      <li><a href="glossary.html">词典</a></li>
+    </ul>
+    <a class="nav-cta" href="wiki.html">兵种百科</a>
+    <button class="menu-btn" aria-label="打开菜单" aria-expanded="false"><span></span></button>
+  </nav>
+</header>
+<nav class="mobile-nav" aria-label="移动导航">
+  <a href="index.html">首页</a>
+  <a href="campaign.html">战役</a>
+  <a href="battle.html">战斗</a>
+  <a href="factions.html">派系</a>
+  <a href="wiki.html">百科</a>
+  <a href="dlc.html">DLC</a>
+  <a href="glossary.html">词典</a>
+</nav>
+<main>
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('assets/img/shots/shot9.jpg')"></div>
+  <div class="container">
+    <div class="eyebrow"><span class="num">DATABASE</span> 全局兵种库</div>
+    <h1>2000+ 单位，<br><span class="gold">一张表查完。</span></h1>
+    <p class="lede">按种族、角色、T 级筛选；按生命、护甲、武器或维护费排序。数值为 Patch 9.0.4 / Ultra 规模 / 0 级。</p>
+    <div class="page-hero-meta"><span>25 个派系</span><span>Patch 9.0.4</span><span>可排序</span><span>含领主 / 英雄 / 名将团</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <div class="filter-field"><label for="f-race">种族</label><select id="f-race"><option value="">全部种族</option></select></div>
+      <div class="filter-field"><label for="f-cat">角色</label><select id="f-cat">
+        <option value="">全部角色</option>
+        <option value="infantry">步兵</option>
+        <option value="missile">远程</option>
+        <option value="mobile">骑兵 / 机动</option>
+        <option value="monster">巨兽</option>
+        <option value="artillery">炮兵</option>
+        <option value="lord">领主 / 英雄</option>
+        <option value="ror">名将团</option>
+      </select></div>
+      <div class="filter-field"><label for="f-tier">T 级</label><select id="f-tier">
+        <option value="">全部 T 级</option><option value="1">T1</option><option value="2">T2</option><option value="3">T3</option><option value="4">T4</option><option value="5">T5</option>
+      </select></div>
+      <div class="filter-field"><label for="f-sort">排序</label><select id="f-sort">
+        <option value="name">名称</option><option value="hp">生命</option><option value="armour">护甲</option><option value="ws">武器威力</option><option value="upkeep">维护费</option>
+      </select></div>
+      <div class="filter-field grow"><label for="f-q">搜索</label><input id="f-q" type="search" placeholder="英文名 / 中文种族 / 类型"></div>
+    </div>
+    <div class="unit-count" id="unit-count">加载中…</div>
+    <div class="table-wrap">
+      <table class="unit-table">
+        <thead><tr><th>兵种</th><th>种族</th><th>类型</th><th class="num">T</th><th class="num">兵模</th><th class="num">生命</th><th class="num">护甲</th><th class="num">领导</th><th class="num">速度</th><th class="num">近攻</th><th class="num">近防</th><th class="num">武器</th><th class="num">远程 / 射程</th><th class="num">维护</th></tr></thead>
+        <tbody id="unit-rows"></tbody>
+      </table>
+    </div>
+    <div class="pager">
+      <button id="prev" type="button">← 上一页</button>
+      <span id="page-info"></span>
+      <button id="next" type="button">下一页 →</button>
+    </div>
+    <p class="table-note">数值为 Patch 9.0.4 / Ultra 规模 / 0 级，不含科技、技能、装备与战场增益。名将团（RoR）与扩展名册单位也收录在内，方便比较。</p>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <b>战锤 3 新兵营</b>
+        <p>非官方中文攻略站。游戏素材与数值版权归 Creative Assembly、SEGA 与 Games Workshop 所有。数据读取自游戏数据表，版本更新后以游戏内为准。</p>
+      </div>
+      <div class="footer-col">
+        <h4>攻略</h4>
+        <a href="campaign.html">战役运营</a>
+        <a href="battle.html">战斗入门</a>
+        <a href="factions.html">派系速查</a>
+        <a href="wiki.html">兵种百科</a>
+        <a href="glossary.html">术语词典</a>
+      </div>
+      <div class="footer-col">
+        <h4>数据与购买</h4>
+        <a href="units.html">全局兵种库</a>
+        <a href="dlc.html">DLC 购买指南</a>
+        <a href="https://twdatabase.com/" target="_blank" rel="noopener">TW Database</a>
+        <a href="https://www.totalwar.com/games/total-war-warhammer-iii/" target="_blank" rel="noopener">官方网站</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>兵种数值：Patch 9.0.4 · Ultra 规模 · 0 级 · 不含科技 / 技能 / 装备加成。</p>
+      <p>Made for new commanders.</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/data/units-data.js"></script>
+<script src="assets/js/units.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
