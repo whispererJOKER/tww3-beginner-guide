@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>战斗篇 · 战锤 3 新兵营</title>
+<meta name="description" content="全面战争：战锤 III 战斗攻略：属性、兵种克制、阵型、魔法、攻城与操作设置。">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/logo.jpg">
+</head>
+<body>
+<div id="progress"></div>
+
+<header class="site-header">
+  <nav class="nav" aria-label="主导航">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><span>III</span></span>
+      <span class="brand-text"><b>战锤 3 新兵营</b><small>TOTAL WAR · WARHAMMER III</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="campaign.html">战役</a></li>
+      <li><a href="battle.html" class="active">战斗</a></li>
+      <li><a href="factions.html">派系</a></li>
+      <li><a href="dlc.html">DLC</a></li>
+      <li><a href="glossary.html">词典</a></li>
+    </ul>
+    <a class="nav-cta" href="factions.html">下一章：派系</a>
+    <button class="menu-btn" aria-label="打开菜单" aria-expanded="false"><span></span></button>
+  </nav>
+</header>
+<nav class="mobile-nav" aria-label="移动导航">
+  <a href="index.html">首页</a>
+  <a href="campaign.html">战役</a>
+  <a href="battle.html">战斗</a>
+  <a href="factions.html">派系</a>
+  <a href="dlc.html">DLC</a>
+  <a href="glossary.html">词典</a>
+</nav>
+
+<main>
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('assets/img/shots/shot1.jpg')"></div>
+  <div class="container">
+    <div class="eyebrow"><span class="num">BATTLE</span> 战斗篇</div>
+    <h1>少死人，<br>才算赢。</h1>
+    <p class="lede">战锤 3 的战斗不是“把兵框起来 A 上去”。阵型、地形、体力、士气和法术，都会改变结果。这一章从属性表讲到攻城，目标是让你用更少的战损赢下同样的仗。</p>
+    <div class="page-hero-meta">
+      <span>战前决策</span><span>属性与克制</span><span>阵型</span><span>魔法</span><span>攻城</span><span>设置</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="doc">
+      <aside class="toc" aria-label="本页目录">
+        <div class="toc-title">本页目录</div>
+        <a href="#before">战前决策</a>
+        <a href="#stats">属性表</a>
+        <a href="#roles">兵种角色与克制</a>
+        <a href="#formations">四种阵型</a>
+        <a href="#phases">战斗流程</a>
+        <a href="#magic">魔法之风</a>
+        <a href="#siege">攻城战</a>
+        <a href="#survival">生存战</a>
+        <a href="#settings">操作与设置</a>
+        <a href="#mistakes">常见战斗错误</a>
+      </aside>
+
+      <article class="article">
+        <section id="before">
+          <h2><span class="kicker">01 / BEFORE THE BATTLE</span>战前决策：打不打，怎么打</h2>
+          <p class="lead">战斗的胜负，很多时候在开打前就决定了。先看战力对比，再看援军、地形和补给，最后才决定手动还是自动。</p>
+
+          <figure class="figure">
+            <img src="assets/img/shots/shot5.jpg" alt="森林中的混沌军队" loading="lazy">
+            <figcaption>森林、隘口、雪地和河流都会改变射界、冲锋空间与体力消耗。开打前先看地形，别把骑兵塞进树林。</figcaption>
+          </figure>
+
+          <h3>战力对比条只能参考</h3>
+          <p>战前界面会给出一个胜负预估条。它只计算数值，不考虑地形、法术、阵型、体力和操作。所以：</p>
+          <ul>
+            <li><strong>优势明显：</strong>可以自动，节省时间。但如果是关键战、攻城战、敌方有传奇领主，建议手动。</li>
+            <li><strong>势均力敌：</strong>手动往往能打出更好的战损。利用地形、法术和包抄。</li>
+            <li><strong>明显劣势：</strong>先想能不能不打：撤退、伏击、等援军、断补给。实在要打，就选隘口、城防或伏击地形。</li>
+          </ul>
+
+          <h3>开打前检查五件事</h3>
+          <div class="steps">
+            <div class="step"><div class="n"></div><div><h3>援军</h3><p>敌方有没有援军？在谁的领土？援军从哪个方向来？如果你的侧翼正对援军入口，开打前就要调整阵型。</p></div></div>
+            <div class="step"><div class="n"></div><div><h3>地形</h3><p>山坡、森林、河流、隘口、城墙。远程站高处有射程和命中优势；森林能藏兵；隘口能让数量优势失效。</p></div></div>
+            <div class="step"><div class="n"></div><div><h3>体力与弹药</h3><p>强行军、爬墙、长时间追逐都会掉体力。炮兵和远程的弹药有限，别在开局就浪费在盾兵上。</p></div></div>
+            <div class="step"><div class="n"></div><div><h3>法术与装备</h3><p>法师带了什么法术？领主有没有治疗 / 召唤 / 范围增益？关键战前把物品和技能检查一遍。</p></div></div>
+            <div class="step"><div class="n"></div><div><h3>撤退路线</h3><p>打输了往哪退？会不会被追死？如果后退就是敌方主力，宁可守地形，也不要站在开阔地被包。</p></div></div>
+          </div>
+        </section>
+
+        <section id="stats">
+          <h2><span class="kicker">02 / STATS</span>属性表：每个数字在说什么</h2>
+          <p class="lead">单位面板很长，但真正影响战斗的就那十几个。先理解这些，再去看兵种排名。</p>
+
+          <figure class="figure">
+            <img src="assets/img/shots/shot14.jpg" alt="战锤 3 角色属性面板" loading="lazy">
+            <figcaption>角色面板：护甲、领导力、速度、近攻、近防、武器威力、冲锋加成都在左侧。右侧是部位与技能，决定这个角色能扛什么、怕什么。</figcaption>
+          </figure>
+
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>属性</th><th>作用</th><th>怎么利用 / 怎么克制</th></tr></thead>
+              <tbody>
+                <tr><td><strong>护甲</strong></td><td>按比例减免非破甲伤害，上限约 75%</td><td>高护甲怕破甲；用火炮、火枪、大剑处理</td></tr>
+                <tr><td><strong>破甲</strong></td><td>无视护甲的伤害部分</td><td>反重甲、反巨兽的核心；看武器面板的“破甲”数值</td></tr>
+                <tr><td><strong>近战攻击</strong></td><td>命中率</td><td>高近攻适合切低近防的远程 / 法师</td></tr>
+                <tr><td><strong>近战防御</strong></td><td>闪避近战</td><td>只对近战有效；对远程无效，别拿高近防兵去送箭</td></tr>
+                <tr><td><strong>冲锋加成</strong></td><td>冲锋后短时间加近攻与伤害</td><td>骑兵 / 战车 / 巨兽冲完要拉出来再冲，不要站桩</td></tr>
+                <tr><td><strong>武器威力</strong></td><td>每次命中的基础伤害</td><td>分普通与破甲；两项都看，别只看总数</td></tr>
+                <tr><td><strong>远程威力</strong></td><td>每次射击的伤害</td><td>还要看射程、弹道、射速和命中</td></tr>
+                <tr><td><strong>射程</strong></td><td>开火距离</td><td>炮兵 > 弓箭 > 火枪；火枪短但破甲高</td></tr>
+                <tr><td><strong>士气 / 领导力</strong></td><td>坚持战斗的意志</td><td>侧翼被包、将领阵亡、友军溃逃都会掉士气；优先打崩关键单位</td></tr>
+                <tr><td><strong>体力</strong></td><td>疲劳度</td><td>奔跑、爬墙、持久战会掉；疲劳降低攻防和速度，战前别让军队强行军</td></tr>
+                <tr><td><strong>物理抗性</strong></td><td>减免非魔法伤害</td><td>用魔法攻击 / 法术对付</td></tr>
+                <tr><td><strong>魔法抗性</strong></td><td>减免魔法伤害</td><td>用普通武器对付；别把法师全砸在它身上</td></tr>
+                <tr><td><strong>守护</strong></td><td>全伤害减免</td><td>领主 / 英雄的关键生存属性，优先堆</td></tr>
+                <tr><td><strong>远程格挡</strong></td><td>持盾正面格挡远程</td><td>侧射 / 背射无视；绕后射盾兵</td></tr>
+                <tr><td><strong>大型单位</strong></td><td>巨兽、骑兵、战车</td><td>被“反大型”克制；也更容易被集火</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-note">不同版本可能微调公式；原则不变：破甲打重甲，反大型打巨兽，魔法打物抗，普通打魔抗。</p>
+        </section>
+
+        <section id="roles">
+          <h2><span class="kicker">03 / ROLES</span>兵种角色与克制</h2>
+          <p class="lead">没有无敌的兵种，只有没被针对的兵种。先记住每个角色“吃什么”，再谈配兵。</p>
+
+          <figure class="figure">
+            <img src="assets/img/shots/shot11.jpg" alt="纳垢巨兽与瘟疫大军" loading="lazy">
+            <figcaption>巨兽和怪步能撕开阵线，但会被长戟、反大型和集火克制。别让一只巨兽单挑一整条战线。</figcaption>
+          </figure>
+
+          <div class="diagram">
+            <svg viewBox="0 0 900 480" role="img" aria-label="兵种克制关系图">
+              <defs>
+                <marker id="arrowRed" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#f08a7a"/></marker>
+                <marker id="arrowGold" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#e7c987"/></marker>
+              </defs>
+              <circle cx="450" cy="240" r="190" fill="none" stroke="#e7c987" stroke-opacity=".18" stroke-dasharray="4 7"/>
+              <g font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" text-anchor="middle">
+                <!-- nodes -->
+                <g><rect x="380" y="28" width="140" height="46" fill="#171410" stroke="#e7c987"/><text x="450" y="57" fill="#e7c987" font-size="14">远程 / 炮兵</text></g>
+                <g><rect x="690" y="145" width="140" height="46" fill="#171410" stroke="#e7c987"/><text x="760" y="174" fill="#e7c987" font-size="14">骑兵 / 机动</text></g>
+                <g><rect x="690" y="300" width="140" height="46" fill="#171410" stroke="#e7c987"/><text x="760" y="329" fill="#e7c987" font-size="14">巨兽 / 单体</text></g>
+                <g><rect x="380" y="405" width="140" height="46" fill="#171410" stroke="#e7c987"/><text x="450" y="434" fill="#e7c987" font-size="14">步兵 / 扛线</text></g>
+                <g><rect x="70" y="300" width="140" height="46" fill="#171410" stroke="#e7c987"/><text x="140" y="329" fill="#e7c987" font-size="14">长戟 / 反大型</text></g>
+                <g><rect x="70" y="145" width="140" height="46" fill="#171410" stroke="#e7c987"/><text x="140" y="174" fill="#e7c987" font-size="14">法师 / 英雄</text></g>
+
+                <!-- arrows -->
+                <path d="M700 170 C620 200 560 220 520 235" fill="none" stroke="#f08a7a" stroke-width="2" marker-end="url(#arrowRed)"/>
+                <text x="610" y="195" fill="#e6a093" font-size="11">切后排</text>
+
+                <path d="M740 300 C700 270 660 240 620 220" fill="none" stroke="#f08a7a" stroke-width="2" marker-end="url(#arrowRed)"/>
+                <text x="700" y="255" fill="#e6a093" font-size="11">冲远程</text>
+
+                <path d="M690 330 C620 360 570 390 525 410" fill="none" stroke="#e7c987" stroke-width="2" marker-end="url(#arrowGold)"/>
+                <text x="620" y="370" fill="#e7c987" font-size="11">踩步兵</text>
+
+                <path d="M380 420 C300 400 240 370 200 330" fill="none" stroke="#e7c987" stroke-width="2" marker-end="url(#arrowGold)"/>
+                <text x="285" y="400" fill="#e7c987" font-size="11">反大型</text>
+
+                <path d="M140 300 C180 260 230 235 290 220" fill="none" stroke="#9fd4e8" stroke-width="2" marker-end="url(#arrowGold)"/>
+                <text x="195" y="270" fill="#a9d3e5" font-size="11">法术爆发</text>
+
+                <path d="M300 180 C350 170 390 165 430 165" fill="none" stroke="#f08a7a" stroke-width="2" marker-end="url(#arrowRed)"/>
+                <text x="365" y="155" fill="#e6a093" font-size="11">点杀</text>
+              </g>
+            </svg>
+            <p class="diagram-cap">核心循环：骑兵切远程，长戟反骑兵 / 巨兽，远程磨步兵，巨兽踩步兵，法术点杀关键单位。</p>
+          </div>
+
+          <div class="grid grid-2">
+            <div>
+              <h3>扛线步兵</h3>
+              <p>持盾、重甲、高近防。任务是<b>站住</b>，不是杀敌。让它们先接敌，给远程和法师争取时间。怕破甲、怕法术、怕被包。</p>
+              <h3>远程与炮兵</h3>
+              <p>输出核心，但脆、怕骑兵、怕绕后。每 2–3 队远程至少配 1 队保护。炮兵射程远、破甲高，攻城时优先带。</p>
+              <h3>骑兵与战车</h3>
+              <p>包抄、背冲、追逃、切炮兵。冲锋后要拉出来再冲，站桩肉搏是浪费。怕长戟、怕密集阵、怕隘口。</p>
+            </div>
+            <div>
+              <h3>巨兽与单体</h3>
+              <p>血量高、输出集中，适合破阵和斩将。但会被长戟 / 反大型集火，别孤军深入。单体巨兽要配合步兵，别一个人冲进人堆。</p>
+              <h3>长戟 / 反大型</h3>
+              <p>专门处理骑兵、巨兽和战车。近防通常一般，需要后排远程支援。放在阵线两侧，专门等对面冲锋。</p>
+              <h3>法师与英雄</h3>
+              <p>法术是倍率器。一个吹息烧掉半队步兵，一个治疗救回前排。站位在后排，别被刺客 / 骑兵摸到。</p>
+            </div>
+          </div>
+        </section>
+
+<section id="formations">
+  <h2><span class="kicker">04 / FORMATIONS</span>四种阵型，够你用很久</h2>
+  <p class="lead">阵型的唯一目的：让前排挡住、远程活着、机动能绕后。下面四种是基础模板，按地形和对手微调。</p>
+
+  <div data-tabs>
+    <div class="tabs">
+      <button class="tab active" data-tab="f-line">线列</button>
+      <button class="tab" data-tab="f-checker">棋盘</button>
+      <button class="tab" data-tab="f-refused">斜线 / 拒止侧翼</button>
+      <button class="tab" data-tab="f-pocket">口袋</button>
+    </div>
+
+    <div class="tab-panel active" id="f-line">
+      <div class="diagram">
+        <svg viewBox="0 0 760 300" role="img" aria-label="线列阵型">
+          <g font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="11">
+            <text x="380" y="24" text-anchor="middle" fill="#a99d89" letter-spacing="2">ENEMY</text>
+            <g fill="#8f3a32" stroke="#f08a7a">
+              <rect x="180" y="40" width="70" height="18"/><rect x="260" y="40" width="70" height="18"/><rect x="340" y="40" width="70" height="18"/><rect x="420" y="40" width="70" height="18"/><rect x="500" y="40" width="70" height="18"/>
+            </g>
+            <g fill="#2f6b7d" stroke="#9fd4e8">
+              <rect x="150" y="140" width="80" height="22"/><rect x="238" y="140" width="80" height="22"/><rect x="326" y="140" width="80" height="22"/><rect x="414" y="140" width="80" height="22"/><rect x="502" y="140" width="80" height="22"/>
+            </g>
+            <g fill="#24505c" stroke="#9fd4e8">
+              <rect x="210" y="195" width="70" height="18"/><rect x="288" y="195" width="70" height="18"/><rect x="366" y="195" width="70" height="18"/><rect x="444" y="195" width="70" height="18"/>
+            </g>
+            <g fill="#7a5f2a" stroke="#e7c987">
+              <rect x="70" y="150" width="44" height="18"/><rect x="626" y="150" width="44" height="18"/>
+            </g>
+            <text x="380" y="255" text-anchor="middle" fill="#9fd4e8">前排 · 远程 · 两翼机动</text>
+            <text x="92" y="138" fill="#e7c987">骑兵</text><text x="648" y="138" fill="#e7c987">骑兵</text>
+            <text x="380" y="285" text-anchor="middle" fill="#a99d89">正面接敌，远程在后方输出，骑兵等对面先动。</text>
+          </g>
+        </svg>
+        <p class="diagram-cap">最稳的默认阵型。适合大多数情况，尤其是你不知道对面会怎么打。</p>
+      </div>
+      <p><strong>怎么用：</strong>前排拉成一条线，留一点间隙让远程射击；远程放在前排后方，开启防御模式；骑兵放在两翼，先藏好，等敌方骑兵或远程暴露再动。</p>
+    </div>
+
+    <div class="tab-panel" id="f-checker">
+      <div class="diagram">
+        <svg viewBox="0 0 760 300" role="img" aria-label="棋盘阵型">
+          <g font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="11">
+            <g fill="#8f3a32" stroke="#f08a7a">
+              <rect x="270" y="38" width="70" height="18"/><rect x="350" y="38" width="70" height="18"/><rect x="430" y="38" width="70" height="18"/>
+            </g>
+            <g fill="#2f6b7d" stroke="#9fd4e8">
+              <rect x="180" y="125" width="70" height="22"/><rect x="300" y="125" width="70" height="22"/><rect x="420" y="125" width="70" height="22"/><rect x="540" y="125" width="70" height="22"/>
+              <rect x="240" y="175" width="70" height="22"/><rect x="360" y="175" width="70" height="22"/><rect x="480" y="175" width="70" height="22"/>
+            </g>
+            <g fill="#24505c" stroke="#9fd4e8">
+              <rect x="210" y="225" width="60" height="16"/><rect x="320" y="225" width="60" height="16"/><rect x="430" y="225" width="60" height="16"/><rect x="540" y="225" width="60" height="16"/>
+            </g>
+            <text x="380" y="272" text-anchor="middle" fill="#9fd4e8">交错前排，留出射界</text>
+            <text x="380" y="292" text-anchor="middle" fill="#a99d89">远程可以从间隙射击，敌人却很难直接冲进来。</text>
+          </g>
+        </svg>
+        <p class="diagram-cap">棋盘阵：前排交错摆放，给直射单位留射界，同时阻挡敌方冲锋。</p>
+      </div>
+      <p><strong>怎么用：</strong>把前排分成两排交错，像棋盘。直射火枪 / 弩手放在间隙后方。它比线列更难被骑兵穿透，但需要手动调整，别让前排互相挡射界。</p>
+    </div>
+
+    <div class="tab-panel" id="f-refused">
+      <div class="diagram">
+        <svg viewBox="0 0 760 300" role="img" aria-label="斜线阵型">
+          <g font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="11">
+            <g fill="#8f3a32" stroke="#f08a7a">
+              <rect x="210" y="42" width="70" height="18"/><rect x="300" y="42" width="70" height="18"/><rect x="390" y="42" width="70" height="18"/><rect x="480" y="42" width="70" height="18"/>
+            </g>
+            <g fill="#2f6b7d" stroke="#9fd4e8">
+              <rect x="420" y="130" width="80" height="22"/><rect x="500" y="150" width="80" height="22"/><rect x="580" y="170" width="80" height="22"/>
+            </g>
+            <g fill="#24505c" stroke="#9fd4e8">
+              <rect x="470" y="210" width="70" height="16"/><rect x="550" y="230" width="70" height="16"/>
+            </g>
+            <g fill="#7a5f2a" stroke="#e7c987">
+              <rect x="150" y="150" width="60" height="20"/><rect x="640" y="220" width="50" height="18"/>
+            </g>
+            <path d="M120 205 C220 200 300 190 390 170" fill="none" stroke="#a99d89" stroke-width="1.5" stroke-dasharray="5 6"/>
+            <text x="270" y="195" fill="#a99d89">拒止 / 诱敌</text>
+            <text x="380" y="278" text-anchor="middle" fill="#e7c987">强翼前压，弱翼后撤，把战斗变成局部多打少。</text>
+          </g>
+        </svg>
+        <p class="diagram-cap">斜线阵：放弃一侧，集中兵力打穿另一侧。适合兵力少、需要快速解决战斗。</p>
+      </div>
+      <p><strong>怎么用：</strong>把精锐和骑兵集中在一翼，另一翼用少量部队拖住。先打崩弱侧，再包抄敌方主力。风险是弱翼可能崩得太快，需要地形或要塞支撑。</p>
+    </div>
+
+    <div class="tab-panel" id="f-pocket">
+      <div class="diagram">
+        <svg viewBox="0 0 760 300" role="img" aria-label="口袋阵型">
+          <g font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="11">
+            <g fill="#8f3a32" stroke="#f08a7a">
+              <rect x="300" y="58" width="70" height="18"/><rect x="380" y="58" width="70" height="18"/>
+            </g>
+            <g fill="#2f6b7d" stroke="#9fd4e8">
+              <rect x="210" y="120" width="60" height="120"/><rect x="540" y="120" width="60" height="120"/>
+              <rect x="280" y="210" width="70" height="22"/><rect x="360" y="210" width="70" height="22"/><rect x="440" y="210" width="70" height="22"/>
+            </g>
+            <g fill="#7a5f2a" stroke="#e7c987">
+              <rect x="120" y="150" width="40" height="18"/><rect x="650" y="150" width="40" height="18"/>
+            </g>
+            <path d="M380 95 L380 155" stroke="#f08a7a" stroke-width="1.5" stroke-dasharray="4 4"/>
+            <text x="380" y="270" text-anchor="middle" fill="#e7c987">中央后退诱敌，两翼合拢，骑兵封口。</text>
+          </g>
+        </svg>
+        <p class="diagram-cap">口袋阵：中央故意后退，把敌人放进 U 形，两翼和骑兵合围。</p>
+      </div>
+      <p><strong>怎么用：</strong>需要敌人主动进攻，且你有足够机动封口。中央用扛线兵拖住，两翼预先摆好，骑兵藏在后方。合围后优先打崩士气，别让敌人从缺口跑掉。</p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <span class="callout-label">无论什么阵型</span>
+    <p>留一支预备队。把所有兵一次性压上去，赢了也只是惨胜；留 2–3 队机动，才能在侧翼崩的时候救场，或者追击时扩大战果。</p>
+  </div>
+</section>
+
+<section id="phases">
+  <h2><span class="kicker">05 / BATTLE FLOW</span>战斗流程：五个阶段</h2>
+  <p class="lead">战斗不是一波冲锋。它通常分成五个阶段，每个阶段的目标不同。</p>
+  <div class="grid grid-3" style="margin-bottom:18px">
+    <div class="card"><div class="card-num">阶段一</div><h3>部署</h3><p>看地形，摆阵型，藏骑兵，法师放后排。远程站高处，前排面向敌方主力，预留撤退路线。</p></div>
+    <div class="card"><div class="card-num">阶段二</div><h3>前哨</h3><p>远程开始对射，骑兵试探。优先点杀敌方炮兵、法师和轻骑兵。不要为了一个人头把阵型拉散。</p></div>
+    <div class="card"><div class="card-num">阶段三</div><h3>接敌</h3><p>前排接触，法术和范围伤害进场。用长戟接骑兵，用巨兽踩步兵，远程集火关键单位。</p></div>
+    <div class="card"><div class="card-num">阶段四</div><h3>包抄</h3><p>骑兵绕后，背冲远程和炮兵。侧翼一崩，敌方士气会连锁下降。优先打崩最弱的一翼。</p></div>
+    <div class="card"><div class="card-num">阶段五</div><h3>追逃</h3><p>溃逃单位会被追杀歼灭。用骑兵和猎犬追，别用步兵追。注意别追出阵型，被敌方预备队反打。</p></div>
+    <div class="card"><div class="card-num">贯穿全程</div><h3>看士气</h3><p>战锤的胜负往往不是“杀光”，而是“打崩”。斩将、背冲、侧射、包抄都能快速削士气。</p></div>
+  </div>
+
+  <div class="callout callout--ice">
+    <span class="callout-label">一个很关键的微操习惯</span>
+    <p>骑兵 / 战车 / 巨兽冲锋后，<strong>等 3–5 秒再拉出来</strong>，让冲锋加成打满，但不要站桩肉搏。反复冲锋的伤害，远高于一直贴在敌人身上。</p>
+  </div>
+</section>
+
+<section id="magic">
+  <h2><span class="kicker">06 / MAGIC</span>魔法之风：法术不是装饰</h2>
+  <p class="lead">战锤 3 的魔法系统比前作更强调“资源管理”。你不是无限放法术，而是在正确的时间花掉有限的法力。</p>
+
+  <figure class="figure">
+    <img src="assets/img/shots/shot10.jpg" alt="奸奇领域中的魔法风暴" loading="lazy">
+    <figcaption>魔法之风是资源，不是特效。储量决定续航，充能决定节奏，过载决定你敢不敢赌。</figcaption>
+  </figure>
+
+  <h3>三个数字</h3>
+  <div class="grid grid-3" style="margin:1.4em 0">
+    <div class="card"><div class="card-num">当前值</div><h3>现在能放什么</h3><p>屏幕下方的魔法之风条。施法立即消耗，决定你这一刻能不能放关键法术。</p></div>
+    <div class="card"><div class="card-num">储量</div><h3>还能撑多久</h3><p>后备池。长时间战斗里，储量比当前值更重要；带加储量的技能 / 装备很值。</p></div>
+    <div class="card"><div class="card-num">充能</div><h3>回得多快</h3><p>每回合 / 每秒回复速度。受派系、地形、技能和腐蚀影响。充能高，可以打消耗战。</p></div>
+  </div>
+
+  <h3>过载：值得赌，但别乱赌</h3>
+  <p>过载会消耗更多法力强化法术，但有失败概率，失败会反噬。关键法术（关键治疗、关键吹息、关键召唤）值得赌；清杂兵不必。新手先不用过载，熟悉后再用。</p>
+
+  <h3>法术类型</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>类型</th><th>作用</th><th>什么时候用</th></tr></thead>
+      <tbody>
+        <tr><td><strong>吹息 / 锥形</strong></td><td>范围伤害，烧密集阵型</td><td>敌方步兵挤在一起、刚接敌时</td></tr>
+        <tr><td><strong>直接伤害</strong></td><td>不依赖武器伤害，稳定扣血</td><td>点杀高护甲巨兽、领主、炮兵</td></tr>
+        <tr><td><strong>增益</strong></td><td>加攻防、士气、速度、抗性</td><td>接敌前给前排，冲锋前给骑兵</td></tr>
+        <tr><td><strong>减益</strong></td><td>降攻防、士气、速度</td><td>敌方主力接敌前，配合包抄</td></tr>
+        <tr><td><strong>治疗</strong></td><td>回血、复活兵模</td><td>前排扛不住、领主快死时</td></tr>
+        <tr><td><strong>召唤</strong></td><td>临时单位</td><td>挡枪、偷点、拖住援军、骗法术</td></tr>
+        <tr><td><strong>光环</strong></td><td>持续范围效果</td><td>长时间站桩战、保护后排</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>法术系速查</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>法术系</th><th>强项</th><th>适合</th></tr></thead>
+      <tbody>
+        <tr><td><strong>火焰</strong></td><td>范围伤害、吹息、爆发</td><td>清密集步兵、烧绿皮 / 鼠人</td></tr>
+        <tr><td><strong>生命</strong></td><td>治疗、复活、抗性</td><td>前排肉搏、巨兽、持久战</td></tr>
+        <tr><td><strong>死亡</strong></td><td>单体伤害、士气打击</td><td>斩将、点杀巨兽</td></tr>
+        <tr><td><strong>阴影</strong></td><td>减益、直接伤害、传送</td><td>削弱敌方主力、切后排</td></tr>
+        <tr><td><strong>光明</strong></td><td>增益、网、放逐</td><td>辅助前排、控制关键单位</td></tr>
+        <tr><td><strong>野兽</strong></td><td>增益、召唤、速度</td><td>骑兵 / 巨兽冲锋、临时挡枪</td></tr>
+        <tr><td><strong>天堂</strong></td><td>闪电、彗星、反大型</td><td>打密集阵、巨兽、炮兵</td></tr>
+        <tr><td><strong>金属</strong></td><td>反重甲、增益</td><td>打矮人、混沌勇士、重甲骑兵</td></tr>
+        <tr><td><strong>冰雪（基斯里夫）</strong></td><td>减速、范围伤害、控制</td><td>拖住冲锋、保护远程</td></tr>
+        <tr><td><strong>纳垢 / 吸血鬼 / 奸奇</strong></td><td>持续伤害、治疗、召唤、随机效果</td><td>对应派系的主题玩法</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout-label">法师最常见的死法</span>
+    <p>站得太靠前，被骑兵 / 飞行单位 / 刺客摸到。法师的站位应该在<strong>前排后方、远程旁边</strong>，并且随时准备后撤。法术放完不要站在原地看戏。</p>
+  </div>
+</section>
+
+<section id="siege">
+  <h2><span class="kicker">07 / SIEGE</span>攻城战：先拆塔，再进城</h2>
+  <p class="lead">攻城是新手战损最高的地方。记住一句话：<strong>攻城战最大的伤害来源不是守军，是塔楼。</strong>先解决塔楼和城门，再谈占点。</p>
+
+  <figure class="figure">
+    <img src="assets/img/shots/shot8.jpg" alt="恐虐要塞攻城战场面" loading="lazy">
+    <figcaption>攻城战的核心是节奏：拆塔、破门、占补给点、逼守军野战。不要一上来就把步兵往城墙上送。</figcaption>
+  </figure>
+
+  <h3>进攻方：六步流程</h3>
+  <div class="steps">
+    <div class="step"><div class="n"></div><div><h3>围城，先看守军和补给</h3><p>围城会切断收入、阻止补员，并让守军逐渐减员。如果守军很强，围几回合逼他出城野战，比强攻划算。</p></div></div>
+    <div class="step"><div class="n"></div><div><h3>造攻城器械 / 带炮兵</h3><p>有炮兵或巨兽可以直接拆墙拆塔；没有就造撞门锤和攻城塔。云梯只适合牵制，不适合主攻。</p></div></div>
+    <div class="step"><div class="n"></div><div><h3>部署：主攻一个方向</h3><p>选一个塔楼少、城墙矮、守军薄弱的方向主攻。其他方向放少量部队牵制，别把兵力摊薄。</p></div></div>
+    <div class="step"><div class="n"></div><div><h3>拆塔 / 破门</h3><p>炮兵优先点塔楼，火枪 / 弓箭压制城墙守军。撞门锤破门后，骑兵和巨兽才能进城。</p></div></div>
+    <div class="step"><div class="n"></div><div><h3>占补给点</h3><p>攻方占领补给点会切断守方防御补给，并摧毁附近工事。这是比杀人更快的胜利方式。</p></div></div>
+    <div class="step"><div class="n"></div><div><h3>占胜利点 / 清守军</h3><p>胜利点需要站住倒计时。守方可以夺回中断。留一队兵守点，主力清援军。</p></div></div>
+  </div>
+
+  <h3>防守方：用补给拖死他</h3>
+  <ul>
+    <li><strong>开局先建塔和路障。</strong>准备阶段建造不花时间，别等打起来才造。</li>
+    <li><strong>塔楼优先建在敌军必经之路。</strong>魔法 / 爆炸塔伤害高，但贵；前期箭塔够用。</li>
+    <li><strong>路障堵口，不要堵死自己的射界。</strong>平台加射程，适合放远程；陷阱放侧翼。</li>
+    <li><strong>补给点要守。</strong>丢了补给点，附近工事会被摧毁，防线会连锁崩溃。</li>
+    <li><strong>不要把所有兵放城墙。</strong>城墙被突破后，守军会被分割。留预备队在城内。</li>
+  </ul>
+
+  <h3>攻城器械速查</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>器械</th><th>作用</th><th>缺点</th></tr></thead>
+      <tbody>
+        <tr><td><strong>撞门锤</strong></td><td>撞开城门，让骑兵 / 巨兽进城</td><td>慢，怕火和塔楼</td></tr>
+        <tr><td><strong>云梯</strong></td><td>步兵快速上墙</td><td>爬墙耗体力，无保护，容易被白打</td></tr>
+        <tr><td><strong>攻城塔</strong></td><td>保护步兵上墙</td><td>很脆，被摧毁时里面部队损失惨重</td></tr>
+        <tr><td><strong>炮兵 / 巨兽</strong></td><td>直接拆墙、拆塔</td><td>需要保护，怕骑兵</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--ice">
+    <span class="callout-label">最省战损的攻城方式</span>
+    <p>如果守军没有援军，<strong>围城逼降</strong>或<strong>围城打援</strong>往往比强攻更好。围几回合，守军会减员；如果敌方援军来救，你就在城外野战，避开城墙和塔楼。</p>
+  </div>
+</section>
+
+<section id="survival">
+  <h2><span class="kicker">08 / SURVIVAL</span>生存战：混沌魔域的马拉松</h2>
+  <p class="lead">生存战是混沌魔域战役里的特殊战斗。你要在三个区域依次占领补给点、顶住多波敌人，最后击败领域 Boss。它更像塔防 + 波次战，而不是普通遭遇战。</p>
+
+  <h3>核心循环</h3>
+  <div class="steps">
+    <div class="step"><div class="n"></div><div><h3>占领第一个区域</h3><p>清掉初始敌人，占领补给点。补给点每秒产出资源，用来建塔、路障、招募援军和买增益。</p></div></div>
+    <div class="step"><div class="n"></div><div><h3>建塔，堵口</h3><p>敌人会直奔占领点，常常不理旁边的塔。把塔建在必经之路，用路障把敌人堵在塔的火力范围内。</p></div></div>
+    <div class="step"><div class="n"></div><div><h3>顶住波次</h3><p>每波敌人会越来越多。用步兵堵口、炮兵 / 魔法塔输出，法师放范围伤害。不要把所有兵派出去追残兵。</p></div></div>
+    <div class="step"><div class="n"></div><div><h3>招募援军 / 买增益</h3><p>补给点也可以用来招募当前派系的单位、买治疗 / 抗性 / 魔法之风增益。关键时刻补一队兵，比多造一座塔有用。</p></div></div>
+    <div class="step"><div class="n"></div><div><h3>推进到下一区域</h3><p>三个区域依次推进。每推进一个区域，补给点和敌人强度都会变化。别把资源全花在第一区域。</p></div></div>
+    <div class="step"><div class="n"></div><div><h3>Boss 战</h3><p>最后会出现领域 Boss。提前留好补给、治疗和召唤，集中火力斩将。Boss 死后还要清掉剩余波次。</p></div></div>
+  </div>
+
+  <div class="callout callout--warn">
+    <span class="callout-label">生存战的两个坑</span>
+    <p><strong>一是时间太长：</strong>一场可能 40–60 分钟，中途不能存档。开打前留足时间。<strong>二是把兵撒得太开：</strong>生存战是堵口战，不是野战。集中兵力守住补给点，比到处追敌人有效。</p>
+  </div>
+</section>
+
+<section id="settings">
+  <h2><span class="kicker">09 / CONTROLS &amp; SETTINGS</span>操作与设置：让游戏更听话</h2>
+  <p class="lead">很多“操作不过来”的问题，其实是设置不对。下面这些改完，手感会明显不同。</p>
+
+  <h3>关键设置</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>设置</th><th>推荐</th><th>原因</th></tr></thead>
+      <tbody>
+        <tr><td><strong>默认规避近战</strong></td><td>关闭</td><td>远程被靠近会自动逃跑，阵型会散。需要时手动开。</td></tr>
+        <tr><td><strong>默认防御模式</strong></td><td>远程开，近战关</td><td>远程不会追出射程；近战能主动追击。</td></tr>
+        <tr><td><strong>部队规模</strong></td><td>极高（配置允许）</td><td>影响兵模数量、法术收益和平衡，战役开始后不能改。</td></tr>
+        <tr><td><strong>战斗速度</strong></td><td>默认 / 慢</td><td>新手用慢速更容易看清战场。</td></tr>
+        <tr><td><strong>慢镜头技能目标</strong></td><td>开启</td><td>放法术时会慢放，方便瞄准。</td></tr>
+        <tr><td><strong>镜头震动</strong></td><td>关闭</td><td>减少眩晕，长时间玩更舒服。</td></tr>
+        <tr><td><strong>血包</strong></td><td>按喜好</td><td>纯视觉，不影响平衡。</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>常用操作</h3>
+  <ul>
+    <li><strong>空格：</strong>暂停 / 继续（单人）。战斗中多用暂停，想清楚再下命令。</li>
+    <li><strong>Alt + 右键：</strong>攻击地面。炮兵和范围法术常用，能打提前量。</li>
+    <li><strong>Ctrl + 数字：</strong>编组。把前排、远程、骑兵分别编组，方便快速选中。</li>
+    <li><strong>Shift + 右键：</strong>设置路径点。让骑兵绕开前排，从侧翼走。</li>
+    <li><strong>双击单位卡：</strong>选中全部同类单位（部分版本 / 设置下）。</li>
+    <li><strong>J：</strong>部分版本用于掉头 / 转向；以键位设置为准。</li>
+  </ul>
+
+  <div class="callout">
+    <span class="callout-label">新手最值得养成的习惯</span>
+    <p><strong>多用暂停，少用全选。</strong>暂停能让你看清每条战线；全选 A 上去，只会让阵型散掉。把前排、远程、骑兵分开编组，是微操的第一步。</p>
+  </div>
+</section>
+
+<section id="mistakes">
+  <h2><span class="kicker">10 / MISTAKES</span>常见战斗错误</h2>
+  <p class="lead">这些错误，和“兵种强弱”无关，但每一个都能让你多死几百人。</p>
+  <div class="acc">
+    <div class="acc-item">
+      <button class="acc-btn"><span class="idx">01</span><span class="q">开局全选，右键点对面</span><span class="sign"></span></button>
+      <div class="acc-panel"><div class="inner"><p>这是战锤 3 最贵的错误。全选冲锋会让前排、远程、骑兵一起往前跑，远程失去射界，骑兵撞上长戟，法师冲到最前面。正确做法是分开编组，前排先接敌，远程后置，骑兵等时机。</p></div></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-btn"><span class="idx">02</span><span class="q">把远程放在前排</span><span class="sign"></span></button>
+      <div class="acc-panel"><div class="inner"><p>远程的输出来自“活着”。放在前排会被近战一冲就散。让前排先接敌，远程站在后方，直射单位留出射界，曲射单位可以放在前排后面。</p></div></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-btn"><span class="idx">03</span><span class="q">用骑兵正面冲长戟 / 密集阵</span><span class="sign"></span></button>
+      <div class="acc-panel"><div class="inner"><p>骑兵的强项是侧冲、背冲和追逃，不是正面撞长戟。正面冲密集阵，冲锋加成打完就会被围死。绕后，或者等前排把敌人缠住再冲。</p></div></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-btn"><span class="idx">04</span><span class="q">巨兽 / 领主孤军深入</span><span class="sign"></span></button>
+      <div class="acc-panel"><div class="inner"><p>单体再强也怕集火。巨兽和领主需要步兵吸引火力、法师给治疗 / 增益。一个人冲进人堆，只会被长戟和远程集火。</p></div></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-btn"><span class="idx">05</span><span class="q">炮兵没人保护</span><span class="sign"></span></button>
+      <div class="acc-panel"><div class="inner"><p>炮兵射程远、伤害高，但一旦被骑兵 / 飞行单位摸到，基本白给。至少留 1–2 队步兵或骑兵保护炮兵，或者把炮兵放在阵线内侧。</p></div></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-btn"><span class="idx">06</span><span class="q">追逃追出战场，阵型全散</span><span class="sign"></span></button>
+      <div class="acc-panel"><div class="inner"><p>溃逃的敌人很诱人，但追出去会让你的阵型出现大洞。用骑兵追，不要用步兵；追到一半就回来，防止敌方预备队反打。</p></div></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-btn"><span class="idx">07</span><span class="q">法师站前排，法术没放就死了</span><span class="sign"></span></button>
+      <div class="acc-panel"><div class="inner"><p>法师的站位比法术本身更重要。放在前排后方、远程旁边，随时准备后撤。放完法术不要站在原地看戏。</p></div></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-btn"><span class="idx">08</span><span class="q">不看体力，让部队一直跑</span><span class="sign"></span></button>
+      <div class="acc-panel"><div class="inner"><p>奔跑、爬墙、长时间战斗都会掉体力。疲劳会降低攻防和速度，甚至影响士气。接敌前让部队走，不要一路跑；爬墙前想清楚值不值。</p></div></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-btn"><span class="idx">09</span><span class="q">攻城让步兵直接爬墙</span><span class="sign"></span></button>
+      <div class="acc-panel"><div class="inner"><p>爬墙会严重消耗体力，还会被塔楼和守军白打。没有炮兵 / 巨兽拆墙时，先造撞门锤和攻城塔，或者围城逼降。</p></div></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-btn"><span class="idx">10</span><span class="q">关键战自动战斗</span><span class="sign"></span></button>
+      <div class="acc-panel"><div class="inner"><p>自动战斗只看数值，经常给你“惨胜”。关键战、攻城战、以少打多，手动往往能打出完全不同的结果。输了再读档，也比自动送掉精锐强。</p></div></div>
+    </div>
+  </div>
+
+  <div class="callout" style="margin-top:26px">
+    <span class="callout-label">下一章</span>
+    <p>知道怎么打之后，下一步是“用谁打”。派系篇把 25 个种族的难度、玩法、推荐领主和开局建议整理成可筛选的卡片。<a href="factions.html">进入派系篇 →</a></p>
+  </div>
+</section>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <b>战锤 3 新兵营</b>
+        <p>非官方中文攻略站。游戏素材版权归 Creative Assembly、SEGA 与 Games Workshop 所有。数值与机制以当前版本为准，平衡补丁可能改变细节。</p>
+      </div>
+      <div class="footer-col">
+        <h4>攻略</h4>
+        <a href="campaign.html">战役运营</a>
+        <a href="battle.html">战斗入门</a>
+        <a href="factions.html">派系速查</a>
+        <a href="glossary.html">术语词典</a>
+      </div>
+      <div class="footer-col">
+        <h4>购买与资料</h4>
+        <a href="dlc.html">DLC 购买指南</a>
+        <a href="https://www.totalwar.com/games/total-war-warhammer-iii/" target="_blank" rel="noopener">官方网站</a>
+        <a href="https://support.sega.com/hc/en-us/articles/41281593314705" target="_blank" rel="noopener">DLC 拥有指南</a>
+        <a href="https://academy.totalwar.com/" target="_blank" rel="noopener">Total War Academy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>最后更新：2026 年 10 月 · 适用于 Update 9.0 / Patch 9.0.x。</p>
+      <p>Made for new commanders.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

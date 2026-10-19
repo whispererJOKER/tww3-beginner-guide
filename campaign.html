@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>战役篇 · 战锤 3 新兵营</title>
+<meta name="description" content="全面战争：战锤 III 战役攻略：回合流程、界面解剖、经济、行省、军队、外交、英雄、终局与 30 回合清单。">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/logo.jpg">
+</head>
+<body>
+<div id="progress"></div>
+
+<header class="site-header">
+  <nav class="nav" aria-label="主导航">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><span>III</span></span>
+      <span class="brand-text"><b>战锤 3 新兵营</b><small>TOTAL WAR · WARHAMMER III</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="campaign.html" class="active">战役</a></li>
+      <li><a href="battle.html">战斗</a></li>
+      <li><a href="factions.html">派系</a></li>
+      <li><a href="dlc.html">DLC</a></li>
+      <li><a href="glossary.html">词典</a></li>
+    </ul>
+    <a class="nav-cta" href="battle.html">下一章：战斗</a>
+    <button class="menu-btn" aria-label="打开菜单" aria-expanded="false"><span></span></button>
+  </nav>
+</header>
+<nav class="mobile-nav" aria-label="移动导航">
+  <a href="index.html">首页</a>
+  <a href="campaign.html">战役</a>
+  <a href="battle.html">战斗</a>
+  <a href="factions.html">派系</a>
+  <a href="dlc.html">DLC</a>
+  <a href="glossary.html">词典</a>
+</nav>
+
+<main>
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('assets/img/shots/shot3.jpg')"></div>
+  <div class="container">
+    <div class="eyebrow"><span class="num">CAMPAIGN</span> 战役篇</div>
+    <h1>把每一回合，<br>花在刀刃上。</h1>
+    <p class="lede">战役地图不是“点下一回合”的等待界面。钱、兵、地、外交、腐蚀，五条线同时跑。这一章把界面拆开，告诉你每个数字在说什么，以及前 30 回合该做什么。</p>
+    <div class="page-hero-meta">
+      <span>回合流程</span><span>经济与行省</span><span>军队与外交</span><span>终局</span><span>30 回合清单</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="doc">
+      <aside class="toc" aria-label="本页目录">
+        <div class="toc-title">本页目录</div>
+        <a href="#loop">回合怎么过</a>
+        <a href="#ui">界面解剖</a>
+        <a href="#modes">三种战役</a>
+        <a href="#economy">经济：钱从哪来</a>
+        <a href="#province">行省：建筑与秩序</a>
+        <a href="#army">军队：20 个槽位</a>
+        <a href="#diplomacy">外交：免费的军队</a>
+        <a href="#heroes">英雄与事务官</a>
+        <a href="#growth">科技、技能与装备</a>
+        <a href="#endgame">终局与胜利</a>
+        <a href="#checklist">30 回合清单</a>
+      </aside>
+
+      <article class="article">
+        <section id="loop">
+          <h2><span class="kicker">01 / TURN LOOP</span>回合怎么过</h2>
+          <p class="lead">战锤 3 的一回合，可以很快，也可以很慢。新手期建议每回合花 3–5 分钟，按固定顺序过一遍；熟练之后再压缩。</p>
+          <div class="steps">
+            <div class="step"><div class="n"></div><div><h3>先读开局报告</h3><p>左上角的事件、任务、外交请求、终局倒计时，先全部看一遍。很多任务会给免费单位、金钱或强力增益，别直接关掉。</p><div class="mini"><span>事件</span><span>任务</span><span>危机提示</span></div></div></div>
+            <div class="step"><div class="n"></div><div><h3>收钱，建设，招募</h3><p>先看金币和收入明细，再决定建筑队列。建筑优先补“增长、经济、补员、防御”，兵营只放在军事行省。招募尽量在回合开始就排队，别等到要打仗才发现没兵。</p><div class="mini"><span>建筑</span><span>招募</span><span>经济</span></div></div></div>
+            <div class="step"><div class="n"></div><div><h3>移动军队，先侦察再进攻</h3><p>用英雄或轻骑开视野，确认敌方军队位置和援军范围。移动前想好“打完站哪、下回合会不会被反打”。不要为了多走两步把军队送进敌方三支部队的包围圈。</p><div class="mini"><span>视野</span><span>援军范围</span><span>撤退路线</span></div></div></div>
+            <div class="step"><div class="n"></div><div><h3>英雄行动</h3><p>刺客、法师、工程师大都有地图行动：暗杀、致伤、阻断军队、偷科技、拆墙。每回合看一眼有没有高价值目标，尤其是敌方领主和攻城前的城墙。</p><div class="mini"><span>暗杀</span><span>阻断</span><span>拆墙</span></div></div></div>
+            <div class="step"><div class="n"></div><div><h3>外交</h3><p>能签贸易就签，能签互不侵犯就签，远征前要军事通行权。看一圈谁在打仗、谁快灭了，提前站队或趁火打劫。不要随便加入盟友的战争。</p><div class="mini"><span>贸易</span><span>互不侵犯</span><span>同盟</span></div></div></div>
+            <div class="step"><div class="n"></div><div><h3>战前检查</h3><p>手动存档。看军队补员、弹药、体力、援军距离和地形。攻城前确认有没有攻城器械或拆墙手段。关键战之前，把法师的法术、领主的技能和物品都检查一遍。</p><div class="mini"><span>存档</span><span>补员</span><span>攻城器械</span></div></div></div>
+            <div class="step"><div class="n"></div><div><h3>结束回合，处理反应</h3><p>AI 回合结束后，先看有没有敌人进入你的领土、有没有新的外交请求、有没有叛乱或腐蚀事件。被围城时，优先判断“守得住还是突围”，不要干等。</p><div class="mini"><span>入侵</span><span>叛乱</span><span>围城</span></div></div></div>
+          </div>
+          <div class="callout">
+            <span class="callout-label">节奏建议</span>
+            <p>把每回合最贵的一件事放在最前面做：通常是<strong>打一场关键战</strong>或<strong>决定下一个扩张方向</strong>。剩下的事情都是围绕它服务。</p>
+          </div>
+        </section>
+
+        <section id="ui">
+          <h2><span class="kicker">02 / INTERFACE</span>界面解剖：七个区域</h2>
+          <p class="lead">下面是一张示意化的战役界面。真实界面会因派系和分辨率略有不同，但信息分区是一致的。</p>
+
+          <div class="diagram diagram--dark">
+            <svg viewBox="0 0 1200 660" role="img" aria-label="战役界面示意图">
+              <defs>
+                <linearGradient id="mapBg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#151a13"/><stop offset=".55" stop-color="#1a1c14"/><stop offset="1" stop-color="#201b13"/>
+                </linearGradient>
+                <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                  <path d="M40 0H0V40" fill="none" stroke="#c9a35c" stroke-opacity=".05"/>
+                </pattern>
+                <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+              </defs>
+              <rect width="1200" height="660" fill="#0b0a08"/>
+              <rect x="0" y="0" width="1200" height="42" fill="#0e0c09" stroke="#c9a35c" stroke-opacity=".25"/>
+              <rect x="0" y="42" width="1200" height="560" fill="url(#mapBg)"/>
+              <rect x="0" y="42" width="1200" height="560" fill="url(#grid)"/>
+              <rect x="0" y="602" width="1200" height="58" fill="#0e0c09" stroke="#c9a35c" stroke-opacity=".2"/>
+
+              <!-- terrain -->
+              <path d="M80 180 L210 110 L360 150 L430 250 L380 360 L250 400 L120 330 Z" fill="#20261a" stroke="#2e3826" stroke-width="1"/>
+              <path d="M420 130 L600 90 L760 150 L820 280 L720 390 L540 370 L440 270 Z" fill="#25251a" stroke="#3a3826" stroke-width="1"/>
+              <path d="M760 300 L930 250 L1080 330 L1120 470 L980 540 L820 500 L740 400 Z" fill="#20261e" stroke="#2e3a2c" stroke-width="1"/>
+              <path d="M160 420 L330 390 L470 470 L520 570 L360 610 L200 550 Z" fill="#28231a" stroke="#3c3325" stroke-width="1"/>
+              <path d="M600 420 L760 390 L900 460 L940 570 L760 610 L620 550 Z" fill="#23271d" stroke="#333a29" stroke-width="1"/>
+
+              <!-- province highlight -->
+              <path d="M420 130 L600 90 L760 150 L820 280 L720 390 L540 370 L440 270 Z" fill="#c9a35c" fill-opacity=".055" stroke="#c9a35c" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="7 5"/>
+
+              <!-- river -->
+              <path d="M300 90 C340 190 300 260 360 330 C420 400 500 390 540 460 C580 530 640 540 690 600" fill="none" stroke="#3b5b66" stroke-width="5" stroke-opacity=".8"/>
+              <path d="M300 90 C340 190 300 260 360 330 C420 400 500 390 540 460 C580 530 640 540 690 600" fill="none" stroke="#7fb2c9" stroke-width="1" stroke-opacity=".35"/>
+
+              <!-- mountains -->
+              <g stroke="#5a4f3c" stroke-width="1" fill="#2b271e">
+                <path d="M140 210 l28 -55 28 55 z"/><path d="M196 226 l22 -42 22 42 z"/><path d="M780 180 l30 -58 30 58 z"/><path d="M840 200 l22 -40 22 40 z"/><path d="M1010 400 l26 -50 26 50 z"/>
+              </g>
+              <g fill="#0e0c09" opacity=".35">
+                <path d="M168 155 l8 0 -4 10 z"/><path d="M810 122 l8 0 -4 10 z"/>
+              </g>
+
+              <!-- forests -->
+              <g fill="#2f4029" opacity=".9">
+                <circle cx="240" cy="300" r="13"/><circle cx="270" cy="320" r="10"/><circle cx="215" cy="330" r="8"/>
+                <circle cx="640" cy="240" r="14"/><circle cx="675" cy="255" r="10"/><circle cx="660" cy="215" r="9"/>
+                <circle cx="900" cy="520" r="12"/><circle cx="935" cy="535" r="9"/>
+              </g>
+
+              <!-- roads -->
+              <path d="M520 300 C560 280 600 300 650 280 C700 260 720 240 760 230" fill="none" stroke="#8a7550" stroke-width="2" stroke-dasharray="4 6" opacity=".5"/>
+              <path d="M520 300 C480 350 460 390 430 430" fill="none" stroke="#8a7550" stroke-width="2" stroke-dasharray="4 6" opacity=".5"/>
+
+              <!-- settlements -->
+              <g>
+                <circle cx="520" cy="300" r="15" fill="#0e0c09" stroke="#e7c987" stroke-width="2"/>
+                <path d="M520 285 v-20" stroke="#e7c987" stroke-width="1.5"/>
+                <path d="M520 265 l22 6 -22 6 z" fill="#a13a30"/>
+                <text x="520" y="338" text-anchor="middle" class="svg-label svg-label--gold">青岩城</text>
+                <text x="520" y="354" text-anchor="middle" class="svg-small">首府 · T4</text>
+
+                <circle cx="680" cy="240" r="10" fill="#0e0c09" stroke="#c9a35c" stroke-width="1.5"/>
+                <text x="680" y="268" text-anchor="middle" class="svg-label">渡口镇</text>
+
+                <circle cx="430" cy="430" r="10" fill="#0e0c09" stroke="#c9a35c" stroke-width="1.5"/>
+                <text x="430" y="458" text-anchor="middle" class="svg-label">南关</text>
+
+                <circle cx="890" cy="360" r="11" fill="#0e0c09" stroke="#d0604f" stroke-width="1.8"/>
+                <text x="890" y="388" text-anchor="middle" class="svg-label" fill="#e6a093">敌 · 黑石堡</text>
+              </g>
+
+              <!-- army -->
+              <g transform="translate(560 330)">
+                <path d="M0 0 l18 -8 18 8 v20 c0 10 -8 16 -18 22 -10 -6 -18 -12 -18 -22 z" fill="#0e0c09" stroke="#e7c987" stroke-width="2"/>
+                <text x="18" y="14" text-anchor="middle" font-size="14" fill="#e7c987" font-family="sans-serif" font-weight="700">20</text>
+              </g>
+              <path d="M615 330 C670 320 700 300 730 285" fill="none" stroke="#e7c987" stroke-width="2" marker-end="url(#arrowGold)"/>
+              <defs><marker id="arrowGold" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#e7c987"/></marker></defs>
+
+              <g transform="translate(850 330)">
+                <path d="M0 0 l15 -7 15 7 v17 c0 8 -7 14 -15 19 -8 -5 -15 -11 -15 -19 z" fill="#1a0f0d" stroke="#d0604f" stroke-width="1.5"/>
+              </g>
+
+              <!-- UI top bar -->
+              <g font-family="sans-serif" font-size="14" fill="#c9beac">
+                <circle cx="26" cy="21" r="8" fill="#c9a35c" fill-opacity=".15" stroke="#c9a35c"/>
+                <text x="42" y="25" fill="#e7c987" font-weight="700">12,450</text>
+                <text x="96" y="25" fill="#7d7263">金币</text>
+                <text x="140" y="25" fill="#7fb2c9">+1,240</text>
+                <text x="200" y="25" fill="#7d7263">收入</text>
+                <text x="250" y="25" fill="#c9beac">增长 +86</text>
+                <text x="340" y="25" fill="#c9beac">控制力 +4</text>
+                <text x="440" y="25" fill="#c9beac">腐蚀 12%</text>
+                <text x="1030" y="25" fill="#e7c987">第 24 回合</text>
+                <text x="1110" y="25" fill="#7d7263">秋天</text>
+              </g>
+
+              <!-- right panel -->
+              <rect x="960" y="62" width="222" height="300" fill="#0e0c09" fill-opacity=".92" stroke="#c9a35c" stroke-opacity=".3"/>
+              <text x="978" y="86" font-family="serif" font-size="14" fill="#ece5d7" font-weight="700">行省：青岩</text>
+              <text x="978" y="106" font-size="11" fill="#7d7263" font-family="sans-serif" letter-spacing="1.5">PROVINCE DETAILS</text>
+              <g font-family="sans-serif" font-size="13" fill="#a99d89">
+                <text x="978" y="136">增长</text><text x="1140" y="136" text-anchor="end" fill="#e7c987">+86 / 回合</text>
+                <text x="978" y="162">控制力</text><text x="1140" y="162" text-anchor="end" fill="#8fbf9a">+4</text>
+                <text x="978" y="188">腐蚀</text><text x="1140" y="188" text-anchor="end" fill="#d0604f">12%</text>
+                <text x="978" y="214">收入</text><text x="1140" y="214" text-anchor="end" fill="#e7c987">1,240</text>
+                <text x="978" y="240">建筑槽</text><text x="1140" y="240" text-anchor="end" fill="#c9beac">4 / 6</text>
+              </g>
+              <line x1="978" y1="256" x2="1164" y2="256" stroke="#c9a35c" stroke-opacity=".2"/>
+              <g font-family="sans-serif" font-size="13" fill="#a99d89">
+                <text x="978" y="278">首府建筑</text><text x="1140" y="278" text-anchor="end" fill="#c9beac">T4</text>
+                <text x="978" y="300">驻军</text><text x="1140" y="300" text-anchor="end" fill="#c9beac">8 队</text>
+                <text x="978" y="322">戒律</text><text x="1140" y="322" text-anchor="end" fill="#c9beac">增长</text>
+                <text x="978" y="344">气候</text><text x="1140" y="344" text-anchor="end" fill="#8fbf9a">适宜</text>
+              </g>
+
+              <!-- bottom bar -->
+              <g font-family="sans-serif" font-size="13" fill="#7d7263">
+                <text x="24" y="636">外交 · 任务 · 派系机制</text>
+                <text x="600" y="636" text-anchor="middle">选择军队后右键移动 · 左键选择 · 空格暂停</text>
+                <text x="1176" y="636" text-anchor="end" fill="#e7c987">结束回合 →</text>
+              </g>
+
+              <!-- numbered markers -->
+              <g font-family="sans-serif" font-size="14" font-weight="700">
+                <g><circle cx="42" cy="21" r="13" fill="#0b0907" stroke="#e7c987" stroke-width="1.5"/><text x="42" y="25" text-anchor="middle" fill="#e7c987">1</text></g>
+                <g><circle cx="1020" cy="21" r="13" fill="#0b0907" stroke="#e7c987" stroke-width="1.5"/><text x="1020" y="25" text-anchor="middle" fill="#e7c987">2</text></g>
+                <g><circle cx="944" cy="90" r="13" fill="#0b0907" stroke="#e7c987" stroke-width="1.5"/><text x="944" y="94" text-anchor="middle" fill="#e7c987">3</text></g>
+                <g><circle cx="476" cy="300" r="13" fill="#0b0907" stroke="#e7c987" stroke-width="1.5"/><text x="476" y="304" text-anchor="middle" fill="#e7c987">4</text></g>
+                <g><circle cx="596" cy="300" r="13" fill="#0b0907" stroke="#e7c987" stroke-width="1.5"/><text x="596" y="304" text-anchor="middle" fill="#e7c987">5</text></g>
+                <g><circle cx="42" cy="636" r="13" fill="#0b0907" stroke="#e7c987" stroke-width="1.5"/><text x="42" y="640" text-anchor="middle" fill="#e7c987">6</text></g>
+                <g><circle cx="1120" cy="636" r="13" fill="#0b0907" stroke="#e7c987" stroke-width="1.5"/><text x="1120" y="640" text-anchor="middle" fill="#e7c987">7</text></g>
+              </g>
+            </svg>
+            <p class="diagram-cap">示意图，不是游戏截图。真实界面会因派系、分辨率与 Mod 不同。</p>
+          </div>
+
+          <div class="grid grid-2" style="gap:0 34px">
+            <div>
+              <p><strong>① 顶部资源栏。</strong>金币、每回合收入、增长、控制力、腐蚀、回合数。点金币看收支明细；点增长看行省等级进度；点腐蚀看来源。</p>
+              <p><strong>② 任务与事件。</strong>主线任务、派系任务、终局倒计时、外交请求都在这里。任务奖励经常是免费单位、金钱或永久增益，别忽略。</p>
+              <p><strong>③ 行省面板。</strong>选中定居点后出现。看增长、控制力、收入、建筑槽、驻军和戒律。首府和小城的面板略有不同。</p>
+              <p><strong>④ 定居点。</strong>旗帜颜色代表归属；城墙图标代表有城防；气候图标告诉你适不适合占领。</p>
+            </div>
+            <div>
+              <p><strong>⑤ 军队。</strong>盾牌数字是兵力 / 槽位；脚下的箭头是移动路径；右键移动，左键选择。移动前把鼠标悬停在目标上，会显示预计战斗结果与援军。</p>
+              <p><strong>⑥ 外交与派系机制。</strong>左下角通常有外交、任务、派系专属机制（例如震旦的阴阳、基斯里夫的支持者）。每回合至少扫一眼。</p>
+              <p><strong>⑦ 结束回合。</strong>结束前确认没有空建筑槽、没有未使用的招募、没有能签的条约。按空格可以暂停查看地图。</p>
+              <p class="small muted">提示：不同派系的专属机制按钮位置不同，但“资源、行省、军队、外交、回合”这五块永远存在。</p>
+            </div>
+          </div>
+        </section>
+
+<section id="modes">
+  <h2><span class="kicker">03 / CAMPAIGN MODES</span>三种战役，到底玩哪个</h2>
+  <p class="lead">它们不是难度选项，而是三种完全不同的目标结构。先选对模式，比选对派系还重要。</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>模式</th><th>目标</th><th>时长</th><th>适合</th><th>要注意</th></tr></thead>
+      <tbody>
+        <tr><td><strong>序章 · 失落之神</strong></td><td>跟着剧情打完一段小战役</td><td>2–4 小时</td><td>第一次接触全战 / 战锤</td><td>教学性质强，不要用它的难度判断整款游戏</td></tr>
+        <tr><td><strong>混沌魔域</strong></td><td>进四神领域收集灵魂，最终决战</td><td>20–40 小时</td><td>想看剧情、喜欢线性目标</td><td>裂隙会周期性开启，其他派系也在抢灵魂</td></tr>
+        <tr><td><strong>超凡帝国</strong></td><td>自己定目标，沙盒扩张</td><td>100+ 小时</td><td>熟悉基础后长期游玩</td><td>没有引导，容易不知道下一步干嘛</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="prologue">序章：最好的教程，但不代表全部</h3>
+  <p>序章跟随一位基斯里夫王子，从守城打到混沌荒原，最后解锁恶魔亲王。它会教你移动、战斗、招募、建筑、法术和基础外交，而且演出质量很高。第一次进游戏，<strong>先打完序章</strong>。</p>
+  <ul>
+    <li>序章的部队和建筑是简化过的，不要把它当成完整战役的平衡。</li>
+    <li>打完序章会解锁恶魔亲王派系（Daemons of Chaos），在超凡帝国里可以自定义身体部件。</li>
+    <li>如果你已经玩过全战，序章可以跳过；但战锤 3 的裂隙、法术和攻城机制值得过一遍。</li>
+  </ul>
+
+  <h3 id="realm">混沌魔域：有明确终点的剧情战役</h3>
+  <p>混沌魔域的核心循环是：等裂隙开启 → 派军队进入四神领域 → 完成领域目标、拿到灵魂 → 关闭裂隙、回来守家 → 集齐灵魂进最终战。每个领域都有自己的机制和生存战，不是单纯的“打一整张地图”。</p>
+  <ul>
+    <li><strong>裂隙不是福利，是计时器。</strong>裂隙会提高腐蚀、刷出混沌军队，还会让其他派系抢先拿灵魂。每次开启都优先处理。</li>
+    <li><strong>不要四个领域同时推进。</strong>你的主力只有一支，进领域期间本土会被偷。留一支守军，或者和邻居签互不侵犯。</li>
+    <li><strong>生存战很耗时间。</strong>一场可能 40–60 分钟，中途不能存档。开打前留出时间，别在深夜硬打。</li>
+    <li><strong>灵魂不是唯一胜利方式。</strong>如果你不想抢，也可以走征服路线，但会更慢。</li>
+  </ul>
+
+  <h3 id="immortal">超凡帝国：没有剧本，只有你自己定的目标</h3>
+  <p>超凡帝国把三部曲的地图拼成一个巨型沙盒。你有 25 个种族、100+ 传奇领主、几百个定居点，但游戏不会告诉你“现在该打谁”。所以你需要自己定一个<strong>短期目标</strong>和<strong>长期目标</strong>。</p>
+  <ul>
+    <li><strong>短期目标：</strong>统一起始行省、拿到第一个完整行省、凑出第一支满编。</li>
+    <li><strong>中期目标：</strong>消灭一个烦人的邻居、拿到一个关键资源 / 港口、和两个邻居签互不侵犯。</li>
+    <li><strong>长期目标：</strong>完成派系的短期胜利条件，或者单纯把某个区域涂成你的颜色。</li>
+    <li><strong>终局场景：</strong>9.0 后可以在开局设置里调整或关闭。第一次玩建议关闭或延后，先学会走路。</li>
+  </ul>
+  <div class="callout callout--ice">
+    <span class="callout-label">一个很实用的开局原则</span>
+    <p>第一局超凡帝国，<strong>只设定一个“必须完成”的目标</strong>，例如“统一起始行省并活到 50 回合”。完成之后，再决定要不要继续。不要一上来就想着“统一全世界”。</p>
+  </div>
+</section>
+
+<section id="economy">
+  <h2><span class="kicker">04 / ECONOMY</span>经济：钱从哪来，花到哪去</h2>
+  <p class="lead">战锤 3 的经济不复杂，但很容易被忽略。记住一个公式：<strong>净收入 = 建筑收入 + 贸易 + 掠夺 − 军队维护 − 建筑维护</strong>。点顶部金币，所有明细都在里面。</p>
+
+  <h3>先算三笔账</h3>
+  <div class="grid grid-3" style="margin:1.4em 0">
+    <div class="card"><div class="card-num">账一</div><h3>现金储备</h3><p>至少留 <strong>2–3 回合的军队维护费</strong>。突然被宣战、需要紧急招募或补员时，这笔钱能救你一命。</p></div>
+    <div class="card"><div class="card-num">账二</div><h3>每回合净收入</h3><p>正数不代表安全。看它够不够支撑下一支军队、下一轮建筑升级。长期低于 +300 就要警惕。</p></div>
+    <div class="card"><div class="card-num">账三</div><h3>投资回报</h3><p>建筑花 3000、每回合多 200，回本要 15 回合。前期优先建回本快的经济 / 增长建筑。</p></div>
+  </div>
+
+  <h3>建筑优先级：先增长，再收入，最后军事</h3>
+  <p>大多数派系的首府建筑链会同时给增长和收入。小城则要取舍：<strong>经济建筑</strong>给钱，<strong>增长建筑</strong>爬等级，<strong>兵营</strong>解锁单位，<strong>防御建筑</strong>给驻军。一个行省不需要什么都有。</p>
+  <ul>
+    <li><strong>首府：</strong>优先升级主城（解锁建筑槽和更高等级），再补增长 / 收入 / 特色建筑。</li>
+    <li><strong>经济小城：</strong>经济建筑 + 增长建筑。不要造兵营。</li>
+    <li><strong>军事行省：</strong>选一个靠近前线的行省，集中造兵营、招募建筑和补员建筑。</li>
+    <li><strong>前线小城：</strong>防御建筑 + 补员。它可能经常被围，驻军能拖到援军来。</li>
+  </ul>
+
+  <h3>军队维护与补给线</h3>
+  <p>每支军队、每个单位每回合都要付维护费。战锤 3 还有“补给线”：每多一支军队，所有军队的维护费会上涨。高难度下大约是每支额外军队 <strong>+4%</strong>，低难度约 <strong>+1%～2%</strong>（以游戏内难度说明为准）。</p>
+  <div class="callout callout--warn">
+    <span class="callout-label">不要陷入“债务扩军”</span>
+    <p>收入不够时，不要靠裁掉经济建筑来养更多兵。正确顺序是：<strong>先裁掉最贵的精锐 / 多余军队 → 补经济建筑 → 再扩军</strong>。负收入滚几回合，你会被迫解散军队，前线直接崩。</p>
+  </div>
+
+  <h3>贸易、掠夺与洗劫</h3>
+  <p>贸易是前期最划算的额外收入：签一个贸易协定，可能多养半支军队。沿海派系还可以靠港口和海上贸易。掠夺和洗劫则是“以战养战”：打不过就抢，抢完就走，不要为了守一块烂地把自己拖死。</p>
+  <ul>
+    <li><strong>贸易：</strong>优先和同阵营、关系好、路线安全的派系签。贸易路线会被战争切断。</li>
+    <li><strong>洗劫：</strong>拿到现金并破坏敌方经济，但城还是敌人的。适合打不下来的前线城市。</li>
+    <li><strong>毁灭：</strong>把城拆掉，适合气候恶劣、守不住、又不想留给敌人的地方。</li>
+    <li><strong>占领：</strong>只有你打算长期经营、且守得住时才占。</li>
+  </ul>
+</section>
+
+<section id="province">
+  <h2><span class="kicker">05 / PROVINCES</span>行省：增长、控制力与腐蚀</h2>
+  <p class="lead">行省是你的基本盘。一个行省通常由一座首府和 2–4 座小城组成。统一整个行省后，才能开戒律、吃完整的行省加成。</p>
+
+  <h3>增长：一切建筑的母亲</h3>
+  <p>增长决定定居点什么时候升级。升级带来建筑槽、更高等级的建筑和更强的驻军。前期<strong>增长比收入更重要</strong>：早 10 回合升到 T4，比多赚 500 块强得多。</p>
+  <ul>
+    <li>首府主城建筑通常给增长；小城可以补增长建筑。</li>
+    <li>戒律、领主技能、英雄、科技和部分资源都能加增长。</li>
+    <li>增长有“盈余”概念：超过升级阈值的部分会转化为额外收益。别让增长长期溢出。</li>
+  </ul>
+
+  <h3>控制力：不要让它掉到 -100</h3>
+  <p>战锤 3 用“控制力”取代了公共秩序。控制力每回合变化，<strong>跌到 -100 会爆发叛乱</strong>。低控制力还会降低收入和增长。新占领的城、腐蚀高的地方、被劫掠的行省最容易出问题。</p>
+  <ul>
+    <li><strong>驻军：</strong>把军队停在城里，能加控制力并镇压叛乱。</li>
+    <li><strong>建筑：</strong>控制力建筑、净化建筑、城墙都能帮忙。</li>
+    <li><strong>英雄：</strong>部分英雄有加控制力 / 减腐蚀的行动或光环。</li>
+    <li><strong>戒律：</strong>完整控制行省后，可以开加控制力的戒律。</li>
+    <li><strong>税：</strong>部分派系可以关掉行省税来换控制力，叛乱边缘时很实用。</li>
+  </ul>
+
+  <h3>腐蚀：不是“清零”，是“压住”</h3>
+  <p>腐蚀分为混沌、吸血鬼、鼠人等类型。高腐蚀会降低控制力、造成军队减员，并可能刷出对应势力的叛乱军。秩序阵营需要靠净化建筑、英雄、戒律和科技把腐蚀压下去；混沌 / 亡灵派系则相反，腐蚀是他们的增益。</p>
+  <div class="callout">
+    <span class="callout-label">新占的城怎么处理</span>
+    <p>刚占领的城市通常有占领惩罚、腐蚀和控制力问题。先<strong>驻军 + 建控制力 / 净化建筑</strong>，不要立刻把它当经济城。如果实在压不住，洗劫或毁灭比硬守更划算。</p>
+  </div>
+
+  <h3>气候：不是所有地都值得占</h3>
+  <p>每个种族对气候有不同适应度：适宜、不适、恶劣。不适宜气候会降低增长、收入、补员，增加建设成本。占领前先看气候图标，尤其是跨区域扩张时。</p>
+
+  <h3>建筑模板：一个行省该造什么</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>定居点类型</th><th>优先建筑</th><th>不要造</th><th>目标</th></tr></thead>
+      <tbody>
+        <tr><td><strong>首府（核心）</strong></td><td>主城升级、增长、收入、特色建筑</td><td>低价值兵营</td><td>尽快升 T4/T5，吃满行省加成</td></tr>
+        <tr><td><strong>经济小城</strong></td><td>收入、增长、资源 / 港口</td><td>兵营、重复防御</td><td>稳定养军队</td></tr>
+        <tr><td><strong>军事行省</strong></td><td>兵营、招募容量、补员、兵种加成</td><td>过多经济建筑</td><td>一个行省供应全军</td></tr>
+        <tr><td><strong>前线小城</strong></td><td>防御、驻军、补员、控制力</td><td>昂贵经济建筑</td><td>拖住敌人，等援军</td></tr>
+        <tr><td><strong>烂地 / 飞地</strong></td><td>最低限度防御或直接放弃</td><td>大量投资</td><td>不拖累主线</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="table-note">具体建筑链因种族而异；原则是“一个行省只做一件事”。</p>
+
+  <h3>戒律与行省法令</h3>
+  <p>完整控制一个行省后，可以开戒律。常见选项：加增长、加控制力、加收入、加招募容量、减腐蚀。戒律切换有冷却，不要每回合改。前线行省开防御 / 控制，后方开增长 / 收入。</p>
+</section>
+
+<section id="army">
+  <h2><span class="kicker">06 / ARMIES</span>军队：20 个槽位的艺术</h2>
+  <p class="lead">一支军队最多 20 个槽位，<strong>包括领主和嵌入的英雄</strong>。所以“1 领主 + 19 单位”是满编；带 2 个英雄，就只剩 17 个战斗单位。</p>
+
+  <figure class="figure">
+    <img src="assets/img/shots/shot6.jpg" alt="雪山中的桥梁与隘口" loading="lazy">
+    <figcaption>桥梁、隘口和山口是天然的防线，也是伏击点。军队的强度不只看兵种，还看它站在哪里。</figcaption>
+  </figure>
+
+  <h3>先分工，再填兵</h3>
+  <p>新手最容易犯的错，是看到什么强就招什么，结果前排不够、远程没人保护、没有反大型。更稳的做法是先按“工作”分配槽位：</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>工作</th><th>建议槽位</th><th>作用</th><th>例子</th></tr></thead>
+      <tbody>
+        <tr><td><strong>扛线</strong></td><td>5–7</td><td>挡住敌人，让远程输出</td><td>持盾步兵、长戟兵、重甲前排</td></tr>
+        <tr><td><strong>输出 / 反大型</strong></td><td>4–6</td><td>砍穿前排、处理巨兽和骑兵</td><td>大剑、长戟、巨兽、怪步</td></tr>
+        <tr><td><strong>远程</strong></td><td>3–5</td><td>集火、削士气、点杀关键单位</td><td>弓箭手、火枪、弩手</td></tr>
+        <tr><td><strong>机动</strong></td><td>3–5</td><td>包抄、背冲、追逃、保护远程</td><td>骑兵、战车、飞行单位</td></tr>
+        <tr><td><strong>炮兵 / 巨兽</strong></td><td>1–3</td><td>攻城、反巨兽、破阵</td><td>火炮、投石机、巨兽</td></tr>
+        <tr><td><strong>英雄</strong></td><td>1–3</td><td>法术、光环、斩将、补员</td><td>法师、工程师、战士英雄</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="table-note">这是一个通用模板，不是万能答案。面对重甲多带破甲，面对巨兽多带反大型，面对鼠人 / 绿皮多带范围伤害。</p>
+
+  <h3>招募：地方招募 vs 全局招募</h3>
+  <ul>
+    <li><strong>地方招募：</strong>在定居点或附近招募，便宜、快，但受当地兵营限制。</li>
+    <li><strong>全局招募：</strong>在任意军队招募全国可用单位，贵、慢，适合前线救急或补关键兵种。</li>
+    <li><strong>招募槽：</strong>每回合能招的数量有限。前期优先补满前排和远程，不要一口气全招精锐。</li>
+    <li><strong>名将团（RoR）：</strong>每支军队有数量上限的精英单位，属性独特，适合关键战。不要平时就送掉。</li>
+  </ul>
+
+  <h3>补员：残编不要继续打</h3>
+  <p>补员受领土、腐蚀、气候、补员建筑、英雄和姿态影响。己方领土、扎营、低腐蚀补得快；敌境、高腐蚀、恶劣气候补得慢。战斗后先看军队面板的补员率，再决定要不要推进。</p>
+
+  <h3>军队姿态：什么时候用什么</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>姿态</th><th>用途</th><th>代价 / 风险</th></tr></thead>
+      <tbody>
+        <tr><td><strong>普通行军</strong></td><td>日常移动、进攻</td><td>无额外风险</td></tr>
+        <tr><td><strong>强行军</strong></td><td>快速回防、追击、抢城</td><td>移动力高但战斗力下降，不能主动攻击 / 设伏</td></tr>
+        <tr><td><strong>扎营</strong></td><td>补员、野外招募、防守</td><td>停止移动，可能被围</td></tr>
+        <tr><td><strong>伏击</strong></td><td>以少打多、埋伏援军</td><td>移动力低，可能被侦测</td></tr>
+        <tr><td><strong>劫掠</strong></td><td>以战养战、破坏敌方经济</td><td>降低敌方控制力，也暴露位置</td></tr>
+        <tr><td><strong>地下通道 / 传送</strong></td><td>穿越山脉、绕过隘口</td><td>可能遭遇地下伏击，部分派系专属</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout callout--ice">
+    <span class="callout-label">一个简单的满编目标</span>
+    <p>前期：<strong>6 前排 + 4 远程 + 2 机动 + 1 攻城 / 巨兽 + 领主</strong>。中后期再根据对手替换成破甲、反大型、炮兵和更多英雄。不要为了“看起来强”全带巨兽，巨兽会被长戟兵和集火教做人。</p>
+  </div>
+</section>
+
+<section id="diplomacy">
+  <h2><span class="kicker">07 / DIPLOMACY</span>外交：不花钱的军队</h2>
+  <p class="lead">战锤 3 的外交比前两代好用得多。你不需要当外交家，但每回合花两分钟，能省下一条战线、半支军队，甚至一座城。</p>
+
+  <h3>先看“可靠性”</h3>
+  <p>可靠性是你对所有派系的信用评分。毁约、背刺、撕毁条约都会降低它。可靠性低，AI 会更难相信你，贸易、同盟、合邦都会变贵。新手最容易犯的错，是随便加入盟友的战争，然后被拖进三线作战。</p>
+
+  <h3>条约怎么选</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>条约</th><th>好处</th><th>风险</th><th>建议</th></tr></thead>
+      <tbody>
+        <tr><td><strong>贸易协定</strong></td><td>每回合收入，提升关系</td><td>路线会被战争切断</td><td>能签就签，优先同阵营</td></tr>
+        <tr><td><strong>互不侵犯</strong></td><td>稳定边境，提升关系</td><td>对方仍可能在你弱时撕约</td><td>和不想打的邻居签</td></tr>
+        <tr><td><strong>军事通行权</strong></td><td>军队可穿过对方领土</td><td>可能被用来打你的盟友</td><td>远征前签</td></tr>
+        <tr><td><strong>防御同盟</strong></td><td>被攻击时盟友参战</td><td>盟友被攻击时你也会被拖入</td><td>只和“敌人离你很远”的派系签</td></tr>
+        <tr><td><strong>军事同盟</strong></td><td>协同作战、共享部分机制</td><td>更容易被拖入大战</td><td>中期再考虑，先看它的敌人</td></tr>
+        <tr><td><strong>合邦</strong></td><td>获得同族领主、城市、军队</td><td>花费高、可能掉关系</td><td>同族且关系好时优先</td></tr>
+        <tr><td><strong>附庸</strong></td><td>进贡、跟随参战、不用管理</td><td>附庸可能被攻击，拉你下水</td><td>不想管的烂地可以附庸</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>三个实用技巧</h3>
+  <ul>
+    <li><strong>用“送地”换和平 / 条约。</strong>打下一块不想要的飞地，送给邻居换互不侵犯或贸易，比硬守划算。</li>
+    <li><strong>加入战争要收钱。</strong>AI 请求你参战时，可以要求付款或条约作为交换。别免费当打手。</li>
+    <li><strong>不要和“快死的派系”签军事同盟。</strong>它被灭时，你会继承它的敌人，还可能掉可靠性。</li>
+  </ul>
+
+  <div class="callout callout--warn">
+    <span class="callout-label">最常见的翻车方式</span>
+    <p>你签了一个防御同盟，盟友被一个强大派系宣战，你自动参战；你的主攻方向瞬间变成两线，后方被偷。签同盟前，先看<strong>它的邻国是谁、它最近在和谁打</strong>。</p>
+  </div>
+
+  <h3>合邦与附庸</h3>
+  <p>合邦是同一种族派系之间的和平吞并。通常需要高关系、巨额金钱，或者完成特定任务。合邦后你会继承它的领主、城市和军队，但也要接手它的战争和烂摊子。附庸则保留对方自治，适合不想亲自管理的远方领地。</p>
+</section>
+
+<section id="heroes">
+  <h2><span class="kicker">08 / HEROES</span>英雄与事务官</h2>
+  <p class="lead">英雄可以单独在地图上行动，也可以嵌入军队。嵌入时占 1 个军队槽位，但提供法术、光环和战斗能力。用好英雄，等于多半个军队。</p>
+
+  <h3>四类英雄</h3>
+  <div class="grid grid-2" style="margin:1.4em 0">
+    <div class="card"><div class="card-num">法师</div><h3>法术输出 / 辅助</h3><p>提供吹息、直接伤害、治疗、召唤和光环。法师的站位比法术本身更重要：站在前排后面，别被骑兵摸到。</p></div>
+    <div class="card"><div class="card-num">战士</div><h3>斩将 / 扛线</h3><p>高攻防、高血量，适合缠住敌方领主、巨兽或关键单位。别让他一个人冲进人堆。</p></div>
+    <div class="card"><div class="card-num">支援</div><h3>光环 / 补员 /  buff</h3><p>工程师、牧师、旗手等，提供军队-wide 增益、补员、弹药或抗性。嵌入军队价值最高。</p></div>
+    <div class="card"><div class="card-num">刺客</div><h3>地图行动 / 斩将</h3><p>暗杀、致伤、破坏城墙、偷科技。 standalone 行动收益高，但被抓会损失。</p></div>
+  </div>
+
+  <h3>地图行动：每回合值得看一眼</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>行动</th><th>效果</th><th>什么时候用</th></tr></thead>
+      <tbody>
+        <tr><td><strong>暗杀 / 致伤</strong></td><td>直接移除敌方英雄或使其受伤</td><td>敌方有强力法师 / 工程师时</td></tr>
+        <tr><td><strong>阻断军队</strong></td><td>大幅降低敌方军队移动力</td><td>追不上、想拖住援军时</td></tr>
+        <tr><td><strong>破坏城墙</strong></td><td>降低攻城时城墙 / 塔楼强度</td><td>攻城前 1–2 回合</td></tr>
+        <tr><td><strong>偷科技</strong></td><td>获得科技点或加速研究</td><td>和平时期、科技落后时</td></tr>
+        <tr><td><strong>袭击部队</strong></td><td>造成减员、降低补员</td><td>消耗敌方主力，不接战</td></tr>
+        <tr><td><strong>加控制力 / 减腐蚀</strong></td><td>稳定新占省份</td><td>刚占领、腐蚀高的行省</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>容量与升级</h3>
+  <p>英雄容量由建筑、科技和技能提供。不要急着招满，先保证每个主力军队有 1 个法师 + 1 个支援英雄。升级时，<strong>先点战役技能</strong>（移动力、补员、维护费、视野），再点军队增益，最后才点个人战斗。法师优先点法术和魔法之风相关技能。</p>
+
+  <div class="callout callout--ice">
+    <span class="callout-label">英雄最常见的浪费</span>
+    <p>把英雄单独放在后方“待命”，什么都不做。英雄要么嵌入主力，要么每回合执行地图行动，要么去新占省份加控制力。闲置的英雄等于浪费容量。</p>
+  </div>
+</section>
+
+<section id="growth">
+  <h2><span class="kicker">09 / PROGRESSION</span>科技、技能与装备</h2>
+  <p class="lead">战役的成长线很多：领主技能、科技、装备、追随者、军队能力。新手不需要全部精通，但要知道先点什么。</p>
+
+  <h3>领主技能树：先蓝后红，最后黄</h3>
+  <ul>
+    <li><strong>蓝线（战役）：</strong>移动力、补员、维护费、视野、招募容量。前期收益最高，优先点。</li>
+    <li><strong>红线（军队）：</strong>给特定兵种加攻防、士气、弹药。中后期主力军队必点。</li>
+    <li><strong>黄线（个人）：</strong>领主自己的攻防、血量、坐骑。想斩将或单挑时再点。</li>
+    <li><strong>法术线：</strong>法师领主优先点法术和魔法之风，别把点浪费在近战上。</li>
+  </ul>
+
+  <h3>科技：先补短板，再堆强项</h3>
+  <p>科技树通常分经济、军事、派系特色三块。前期优先点<strong>经济 / 增长 / 补员</strong>，中期点<strong>核心兵种的攻防</strong>，后期点<strong>终局应对</strong>（反大型、反步兵、魔法抗性）。不要平均点，选一条主线。</p>
+
+  <h3>装备与追随者</h3>
+  <ul>
+    <li><strong>装备：</strong>武器、护甲、护符、秘法物品、附魔物品。优先给主力领主和法师，注意装备槽限制。</li>
+    <li><strong>追随者：</strong>提供被动增益，例如补员、收入、外交、腐蚀。可以在角色之间转移。</li>
+    <li><strong>军队能力：</strong>部分派系有额外的军队技能，例如额外弹药、治疗、召唤。关键战前检查是否装备。</li>
+  </ul>
+
+  <h3>一个简单的优先级</h3>
+  <p><strong>移动力 > 补员 > 维护费 > 核心兵种攻防 > 个人战斗力。</strong>战役里，能多走一步、能快速回血，往往比多 5 点近攻更值钱。</p>
+</section>
+
+<section id="endgame">
+  <h2><span class="kicker">10 / END GAME</span>终局、胜利与“后期没事干”</h2>
+  <p class="lead">战锤 3 的胜利条件分三层。你可以随时停，也可以继续涂色。9.0 之后，后期还多了终局场景和危机事件，专门用来打破“我已经无敌了”的无聊。</p>
+
+  <h3>三层胜利条件</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>层级</th><th>通常要求</th><th>奖励</th><th>建议</th></tr></thead>
+      <tbody>
+        <tr><td><strong>短期胜利</strong></td><td>控制核心区域、完成派系任务、击败指定敌人</td><td>派系 / 种族奖励</td><td>第一局的目标，完成后再决定是否继续</td></tr>
+        <tr><td><strong>长期胜利</strong></td><td>更大版图、关键城市、终局事件</td><td>更强的全局奖励</td><td>想完整体验派系时再追</td></tr>
+        <tr><td><strong>支配胜利</strong></td><td>消灭主要对手 / 控制大量地图</td><td>成就与满足感</td><td>纯 sandbox 目标，耗时长</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="table-note">9.0 更新了所有旧传奇领主的胜利条件，加入了更贴合设定的目标。开局先看胜利面板，知道自己要做什么。</p>
+
+  <h3>9.0 的终局场景</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>终局</th><th>谁来了</th><th>核心机制</th><th>怎么打</th></tr></thead>
+      <tbody>
+        <tr><td><strong>混沌入侵</strong></td><td>阿查恩统合混沌势力</td><td>阿查恩初期近乎无敌；摧毁五座关键要塞削弱他，再决战</td><td>先守要塞、拆堡垒，别在开阔地和他硬碰</td></tr>
+        <tr><td><strong>鼠潮</strong></td><td>斯卡文鼠人大起义</td><td>鼠人定居点全部可见；顶住波次，收集知识后反击</td><td>守隘口、用范围伤害和炮兵，别被数量拖垮</td></tr>
+        <tr><td><strong>纳加什崛起</strong></td><td>纳加什与死亡大君</td><td>黑色金字塔转移到纳迦什扎，亡灵大军推进</td><td>准备反亡灵 / 魔法抗性，优先拆金字塔</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>开局设置里可以调整终局的时间、强度和是否开启。第一次玩，建议<strong>关闭或延后</strong>；第二局再打开，体验真正的后期压力。</p>
+
+  <h3>危机事件：不是终局，但也很烦</h3>
+  <p>原本的终局事件被重新归类为中期危机，可能在你 60–100 回合时爆发。它们通常不会直接灭你，但会消耗你的预备队、打断扩张节奏。提前做三件事：留一支预备军、修好前线要塞、和后方邻居签互不侵犯。</p>
+
+  <h3>逐步伤痕（Escalating Wounds）</h3>
+  <p>9.0 新增的可选规则：领主在 10 回合内反复受伤，会叠加“新伤”负面，最高 3 级，恢复时间更长。它会让“拿领主无限送”的玩法失效。新手建议关闭；想增加压力时再开。</p>
+
+  <div class="callout callout--warn">
+    <span class="callout-label">后期最容易犯的错</span>
+    <p>把所有军队派去打终局，后方空虚，被盟友背刺或叛乱偷家。终局期间，<strong>至少留一支能打的预备军</strong>，并确保关键要塞有驻军。你的帝国越大，后方越需要人守。</p>
+  </div>
+</section>
+
+<section id="checklist">
+  <h2><span class="kicker">11 / CHECKLIST</span>30 回合清单</h2>
+  <p class="lead">勾选会自动保存在浏览器里。下次打开还在。建议第一局照着走一遍，第二局就可以按自己的节奏来。</p>
+
+  <div class="checklist" id="checklist-widget">
+    <div class="check-group">
+      <h4>开局前</h4>
+      <label class="check-item"><input type="checkbox" id="c1"><span>选普通难度、关闭铁人与逐步伤痕</span></label>
+      <label class="check-item"><input type="checkbox" id="c2"><span>看完派系机制、胜利条件和领主技能</span></label>
+      <label class="check-item"><input type="checkbox" id="c3"><span>手动存一个“开局档”，方便重开</span></label>
+      <label class="check-item"><input type="checkbox" id="c4"><span>确认部队规模、默认规避近战等设置</span></label>
+    </div>
+    <div class="check-group">
+      <h4>每回合</h4>
+      <label class="check-item"><input type="checkbox" id="c5"><span>看完事件、任务、外交请求</span></label>
+      <label class="check-item"><input type="checkbox" id="c6"><span>没有空建筑槽，没有忘记招募</span></label>
+      <label class="check-item"><input type="checkbox" id="c7"><span>军队补员 / 姿态 / 弹药检查完毕</span></label>
+      <label class="check-item"><input type="checkbox" id="c8"><span>能签的贸易 / 互不侵犯都签了</span></label>
+      <label class="check-item"><input type="checkbox" id="c9"><span>存档后再结束回合</span></label>
+    </div>
+    <div class="check-group">
+      <h4>第 1–10 回合</h4>
+      <label class="check-item"><input type="checkbox" id="c10"><span>打掉起始行省，统一或接近统一</span></label>
+      <label class="check-item"><input type="checkbox" id="c11"><span>首府主城开始升级，增长建筑就位</span></label>
+      <label class="check-item"><input type="checkbox" id="c12"><span>第一支军队接近 20 槽</span></label>
+      <label class="check-item"><input type="checkbox" id="c13"><span>和至少一个邻居签贸易 / 互不侵犯</span></label>
+      <label class="check-item"><input type="checkbox" id="c14"><span>确定第一个主攻方向</span></label>
+      <label class="check-item"><input type="checkbox" id="c15"><span>没有同时和两个以上邻居开战</span></label>
+    </div>
+    <div class="check-group">
+      <h4>第 11–30 回合</h4>
+      <label class="check-item"><input type="checkbox" id="c16"><span>经济为正，现金储备 ≥ 2 回合维护费</span></label>
+      <label class="check-item"><input type="checkbox" id="c17"><span>有一个专门的军事行省</span></label>
+      <label class="check-item"><input type="checkbox" id="c18"><span>新占城市有驻军 / 控制力建筑</span></label>
+      <label class="check-item"><input type="checkbox" id="c19"><span>腐蚀没有失控，叛乱已清</span></label>
+      <label class="check-item"><input type="checkbox" id="c20"><span>至少一个法师 / 支援英雄嵌入主力</span></label>
+      <label class="check-item"><input type="checkbox" id="c21"><span>第二支军队或预备队已成型</span></label>
+      <label class="check-item"><input type="checkbox" id="c22"><span>前线要塞有驻军和防御建筑</span></label>
+      <label class="check-item"><input type="checkbox" id="c23"><span>看过一次终局 / 危机倒计时</span></label>
+    </div>
+    <div class="check-group">
+      <h4>大战前</h4>
+      <label class="check-item"><input type="checkbox" id="c24"><span>手动存档</span></label>
+      <label class="check-item"><input type="checkbox" id="c25"><span>确认敌方援军范围和撤退路线</span></label>
+      <label class="check-item"><input type="checkbox" id="c26"><span>法师法术、领主技能、装备检查完毕</span></label>
+      <label class="check-item"><input type="checkbox" id="c27"><span>攻城有炮兵 / 巨兽 / 攻城器械</span></label>
+      <label class="check-item"><input type="checkbox" id="c28"><span>军队满编、补员完毕、体力充足</span></label>
+      <label class="check-item"><input type="checkbox" id="c29"><span>想好打赢后站哪、下回合会不会被反打</span></label>
+    </div>
+    <div class="check-progress"><span class="check-count">0 / 29</span><div class="check-bar"><i></i></div><span>已保存到本地</span></div>
+  </div>
+
+  <div class="callout" style="margin-top:26px">
+    <span class="callout-label">下一章</span>
+    <p>战役是“怎么赢”，战斗是“怎么少死人”。下一章从战场界面、兵种克制、阵型、魔法到攻城，把每场战斗拆开讲。<a href="battle.html">进入战斗篇 →</a></p>
+  </div>
+</section>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <b>战锤 3 新兵营</b>
+        <p>非官方中文攻略站。游戏素材版权归 Creative Assembly、SEGA 与 Games Workshop 所有。数值与机制以当前版本为准，平衡补丁可能改变细节。</p>
+      </div>
+      <div class="footer-col">
+        <h4>攻略</h4>
+        <a href="campaign.html">战役运营</a>
+        <a href="battle.html">战斗入门</a>
+        <a href="factions.html">派系速查</a>
+        <a href="glossary.html">术语词典</a>
+      </div>
+      <div class="footer-col">
+        <h4>购买与资料</h4>
+        <a href="dlc.html">DLC 购买指南</a>
+        <a href="https://www.totalwar.com/games/total-war-warhammer-iii/" target="_blank" rel="noopener">官方网站</a>
+        <a href="https://support.sega.com/hc/en-us/articles/41281593314705" target="_blank" rel="noopener">DLC 拥有指南</a>
+        <a href="https://academy.totalwar.com/" target="_blank" rel="noopener">Total War Academy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>最后更新：2026 年 10 月 · 适用于 Update 9.0 / Patch 9.0.x。</p>
+      <p>Made for new commanders.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
